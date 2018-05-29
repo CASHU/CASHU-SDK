@@ -1,0 +1,16 @@
+PODS:
+  - CCMPopup (1.1.0)
+
+DEPENDENCIES:
+  - CCMPopup
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CCMPopup
+
+SPEC CHECKSUMS:
+  CCMPopup: e41fad5b8a0823c9cddea8eab6d431670c9dabe5
+
+PODFILE CHECKSUM: 7c25afcbb3e850e6b9f812f76f509c4c14feebfc
+
+COCOAPODS: 1.5.0
