@@ -36,7 +36,6 @@
 		90AB971A20BD7D5C00320FE2 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB971520BD7D5C00320FE2 /* PopupViewController.swift */; };
 		90AB973020BD7D6800320FE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972120BD7D6800320FE2 /* User.swift */; };
 		90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972F20BD7D6800320FE2 /* LoginQuery.swift */; };
-		90AB974120BD7D7900320FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AB973320BD7D7900320FE2 /* Assets.xcassets */; };
 		90AB974320BD7D7900320FE2 /* Rage Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90AB973820BD7D7900320FE2 /* Rage Italic.ttf */; };
 		90AB974420BD7D7900320FE2 /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90AB973A20BD7D7900320FE2 /* DroidKufi-Regular.ttf */; };
 		90AB974520BD7D7900320FE2 /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90AB973B20BD7D7900320FE2 /* DroidKufi-Bold.ttf */; };
@@ -101,7 +100,6 @@
 		90AB971520BD7D5C00320FE2 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		90AB972120BD7D6800320FE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		90AB972F20BD7D6800320FE2 /* LoginQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginQuery.swift; sourceTree = "<group>"; };
-		90AB973320BD7D7900320FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90AB973820BD7D7900320FE2 /* Rage Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rage Italic.ttf"; sourceTree = "<group>"; };
 		90AB973A20BD7D7900320FE2 /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
 		90AB973B20BD7D7900320FE2 /* DroidKufi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.ttf"; sourceTree = "<group>"; };
@@ -527,7 +525,6 @@
 		90AB973220BD7D7900320FE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				90AB973320BD7D7900320FE2 /* Assets.xcassets */,
 				90AB973620BD7D7900320FE2 /* Fonts */,
 				90AB973E20BD7D7900320FE2 /* Localization */,
 				90AB967820BD7BC300320FE2 /* CASHU.h */,
@@ -845,7 +842,6 @@
 				90AB974820BD7D7900320FE2 /* arabic.plist in Resources */,
 				90AB971920BD7D5C00320FE2 /* GeneralStoryboard.storyboard in Resources */,
 				90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */,
-				90AB974120BD7D7900320FE2 /* Assets.xcassets in Resources */,
 				90AB974520BD7D7900320FE2 /* DroidKufi-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

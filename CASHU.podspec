@@ -34,5 +34,11 @@ s.dependency 'CCMPopup'
 s.source_files = "CASHU/**/*.{swift}"
 
 # 9
-s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist}"
+
+#10
+s.swift_version = "4.1"
+
 end
+
+
