@@ -20,11 +20,11 @@ s.author = { "CASHU" => "s.help@cashu.com" }
 #s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
 
 # For example,
-s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+s.homepage = "https://bitbucket.local.cashu.com/projects/CMA/repos/cashu-ios-sdk/browse"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "/Users/ahmedabdel-samie/Library/Developer/Xcode/DerivedData/CASHU-endyfpioopowoddkuuykgkaunmjb/Build/Products/", :tag => "#{s.version}"}
+s.source = { :git => "https://aabdelsamie@bitbucket.local.cashu.com/scm/cma/cashu-ios-sdk.git", :tag => "#{s.version}"}
 
 # 7
 s.framework = "UIKit"
