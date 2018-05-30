@@ -32,7 +32,6 @@
 		90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AB96BE20BD7D3C00320FE2 /* LoadingView.xib */; };
 		90AB96EE20BD7D3C00320FE2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB96BF20BD7D3C00320FE2 /* LoadingView.swift */; };
 		90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB970E20BD7D5C00320FE2 /* Identification.storyboard */; };
-		90AB971920BD7D5C00320FE2 /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */; };
 		90AB971A20BD7D5C00320FE2 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB971520BD7D5C00320FE2 /* PopupViewController.swift */; };
 		90AB973020BD7D6800320FE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972120BD7D6800320FE2 /* User.swift */; };
 		90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972F20BD7D6800320FE2 /* LoginQuery.swift */; };
@@ -54,6 +53,7 @@
 		90AB977120BD7D8000320FE2 /* UITextFieldLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB976420BD7D8000320FE2 /* UITextFieldLight.swift */; };
 		90AB977220BD7D8000320FE2 /* UITextFieldRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB976620BD7D8000320FE2 /* UITextFieldRegular.swift */; };
 		90AB977B20BD7E1800320FE2 /* BackEndConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */; };
+		90AB977D20BEE31400320FE2 /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB977C20BEE31400320FE2 /* GeneralStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +96,6 @@
 		90AB96BE20BD7D3C00320FE2 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		90AB96BF20BD7D3C00320FE2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		90AB970E20BD7D5C00320FE2 /* Identification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Identification.storyboard; sourceTree = "<group>"; };
-		90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
 		90AB971520BD7D5C00320FE2 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		90AB972120BD7D6800320FE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		90AB972F20BD7D6800320FE2 /* LoginQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginQuery.swift; sourceTree = "<group>"; };
@@ -118,6 +117,7 @@
 		90AB976420BD7D8000320FE2 /* UITextFieldLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldLight.swift; sourceTree = "<group>"; };
 		90AB976620BD7D8000320FE2 /* UITextFieldRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldRegular.swift; sourceTree = "<group>"; };
 		90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndConfigurations.swift; sourceTree = "<group>"; };
+		90AB977C20BEE31400320FE2 /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
 		CA247CA113211747FC88BB9B /* Pods_CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC406348D903FFE2291EFC4D /* Pods-CASHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHU.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASHU/Pods-CASHU.release.xcconfig"; sourceTree = "<group>"; };
 		D698454BA75F93A38589A785 /* Pods-CASHUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASHUTests/Pods-CASHUTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -460,7 +460,7 @@
 		90AB971120BD7D5C00320FE2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */,
+				90AB977C20BEE31400320FE2 /* GeneralStoryboard.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -837,10 +837,10 @@
 			files = (
 				90AB974420BD7D7900320FE2 /* DroidKufi-Regular.ttf in Resources */,
 				90AB974920BD7D7900320FE2 /* english.plist in Resources */,
+				90AB977D20BEE31400320FE2 /* GeneralStoryboard.storyboard in Resources */,
 				90AB974320BD7D7900320FE2 /* Rage Italic.ttf in Resources */,
 				90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */,
 				90AB974820BD7D7900320FE2 /* arabic.plist in Resources */,
-				90AB971920BD7D5C00320FE2 /* GeneralStoryboard.storyboard in Resources */,
 				90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */,
 				90AB974520BD7D7900320FE2 /* DroidKufi-Bold.ttf in Resources */,
 			);
