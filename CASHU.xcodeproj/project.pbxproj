@@ -32,6 +32,7 @@
 		90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AB96BE20BD7D3C00320FE2 /* LoadingView.xib */; };
 		90AB96EE20BD7D3C00320FE2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB96BF20BD7D3C00320FE2 /* LoadingView.swift */; };
 		90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB970E20BD7D5C00320FE2 /* Identification.storyboard */; };
+		90AB971920BD7D5C00320FE2 /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */; };
 		90AB971A20BD7D5C00320FE2 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB971520BD7D5C00320FE2 /* PopupViewController.swift */; };
 		90AB973020BD7D6800320FE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972120BD7D6800320FE2 /* User.swift */; };
 		90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972F20BD7D6800320FE2 /* LoginQuery.swift */; };
@@ -95,6 +96,7 @@
 		90AB96BE20BD7D3C00320FE2 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		90AB96BF20BD7D3C00320FE2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		90AB970E20BD7D5C00320FE2 /* Identification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Identification.storyboard; sourceTree = "<group>"; };
+		90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
 		90AB971520BD7D5C00320FE2 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		90AB972120BD7D6800320FE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		90AB972F20BD7D6800320FE2 /* LoginQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginQuery.swift; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 		90AB971120BD7D5C00320FE2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				90AB971220BD7D5C00320FE2 /* GeneralStoryboard.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -837,6 +840,7 @@
 				90AB974320BD7D7900320FE2 /* Rage Italic.ttf in Resources */,
 				90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */,
 				90AB974820BD7D7900320FE2 /* arabic.plist in Resources */,
+				90AB971920BD7D5C00320FE2 /* GeneralStoryboard.storyboard in Resources */,
 				90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */,
 				90AB974520BD7D7900320FE2 /* DroidKufi-Bold.ttf in Resources */,
 			);
