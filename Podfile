@@ -7,6 +7,7 @@ target 'CASHU' do
 
   # Pods for CASHU
   pod 'CCMPopup', :inhibit_warnings => true
+  pod 'SCrypto', :inhibit_warnings => true
 
   target 'CASHUTests' do
     inherit! :search_paths

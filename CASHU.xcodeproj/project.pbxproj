@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		0FF53C49B9AD95B926D7E79A /* Pods_CASHUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394CDB32A89DD40091F662F /* Pods_CASHUTests.framework */; };
 		55B812F7924ABF0D947702F6 /* Pods_CASHU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA247CA113211747FC88BB9B /* Pods_CASHU.framework */; };
+		90590E2D20CE851400ABB445 /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90590E2C20CE851400ABB445 /* Initialization.storyboard */; };
+		90590E3120CE854000ABB445 /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3020CE854000ABB445 /* InitializationViewController.swift */; };
+		90590E3320CE855600ABB445 /* InitializationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3220CE855600ABB445 /* InitializationInterface.swift */; };
+		90590E3520CE888000ABB445 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90590E3420CE888000ABB445 /* Resources.xcassets */; };
+		90590E3920CFC53B00ABB445 /* IPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3820CFC53B00ABB445 /* IPUtility.swift */; };
+		90590E3C20D1213A00ABB445 /* BlowfishWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3B20D1213A00ABB445 /* BlowfishWrapper.swift */; };
+		90590E3F20D1242100ABB445 /* UserIdentificationDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3E20D1242100ABB445 /* UserIdentificationDataCenter.swift */; };
+		90590E4320D1266300ABB445 /* CASHUConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E4220D1266300ABB445 /* CASHUConfigurations.swift */; };
+		90590E4620D1282F00ABB445 /* CASHUConfigurationsCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E4520D1282F00ABB445 /* CASHUConfigurationsCenter.swift */; };
+		90590E4920D12CEB00ABB445 /* CASHUResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E4820D12CEB00ABB445 /* CASHUResponse.swift */; };
+		90590E4F20D12D5800ABB445 /* CASHUHeaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E4E20D12D5800ABB445 /* CASHUHeaderResponse.swift */; };
+		90590E5120D12DE400ABB445 /* CASHUBodyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E5020D12DE400ABB445 /* CASHUBodyResponse.swift */; };
+		90590E5320D12EDA00ABB445 /* CASHUFooterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E5220D12EDA00ABB445 /* CASHUFooterResponse.swift */; };
+		90590E5620D154D900ABB445 /* CASHUToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E5520D154D900ABB445 /* CASHUToken.swift */; };
 		90AB967F20BD7BC300320FE2 /* CASHU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AB967520BD7BC300320FE2 /* CASHU.framework */; };
 		90AB968420BD7BC300320FE2 /* CASHUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB968320BD7BC300320FE2 /* CASHUTests.swift */; };
 		90AB968620BD7BC300320FE2 /* CASHU.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AB967820BD7BC300320FE2 /* CASHU.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +45,6 @@
 		90AB96EC20BD7D3C00320FE2 /* RegexValidatorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB96BA20BD7D3C00320FE2 /* RegexValidatorUtility.swift */; };
 		90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AB96BE20BD7D3C00320FE2 /* LoadingView.xib */; };
 		90AB96EE20BD7D3C00320FE2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB96BF20BD7D3C00320FE2 /* LoadingView.swift */; };
-		90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB970E20BD7D5C00320FE2 /* Identification.storyboard */; };
 		90AB971A20BD7D5C00320FE2 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB971520BD7D5C00320FE2 /* PopupViewController.swift */; };
 		90AB973020BD7D6800320FE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972120BD7D6800320FE2 /* User.swift */; };
 		90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB972F20BD7D6800320FE2 /* LoginQuery.swift */; };
@@ -52,8 +65,13 @@
 		90AB977020BD7D8000320FE2 /* UITextFieldBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB976220BD7D8000320FE2 /* UITextFieldBold.swift */; };
 		90AB977120BD7D8000320FE2 /* UITextFieldLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB976420BD7D8000320FE2 /* UITextFieldLight.swift */; };
 		90AB977220BD7D8000320FE2 /* UITextFieldRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB976620BD7D8000320FE2 /* UITextFieldRegular.swift */; };
-		90AB977B20BD7E1800320FE2 /* BackEndConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */; };
 		90AB977D20BEE31400320FE2 /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB977C20BEE31400320FE2 /* GeneralStoryboard.storyboard */; };
+		90FC8FB220C7F6020072E4C3 /* BackEndConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */; };
+		90FC8FB820C7F77D0072E4C3 /* UserIdentificationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC8FB720C7F77D0072E4C3 /* UserIdentificationInterface.swift */; };
+		90FC8FBB20C7F7A60072E4C3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC8FBA20C7F7A60072E4C3 /* SignInViewController.swift */; };
+		90FC8FBE20C7F7D30072E4C3 /* CASHUServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC8FBD20C7F7D30072E4C3 /* CASHUServices.swift */; };
+		90FC8FC120C7F8A70072E4C3 /* CASHURouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC8FC020C7F8A70072E4C3 /* CASHURouter.swift */; };
+		90FC8FC320C7FFF00072E4C3 /* Identification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AB970E20BD7D5C00320FE2 /* Identification.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +88,20 @@
 		23EA28131136356C76EDAB7B /* Pods-CASHUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASHUTests/Pods-CASHUTests.release.xcconfig"; sourceTree = "<group>"; };
 		6394CDB32A89DD40091F662F /* Pods_CASHUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7809738F9B6B80041BEA16 /* Pods-CASHU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASHU/Pods-CASHU.debug.xcconfig"; sourceTree = "<group>"; };
+		90590E2C20CE851400ABB445 /* Initialization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
+		90590E3020CE854000ABB445 /* InitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
+		90590E3220CE855600ABB445 /* InitializationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationInterface.swift; sourceTree = "<group>"; };
+		90590E3420CE888000ABB445 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
+		90590E3820CFC53B00ABB445 /* IPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPUtility.swift; sourceTree = "<group>"; };
+		90590E3B20D1213A00ABB445 /* BlowfishWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlowfishWrapper.swift; sourceTree = "<group>"; };
+		90590E3E20D1242100ABB445 /* UserIdentificationDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserIdentificationDataCenter.swift; path = CASHU/Private/ApplicationCore/Utilities/IPUtility/UserIdentificationDataCenter.swift; sourceTree = SOURCE_ROOT; };
+		90590E4220D1266300ABB445 /* CASHUConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUConfigurations.swift; sourceTree = "<group>"; };
+		90590E4520D1282F00ABB445 /* CASHUConfigurationsCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUConfigurationsCenter.swift; sourceTree = "<group>"; };
+		90590E4820D12CEB00ABB445 /* CASHUResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUResponse.swift; sourceTree = "<group>"; };
+		90590E4E20D12D5800ABB445 /* CASHUHeaderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUHeaderResponse.swift; sourceTree = "<group>"; };
+		90590E5020D12DE400ABB445 /* CASHUBodyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUBodyResponse.swift; sourceTree = "<group>"; };
+		90590E5220D12EDA00ABB445 /* CASHUFooterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUFooterResponse.swift; sourceTree = "<group>"; };
+		90590E5520D154D900ABB445 /* CASHUToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUToken.swift; sourceTree = "<group>"; };
 		90AB967520BD7BC300320FE2 /* CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CASHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AB967820BD7BC300320FE2 /* CASHU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASHU.h; sourceTree = "<group>"; };
 		90AB967920BD7BC300320FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +150,10 @@
 		90AB976620BD7D8000320FE2 /* UITextFieldRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldRegular.swift; sourceTree = "<group>"; };
 		90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndConfigurations.swift; sourceTree = "<group>"; };
 		90AB977C20BEE31400320FE2 /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
+		90FC8FB720C7F77D0072E4C3 /* UserIdentificationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentificationInterface.swift; sourceTree = "<group>"; };
+		90FC8FBA20C7F7A60072E4C3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		90FC8FBD20C7F7D30072E4C3 /* CASHUServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHUServices.swift; sourceTree = "<group>"; };
+		90FC8FC020C7F8A70072E4C3 /* CASHURouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASHURouter.swift; sourceTree = "<group>"; };
 		CA247CA113211747FC88BB9B /* Pods_CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC406348D903FFE2291EFC4D /* Pods-CASHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHU.release.xcconfig"; path = "Pods/Target Support Files/Pods-CASHU/Pods-CASHU.release.xcconfig"; sourceTree = "<group>"; };
 		D698454BA75F93A38589A785 /* Pods-CASHUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CASHUTests/Pods-CASHUTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +191,140 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		90590E2920CE84D400ABB445 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				90590E2F20CE852F00ABB445 /* Interface */,
+				90590E2B20CE84E700ABB445 /* Controllers */,
+				90590E2A20CE84E200ABB445 /* UI */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		90590E2A20CE84E200ABB445 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90590E2C20CE851400ABB445 /* Initialization.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		90590E2B20CE84E700ABB445 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90590E2E20CE851900ABB445 /* Initialization */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		90590E2E20CE851900ABB445 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				90590E3020CE854000ABB445 /* InitializationViewController.swift */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		90590E2F20CE852F00ABB445 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				90590E3220CE855600ABB445 /* InitializationInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		90590E3720CFC53000ABB445 /* IPUtility */ = {
+			isa = PBXGroup;
+			children = (
+				90590E3820CFC53B00ABB445 /* IPUtility.swift */,
+			);
+			path = IPUtility;
+			sourceTree = "<group>";
+		};
+		90590E3A20D1212A00ABB445 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				90590E3B20D1213A00ABB445 /* BlowfishWrapper.swift */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		90590E3D20D123FE00ABB445 /* UserIdentificationDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				90590E3E20D1242100ABB445 /* UserIdentificationDataCenter.swift */,
+			);
+			name = UserIdentificationDataCenter;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		90590E4020D1265100ABB445 /* CASHUModels */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4120D1265A00ABB445 /* CASHUConfigurations */,
+			);
+			path = CASHUModels;
+			sourceTree = "<group>";
+		};
+		90590E4120D1265A00ABB445 /* CASHUConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4220D1266300ABB445 /* CASHUConfigurations.swift */,
+			);
+			path = CASHUConfigurations;
+			sourceTree = "<group>";
+		};
+		90590E4420D127F800ABB445 /* CASHUConfigurationsCenter */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4520D1282F00ABB445 /* CASHUConfigurationsCenter.swift */,
+			);
+			path = CASHUConfigurationsCenter;
+			sourceTree = "<group>";
+		};
+		90590E4720D12CDB00ABB445 /* CASHUResponse */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4A20D12D2200ABB445 /* CASHUHeaderResponse */,
+				90590E4C20D12D3300ABB445 /* CASHUBodyResponse */,
+				90590E4B20D12D2A00ABB445 /* CASHUFooterResponse */,
+				90590E4820D12CEB00ABB445 /* CASHUResponse.swift */,
+			);
+			path = CASHUResponse;
+			sourceTree = "<group>";
+		};
+		90590E4A20D12D2200ABB445 /* CASHUHeaderResponse */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4E20D12D5800ABB445 /* CASHUHeaderResponse.swift */,
+			);
+			path = CASHUHeaderResponse;
+			sourceTree = "<group>";
+		};
+		90590E4B20D12D2A00ABB445 /* CASHUFooterResponse */ = {
+			isa = PBXGroup;
+			children = (
+				90590E5220D12EDA00ABB445 /* CASHUFooterResponse.swift */,
+			);
+			path = CASHUFooterResponse;
+			sourceTree = "<group>";
+		};
+		90590E4C20D12D3300ABB445 /* CASHUBodyResponse */ = {
+			isa = PBXGroup;
+			children = (
+				90590E5020D12DE400ABB445 /* CASHUBodyResponse.swift */,
+			);
+			path = CASHUBodyResponse;
+			sourceTree = "<group>";
+		};
+		90590E5420D154C900ABB445 /* CASHUToken */ = {
+			isa = PBXGroup;
+			children = (
+				90590E5520D154D900ABB445 /* CASHUToken.swift */,
+			);
+			path = CASHUToken;
+			sourceTree = "<group>";
+		};
 		90AB966B20BD7BC300320FE2 = {
 			isa = PBXGroup;
 			children = (
@@ -178,13 +348,8 @@
 		90AB967720BD7BC300320FE2 /* CASHU */ = {
 			isa = PBXGroup;
 			children = (
-				90AB970620BD7D5C00320FE2 /* Features */,
-				90AB977320BD7E1800320FE2 /* DataCenters */,
-				90AB971C20BD7D6800320FE2 /* Models */,
-				90AB971020BD7D5C00320FE2 /* GeneralViews */,
-				90AB974A20BD7D8000320FE2 /* UIElementsWithFontApplied */,
-				90AB968F20BD7D3C00320FE2 /* ApplicationCore */,
-				90AB973220BD7D7900320FE2 /* Resources */,
+				90FC8FBC20C7F7C90072E4C3 /* CASHU */,
+				90FC8FB320C7F65D0072E4C3 /* Private */,
 			);
 			path = CASHU;
 			sourceTree = "<group>";
@@ -204,7 +369,6 @@
 				90AB969020BD7D3C00320FE2 /* GeneralDelegates */,
 				90AB969220BD7D3C00320FE2 /* Managers */,
 				90AB96A420BD7D3C00320FE2 /* Utilities */,
-				90AB96BB20BD7D3C00320FE2 /* ImagesSlider */,
 				90AB96BC20BD7D3C00320FE2 /* Views */,
 			);
 			path = ApplicationCore;
@@ -315,6 +479,8 @@
 		90AB96A420BD7D3C00320FE2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				90590E3A20D1212A00ABB445 /* MD5 */,
+				90590E3720CFC53000ABB445 /* IPUtility */,
 				90AB96A520BD7D3C00320FE2 /* UIUtilities */,
 				90AB96A720BD7D3C00320FE2 /* Constraints */,
 				90AB96AB20BD7D3C00320FE2 /* Date */,
@@ -400,13 +566,6 @@
 			path = RegexValidatorUtility;
 			sourceTree = "<group>";
 		};
-		90AB96BB20BD7D3C00320FE2 /* ImagesSlider */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ImagesSlider;
-			sourceTree = "<group>";
-		};
 		90AB96BC20BD7D3C00320FE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +586,7 @@
 		90AB970620BD7D5C00320FE2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				90590E2920CE84D400ABB445 /* Initialization */,
 				90AB970C20BD7D5C00320FE2 /* Identification */,
 			);
 			path = Features;
@@ -435,6 +595,8 @@
 		90AB970C20BD7D5C00320FE2 /* Identification */ = {
 			isa = PBXGroup;
 			children = (
+				90FC8FB620C7F7640072E4C3 /* Interface */,
+				90FC8FB520C7F75E0072E4C3 /* Controllers */,
 				90AB970D20BD7D5C00320FE2 /* UI */,
 			);
 			path = Identification;
@@ -493,6 +655,8 @@
 		90AB971D20BD7D6800320FE2 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
+				90590E5420D154C900ABB445 /* CASHUToken */,
+				90590E4720D12CDB00ABB445 /* CASHUResponse */,
 				90AB972020BD7D6800320FE2 /* User */,
 			);
 			path = DataModels;
@@ -525,6 +689,7 @@
 		90AB973220BD7D7900320FE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				90590E3420CE888000ABB445 /* Resources.xcassets */,
 				90AB973620BD7D7900320FE2 /* Fonts */,
 				90AB973E20BD7D7900320FE2 /* Localization */,
 				90AB967820BD7BC300320FE2 /* CASHU.h */,
@@ -718,6 +883,7 @@
 		90AB977320BD7E1800320FE2 /* DataCenters */ = {
 			isa = PBXGroup;
 			children = (
+				90590E3D20D123FE00ABB445 /* UserIdentificationDataCenter */,
 				90AB977820BD7E1800320FE2 /* BackEndConfigurations */,
 			);
 			path = DataCenters;
@@ -729,6 +895,71 @@
 				90AB977920BD7E1800320FE2 /* BackEndConfigurations.swift */,
 			);
 			path = BackEndConfigurations;
+			sourceTree = "<group>";
+		};
+		90FC8FB320C7F65D0072E4C3 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4420D127F800ABB445 /* CASHUConfigurationsCenter */,
+				90FC8FBF20C7F8990072E4C3 /* CASHURouter */,
+				90AB970620BD7D5C00320FE2 /* Features */,
+				90AB977320BD7E1800320FE2 /* DataCenters */,
+				90AB971C20BD7D6800320FE2 /* Models */,
+				90AB971020BD7D5C00320FE2 /* GeneralViews */,
+				90AB974A20BD7D8000320FE2 /* UIElementsWithFontApplied */,
+				90AB968F20BD7D3C00320FE2 /* ApplicationCore */,
+				90AB973220BD7D7900320FE2 /* Resources */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		90FC8FB520C7F75E0072E4C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90FC8FB920C7F79B0072E4C3 /* SignInViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		90FC8FB620C7F7640072E4C3 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				90FC8FB720C7F77D0072E4C3 /* UserIdentificationInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		90FC8FB920C7F79B0072E4C3 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90FC8FBA20C7F7A60072E4C3 /* SignInViewController.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		90FC8FBC20C7F7C90072E4C3 /* CASHU */ = {
+			isa = PBXGroup;
+			children = (
+				90590E4020D1265100ABB445 /* CASHUModels */,
+				90FC8FC220C7FB1A0072E4C3 /* CASHUServices */,
+			);
+			path = CASHU;
+			sourceTree = "<group>";
+		};
+		90FC8FBF20C7F8990072E4C3 /* CASHURouter */ = {
+			isa = PBXGroup;
+			children = (
+				90FC8FC020C7F8A70072E4C3 /* CASHURouter.swift */,
+			);
+			path = CASHURouter;
+			sourceTree = "<group>";
+		};
+		90FC8FC220C7FB1A0072E4C3 /* CASHUServices */ = {
+			isa = PBXGroup;
+			children = (
+				90FC8FBD20C7F7D30072E4C3 /* CASHUServices.swift */,
+			);
+			path = CASHUServices;
 			sourceTree = "<group>";
 		};
 		AC2DEEB060D43F8288ECCA1E /* Frameworks */ = {
@@ -837,12 +1068,14 @@
 			files = (
 				90AB974420BD7D7900320FE2 /* DroidKufi-Regular.ttf in Resources */,
 				90AB974920BD7D7900320FE2 /* english.plist in Resources */,
+				90FC8FC320C7FFF00072E4C3 /* Identification.storyboard in Resources */,
 				90AB977D20BEE31400320FE2 /* GeneralStoryboard.storyboard in Resources */,
 				90AB974320BD7D7900320FE2 /* Rage Italic.ttf in Resources */,
 				90AB96ED20BD7D3C00320FE2 /* LoadingView.xib in Resources */,
+				90590E2D20CE851400ABB445 /* Initialization.storyboard in Resources */,
 				90AB974820BD7D7900320FE2 /* arabic.plist in Resources */,
-				90AB971820BD7D5C00320FE2 /* Identification.storyboard in Resources */,
 				90AB974520BD7D7900320FE2 /* DroidKufi-Bold.ttf in Resources */,
+				90590E3520CE888000ABB445 /* Resources.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,10 +1115,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CASHUTests/Pods-CASHUTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CCMPopup/CCMPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/SCrypto/SCrypto.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCMPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCrypto.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -926,28 +1161,44 @@
 				90AB977120BD7D8000320FE2 /* UITextFieldLight.swift in Sources */,
 				90AB96E920BD7D3C00320FE2 /* ColorsUtility.swift in Sources */,
 				90AB976E20BD7D8000320FE2 /* UITextViewLight.swift in Sources */,
+				90FC8FC120C7F8A70072E4C3 /* CASHURouter.swift in Sources */,
+				90590E5620D154D900ABB445 /* CASHUToken.swift in Sources */,
+				90FC8FBE20C7F7D30072E4C3 /* CASHUServices.swift in Sources */,
 				90AB96DB20BD7D3C00320FE2 /* OperationIDs.swift in Sources */,
+				90FC8FB820C7F77D0072E4C3 /* UserIdentificationInterface.swift in Sources */,
+				90590E4920D12CEB00ABB445 /* CASHUResponse.swift in Sources */,
 				90AB96DC20BD7D3C00320FE2 /* ConnectionManager.swift in Sources */,
+				90590E5320D12EDA00ABB445 /* CASHUFooterResponse.swift in Sources */,
 				90AB96EB20BD7D3C00320FE2 /* ThreadsUtility.swift in Sources */,
 				90AB96DE20BD7D3C00320FE2 /* ImageDataProvider.swift in Sources */,
 				90AB977020BD7D8000320FE2 /* UITextFieldBold.swift in Sources */,
 				90AB96DA20BD7D3C00320FE2 /* GeneralDelegates.swift in Sources */,
+				90590E5120D12DE400ABB445 /* CASHUBodyResponse.swift in Sources */,
 				90AB976720BD7D8000320FE2 /* UILabelBold.swift in Sources */,
+				90590E4620D1282F00ABB445 /* CASHUConfigurationsCenter.swift in Sources */,
+				90590E4320D1266300ABB445 /* CASHUConfigurations.swift in Sources */,
 				90AB96E220BD7D3C00320FE2 /* UIUtilities.swift in Sources */,
 				90AB96DD20BD7D3C00320FE2 /* ConnectionRequest.swift in Sources */,
 				90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */,
-				90AB977B20BD7E1800320FE2 /* BackEndConfigurations.swift in Sources */,
 				90AB976D20BD7D8000320FE2 /* UITextViewBold.swift in Sources */,
 				90AB976A20BD7D8000320FE2 /* UIButtonBold.swift in Sources */,
+				90FC8FB220C7F6020072E4C3 /* BackEndConfigurations.swift in Sources */,
+				90590E3920CFC53B00ABB445 /* IPUtility.swift in Sources */,
+				90590E3320CE855600ABB445 /* InitializationInterface.swift in Sources */,
 				90AB96EE20BD7D3C00320FE2 /* LoadingView.swift in Sources */,
+				90590E3120CE854000ABB445 /* InitializationViewController.swift in Sources */,
 				90AB96EA20BD7D3C00320FE2 /* ParsingUtility.swift in Sources */,
 				90AB977220BD7D8000320FE2 /* UITextFieldRegular.swift in Sources */,
 				90AB976F20BD7D8000320FE2 /* UITextViewRegular.swift in Sources */,
 				90AB976920BD7D8000320FE2 /* UILabelRegular.swift in Sources */,
 				90AB96E520BD7D3C00320FE2 /* DateUtility.swift in Sources */,
 				90AB96EC20BD7D3C00320FE2 /* RegexValidatorUtility.swift in Sources */,
+				90590E3F20D1242100ABB445 /* UserIdentificationDataCenter.swift in Sources */,
 				90AB976B20BD7D8000320FE2 /* UIButtonLight.swift in Sources */,
 				90AB976C20BD7D8000320FE2 /* UIButtonRegular.swift in Sources */,
+				90590E3C20D1213A00ABB445 /* BlowfishWrapper.swift in Sources */,
+				90FC8FBB20C7F7A60072E4C3 /* SignInViewController.swift in Sources */,
+				90590E4F20D12D5800ABB445 /* CASHUHeaderResponse.swift in Sources */,
 				90AB96E320BD7D3C00320FE2 /* ConstraintsUtility.swift in Sources */,
 				90AB96E620BD7D3C00320FE2 /* AnimationsUtility.swift in Sources */,
 				90AB976820BD7D8000320FE2 /* UILabelLight.swift in Sources */,
@@ -1025,7 +1276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1082,7 +1333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1103,8 +1354,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CASHU/Resources/Info.plist;
+				INFOPLIST_FILE = CASHU/Private/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1128,8 +1380,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CASHU/Resources/Info.plist;
+				INFOPLIST_FILE = CASHU/Private/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
