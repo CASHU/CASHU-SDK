@@ -222,15 +222,16 @@ class ConnectionRequest: NSObject {
         let dateFormater : DateFormatter = DateFormatter()
         dateFormater.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'Z'"
         dateFormater.locale = NSLocale(localeIdentifier: "en_US") as Locale?
-        let headerRequest : Dictionary = [
+        var headerRequest : Dictionary = [
             "Reference": IPUtility.sharedInstance().ipAddress,
             "UUID": UUID().uuidString.lowercased(),
             "TrxDateTime": dateFormater.string(from: Date())
         ];
         
-//        if let token = Token.sharedToken.getToken() as String! {
-//            headerRequest["Token"] = token;
-//        }
+        if let token = UserIdentificationDataCenter.sharedInstance().cashuToken {
+            headerRequest["Token"] = token.token
+        }
+        
         let footerRequest : Dictionary = [
             "ChkSum": generateChkSum(requestBody: parameters),
             "Extra1": "",

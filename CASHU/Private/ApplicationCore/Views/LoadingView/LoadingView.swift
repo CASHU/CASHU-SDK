@@ -41,7 +41,7 @@ class LoadingView: UIView {
      - returns: New instance of loading view from xib.
      */
     class func instantiateFromXib()-> LoadingView{
-        return Bundle.main.loadNibNamed("LoadingView", owner: self, options: nil)?.first as! LoadingView;
+        return Bundle(for: LoadingView.self).loadNibNamed("LoadingView", owner: self, options: nil)?.first as! LoadingView;
     }
 
     /**

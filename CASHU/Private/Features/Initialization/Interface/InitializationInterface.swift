@@ -11,17 +11,18 @@ import Foundation
 class InitializationInterface: NSObject {
     
     class func initiateInInParent(_ parent : UIViewController){
+        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
+            parent.navigationController?.isNavigationBarHidden = true
+        }
         
-        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.shouldKeepLoginSession && UserIdentificationDataCenter.sharedInstance().cashuToken != nil && (UserIdentificationDataCenter.sharedInstance().cashuToken?.isValid())!){
-            // go to payment directly
-        }else{
+        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
             let storyboard = UIStoryboard(name: "Initialization", bundle: Bundle(for: InitializationViewController.self))
             let initializationViewController = storyboard.instantiateViewController(withIdentifier: "InitializationViewController") as! InitializationViewController
-            if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
-                parent.navigationController?.pushViewController(initializationViewController, animated: true)
-            }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
-                parent.present(initializationViewController, animated: true)
-            }
+            
+            parent.navigationController?.pushViewController(initializationViewController, animated: true)
+        }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
+            let storyboard = UIStoryboard(name: "Initialization", bundle: Bundle(for: InitializationViewController.self))
+            parent.present(storyboard.instantiateInitialViewController()!, animated: true)
         }
     }
 }

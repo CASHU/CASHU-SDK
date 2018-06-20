@@ -18,6 +18,16 @@ public enum ContentLanguge {
     case arabic
 }
 
+public enum Environment {
+    case prod
+    case dev
+}
+
+public enum Currency {
+    case usd
+    case aed
+}
+
 class CASHURouter: NSObject {
     
     class func initiateProductPaymentInParent(_ parent : UIViewController, configurations : CASHUConfigurations){

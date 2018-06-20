@@ -31,7 +31,7 @@ class PopupViewController: UIViewController {
 
     class func showPopupInController(_ controller: UIViewController, title: String, message: String, leftButtonTitle : String, leftButtonActionBlock: (() -> Void)? = nil, rightButtonTitle : String?, rightButtonActionBlock: (() -> Void)? = nil){
 
-        let storyboard = UIStoryboard(name: "GeneralStoryboard", bundle: nil)
+        let storyboard = UIStoryboard(name: "GeneralStoryboard", bundle: Bundle(for: PopupViewController.self))
         let popupViewController = storyboard.instantiateViewController(withIdentifier: "PopupViewController") as! PopupViewController
         popupViewController.view.alpha = 1.0
 

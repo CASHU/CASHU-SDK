@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qCu-Ga-akD">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cls-vO-Tgj">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="qCu-Ga-akD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gqa-5K-ZyP">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1x9-mI-REo" kind="relationship" relationship="rootViewController" id="2fQ-o4-rSv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HOr-Js-HwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1185" y="232"/>
+        </scene>
         <!--Initialization View Controller-->
         <scene sceneID="eTp-uj-gvQ">
             <objects>
@@ -51,9 +66,22 @@
                                     <constraint firstItem="vUW-k3-5dH" firstAttribute="top" secondItem="Gk1-8z-ZZf" secondAttribute="bottom" constant="12" id="u7b-rN-EDC"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CG-U9-hCg">
+                                <rect key="frame" x="16" y="36" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="IFG-3Y-htk"/>
+                                    <constraint firstAttribute="height" constant="40" id="erG-Ni-Zju"/>
+                                </constraints>
+                                <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="back:" destination="1x9-mI-REo" eventType="touchUpInside" id="Hda-xq-TnQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="3CG-U9-hCg" firstAttribute="leading" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="7OP-Am-buD"/>
+                            <constraint firstItem="3CG-U9-hCg" firstAttribute="top" secondItem="Ce0-7B-3r0" secondAttribute="top" constant="16" id="DYq-4R-nCn"/>
                             <constraint firstItem="wgf-P5-BVv" firstAttribute="centerY" secondItem="EI7-fF-R0z" secondAttribute="centerY" id="Z7e-ST-oWm"/>
                             <constraint firstItem="wgf-P5-BVv" firstAttribute="centerX" secondItem="EI7-fF-R0z" secondAttribute="centerX" id="gRV-EJ-iOR"/>
                             <constraint firstItem="wgf-P5-BVv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="gmx-Ag-TGR"/>
@@ -61,17 +89,28 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ce0-7B-3r0"/>
                     </view>
+                    <navigationItem key="navigationItem" id="r9H-xU-d4B"/>
                     <connections>
                         <outlet property="activityIndicator" destination="IGB-if-Mbi" id="xuU-Z4-hkU"/>
                         <outlet property="messageLabel" destination="vUW-k3-5dH" id="D1r-25-lae"/>
+                        <segue destination="TkO-gN-bCV" kind="show" identifier="goToSignInPage" id="YXT-bn-d2n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FBX-4G-T9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-220" y="231.63418290854574"/>
         </scene>
+        <!--SignInViewController-->
+        <scene sceneID="wu4-ig-aXo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Identification" referencedIdentifier="SignInViewController" id="TkO-gN-bCV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPC-mI-bdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="231"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="close" width="32" height="32"/>
         <image name="logo" width="595" height="197"/>
     </resources>
 </document>

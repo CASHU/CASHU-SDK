@@ -16,6 +16,7 @@ class InitializationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if(IPUtility.sharedInstance().ipAddress == ""){
             IPUtility.sharedInstance().getIPAddressWithDelegate(self)
         }else{
@@ -25,6 +26,10 @@ class InitializationViewController: UIViewController {
         self.messageLabel.text = LocalizationManager.sharedInstance.getTranslationForKey("InitializationInitialMessage")
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -32,6 +37,15 @@ class InitializationViewController: UIViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .default
+    }
+    
+    @IBAction func back(_ sender: UIButton) {
+        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
+            self.navigationController?.popViewController(animated: true)
+            self.navigationController?.isNavigationBarHidden = false
+        }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
+            self.dismissAnimated()
+        }
     }
 }
 
@@ -44,7 +58,7 @@ extension InitializationViewController : OperationDelegate{
     }
     
     func didFinishOperation(_ operationID: OperationID, object: AnyObject) {
-        if(operationID == .Authenticate){
+        if(operationID == .Authenticate || operationID == .Initialize){
             if let cashuResponse = object as? CASHUResponse {
                 if(cashuResponse.cashuBodyResponse.resultCode != "200"){
                     self.activityIndicator.stopAnimating()
@@ -59,6 +73,12 @@ extension InitializationViewController : OperationDelegate{
                     
                     if CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.isLoggingEnabled {
                         NSLog("***!!!*** CASHU Error : ***!!!*** \n\(cashuResponse.cashuBodyResponse.resultMessageError)")
+                    }
+                }else{
+                    if(operationID == .Authenticate){
+                        UserIdentificationDataCenter.sharedInstance().initializeWithDelegate(self)
+                    }else if(operationID == .Initialize){
+                        self.performSegue(withIdentifier: "goToSignInPage", sender: nil)
                     }
                 }
             }

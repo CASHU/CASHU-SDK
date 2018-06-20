@@ -16,5 +16,8 @@ enum OperationID : Int {
     case LoadImageGeneralOperationID
     case IPAddressInfo
     case Authenticate
-    
+    case Initialize
+    case SignIn
+    case CancelInitialize
+    case CompletePayment
 }

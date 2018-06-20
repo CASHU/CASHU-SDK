@@ -10,21 +10,32 @@ import Foundation
 
 open class CASHUConfigurations: NSObject {
     
+    // Client ID provided to your from cashu
+    open var clientID = ""
+    
+    // UNIQUE Merchant Reference 
+    open var merchantReference = ""
+    
+    // Prefered enviornment to run the sdk on it
+    open var environment : Environment = .dev
+    
+    // Unique device identifier
+    open var deviceID = ""
+    
+    
+    // Product details which will be used through the payment process
+    open var productDetails : ProductDetails = ProductDetails()
+    
     // How to do you want to display the service
     open var presentingMethod : PresentingMethod = .push
     
-    // Key which is provided by cashu for you
-    open var key : String = ""
-    
-    // Your username which is associated with the key
-    open var userName : String = ""
+    // SDK Token provided to you from cash u
+    open var sdkToken = ""
     
     // choose one of our supported languages
     open var language : ContentLanguge = .english
     
     // enable logging
     open var isLoggingEnabled : Bool = true
-    
-    // Determine wehter the user login session should be kept until the hardclose or everytime the user should login again
-    open var shouldKeepLoginSession = true
+
 }

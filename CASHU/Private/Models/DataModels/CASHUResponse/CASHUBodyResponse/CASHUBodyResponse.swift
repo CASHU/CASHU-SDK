@@ -23,6 +23,10 @@ class CASHUBodyResponse : NSObject {
             resultMessageError = ValidationsUtility.forceObjectToBeString(resultMessage["error"])
             resultMessageAr = ValidationsUtility.forceObjectToBeString(resultMessage["ar"])
             resultMessageEn = ValidationsUtility.forceObjectToBeString(resultMessage["en"])
+        }else if let resultMessage = data["ResMsg"] as? String{
+            resultMessageError = resultMessage
+            resultMessageAr = resultMessage
+            resultMessageEn = resultMessage
         }
 
         self.data = data

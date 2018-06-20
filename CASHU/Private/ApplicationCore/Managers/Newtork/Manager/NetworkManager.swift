@@ -66,26 +66,26 @@ class NetworkManager: NSObject {
      - parameter isCancelOptionAvailable: Is the alert will be shown with a cancel option
      */
     func showNetworkError(isRetryOptionAvailable: Bool, isCancelOptionAvailable: Bool) {
-        let alert: UIAlertController = UIAlertController(title: LocalizationManager.sharedInstance.getTranslationForKey("NetworkError"), message: LocalizationManager.sharedInstance.getTranslationForKey("CheckNetworkError"), preferredStyle: .alert)
-        if isCancelOptionAvailable{
-            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Cancel"), style: .cancel, handler:{ (alertAction) in
-                alert.dismiss(animated: true, completion: nil);
-            }));
-            
-        }
-        
-        if isRetryOptionAvailable {
-            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Retry"), style: .cancel, handler:{ (alertAction) in
-                alert.dismiss(animated: true, completion: nil);
-            }));
-        }
-        
-        if !isRetryOptionAvailable && !isCancelOptionAvailable {
-            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Ok"), style: .cancel, handler:{ (alertAction) in
-                alert.dismiss(animated: true, completion: nil);
-            }));
-        }
-
-        UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil);
+//        let alert: UIAlertController = UIAlertController(title: LocalizationManager.sharedInstance.getTranslationForKey("NetworkError"), message: LocalizationManager.sharedInstance.getTranslationForKey("CheckNetworkError"), preferredStyle: .alert)
+//        if isCancelOptionAvailable{
+//            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Cancel"), style: .cancel, handler:{ (alertAction) in
+//                alert.dismiss(animated: true, completion: nil);
+//            }));
+//
+//        }
+//
+//        if isRetryOptionAvailable {
+//            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Retry"), style: .cancel, handler:{ (alertAction) in
+//                alert.dismiss(animated: true, completion: nil);
+//            }));
+//        }
+//
+//        if !isRetryOptionAvailable && !isCancelOptionAvailable {
+//            alert.addAction(UIAlertAction(title: LocalizationManager.sharedInstance.getTranslationForKey("Ok"), style: .cancel, handler:{ (alertAction) in
+//                alert.dismiss(animated: true, completion: nil);
+//            }));
+//        }
+//
+//        UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil);
     }
 }
