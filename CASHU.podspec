@@ -21,8 +21,8 @@ s.author = { "CASHU" => "s.help@cashu.com" }
 s.homepage = "https://github.com/CASHU/CASHU-SDK"
 
 
-# 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :path => '.' }
+# 6 - Replace this URL with your own Git URL
+s.source = { :git => "https://github.com/CASHU/CASHU-SDK.git", :tag => "#{s.version}"}
 
 # 7
 s.framework = "UIKit"
@@ -31,7 +31,7 @@ s.dependency 'SCrypto'
 
 # 8
 s.source_files = "CASHU/**/*.{swift}"
-#s.exclude_files = "CASHU/Private/**/*.{swift}"
+s.exclude_files = "CASHU/Private/**/*.{swift}"
 
 # 9
 s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist,xcassets}"

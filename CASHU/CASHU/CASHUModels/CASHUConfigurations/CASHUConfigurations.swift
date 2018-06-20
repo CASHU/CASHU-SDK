@@ -8,6 +8,27 @@
 
 import Foundation
 
+public enum PresentingMethod {
+    case present
+    case push
+}
+
+public enum ContentLanguge {
+    case english
+    case arabic
+}
+
+public enum Environment {
+    case prod
+    case dev
+}
+
+public enum Currency {
+    case usd
+    case aed
+}
+
+
 open class CASHUConfigurations: NSObject {
     
     // Client ID provided to your from cashu
