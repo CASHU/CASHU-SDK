@@ -31,7 +31,7 @@ s.dependency 'SCrypto'
 
 # 8
 s.source_files = "CASHU/**/*.{swift}"
-s.exclude_files = "CASHU/Private/**/*.{swift}"
+#s.exclude_files = "CASHU/Private/**/*.{swift}"
 
 # 9
 s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist,xcassets}"
