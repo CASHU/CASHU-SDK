@@ -22,7 +22,8 @@ s.homepage = "https://github.com/CASHU/CASHU-SDK"
 
 
 # 6 - Replace this URL with your own Git URL
-s.source = { :git => "https://github.com/CASHU/CASHU-SDK.git", :tag => "#{s.version}"}
+s.vendored_frameworks = "CASHU.framework"
+s.source = { :git => "https://github.com/CASHU/CASHU.git"}
 
 # 7
 s.framework = "UIKit"
@@ -30,11 +31,11 @@ s.dependency 'CCMPopup'
 s.dependency 'SCrypto'
 
 # 8
-s.source_files = "CASHU/**/*.{swift}"
+#s.source_files = "CASHU/**/*.{swift}"
 #s.exclude_files = "CASHU/Private/**/*.{swift}"
 
 # 9
-s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist,xcassets}"
+#s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist,xcassets}"
 
 #10
 s.swift_version = "4.1"
