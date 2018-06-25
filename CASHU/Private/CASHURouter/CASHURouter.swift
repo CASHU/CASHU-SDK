@@ -28,11 +28,26 @@ public enum Currency {
     case aed
 }
 
+enum CASHU_Environment {
+    case prod
+    case uat
+}
+
+public protocol CASHUServicesDelegate {
+    func didFinishPaymentSuccessfullyWithReferenceID(referenceID : String)
+    func didFailPaymentWithReferenceID(referenceID : String)
+}
+
+
 class CASHURouter: NSObject {
     
     class func initiateProductPaymentInParent(_ parent : UIViewController, configurations : CASHUConfigurations){
-        CASHUConfigurationsCenter.sharedInstance().cashuConfigurations = configurations
+        CASHUConfigurationsCenter.sharedInstance().setCASHUConfigurations(configurations: configurations)
         InitializationInterface.initiateInInParent(parent)
+    }
+    
+    class func initiateTestingConfigurationsInParent(_ parent : UIViewController){
+        TestingConfigurationsInterface.initiateInInParent(parent)
     }
 }
 

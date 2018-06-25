@@ -8,17 +8,26 @@
 import Foundation
 
 enum Server {
-    case testing
+    case production
+    case uat
     
     static func getCurrentServer() -> Server{
-        return .testing
+        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.cashuEnvironment == .uat){
+            return .uat
+        }
+        
+        return .production
     }
 }
 
 class BackEndConfigurations: NSObject {
-    private static let testingServiceURL = "https://api.cashu.com/v1.0/rest/"
-    private static let testingImagesURL = "https://api.cashu.com/v1.0/rest/"
-    private static let testingCASHU_SECRET_KEY = "mW7tMQFu"
+    private static let productionServiceURL = "https://api.cashu.com/v1.0/rest/"
+    private static let productionImagesURL = "https://api.cashu.com/v1.0/rest/"
+    private static let uatServiceURL = "https://uat.api.cashu.com/v1.0/rest/"
+    private static let uatImagesURL = "https://uat.api.cashu.com/v1.0/rest/"
+    
+    private static let productionCASHU_SECRET_KEY = "mW7tMQFu"
+    private static let uatCASHU_SECRET_KEY = "mW7tMQFu"
     private static let ENCRYPTION_KEY = "O0@jk12sdj@!#dsZl12$3ed12Q024Sa#dasdsffsd%gdfssdfs214!@A"
     private static let ENCRYPTION_IV = "12345678"
     private static let STORE_ENCRYPTION_KEY = "K"+"WED23324sERVF"+"w"+"WED23324sERVF"+"P"+"WED23324sERVF"+"x"+"WED23324sERVF"
@@ -29,22 +38,28 @@ class BackEndConfigurations: NSObject {
     
     class func getServiceURL() -> String{
         switch Server.getCurrentServer() {
-        case .testing:
-            return testingServiceURL
+        case .production:
+            return productionServiceURL
+        case .uat:
+            return uatServiceURL
         }
     }
     
     class func getImagesURL() -> String{
         switch Server.getCurrentServer() {
-        case .testing:
-            return testingImagesURL
+        case .production:
+            return productionImagesURL
+        case .uat:
+            return uatImagesURL
         }
     }
     
     class func secretKey() -> String{
         switch Server.getCurrentServer() {
-        case .testing:
-            return testingCASHU_SECRET_KEY
+        case .production:
+            return productionCASHU_SECRET_KEY
+        case .uat:
+            return uatCASHU_SECRET_KEY
         }
     }
     

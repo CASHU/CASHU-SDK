@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class CASHUServices: NSObject {
+public class CASHUServices: NSObject {
     
     /**
      Initializing a new payment.
@@ -16,7 +16,16 @@ open class CASHUServices: NSObject {
      - parameter parent: The parent which will hold the payment process.
      - parameter configurations: The configurations which will be used to hold some info like keys, options of display ..etc
      */
-    open class func initiateProductPaymentInParent(_ parent : UIViewController, configurations : CASHUConfigurations){
+    public class func initiateProductPaymentInParent(_ parent : UIViewController, configurations : CASHUConfigurations){
         CASHURouter.initiateProductPaymentInParent(parent, configurations : configurations)
+    }
+    
+    /**
+     Initializing Testing Configurations, THIS FOR CASHU USE ONLY.
+     
+     - parameter parent: The parent which will hold the payment process.
+     */
+    public class func initiateTestingConfigurationsInParent(_ parent : UIViewController){
+        CASHURouter.initiateTestingConfigurationsInParent(parent)
     }
 }

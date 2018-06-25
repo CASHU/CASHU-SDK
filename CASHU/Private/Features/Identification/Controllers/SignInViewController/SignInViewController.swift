@@ -207,7 +207,7 @@ extension SignInViewController : OperationDelegate{
     }
 
     func didFinishOperation(_ operationID: OperationID, object: AnyObject) {
-        if(operationID == .SignIn || operationID == .CancelInitialize){
+        if(operationID == .SignIn){
             if let cashuResponse = object as? CASHUResponse {
                 if(cashuResponse.cashuBodyResponse.resultCode != "200"){
                     var message = ""
@@ -224,28 +224,28 @@ extension SignInViewController : OperationDelegate{
                         NSLog("***!!!*** CASHU Error : ***!!!*** \n\(cashuResponse.cashuBodyResponse.resultMessageError)")
                     }
                 }else{
-                    if(operationID == .CancelInitialize){
-                        if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
-                            var found = false
-                            for viewController in (self.navigationController?.viewControllers.reversed())! {
-                                if(viewController is InitializationViewController){
-                                    found = true
-                                    continue
-                                }
-                                
-                                if(found){
-                                    self.navigationController?.isNavigationBarHidden = false
-                                    self.navigationController?.popToViewController(viewController, animated: true)
-                                }
-                            }
-                        }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
-                            self.dismissAnimated()
-                        }
-                    }else if(operationID == .SignIn){
-                        self.performSegue(withIdentifier: "goToPaymentDetails", sender: nil)
-                    }
+                    self.performSegue(withIdentifier: "goToPaymentDetails", sender: nil)
                 }
             }
+        }else if(operationID == .CancelInitialize){
+            if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){
+                var found = false
+                for viewController in (self.navigationController?.viewControllers.reversed())! {
+                    if(viewController is InitializationViewController){
+                        found = true
+                        continue
+                    }
+                    
+                    if(found){
+                        self.navigationController?.isNavigationBarHidden = false
+                        self.navigationController?.popToViewController(viewController, animated: true)
+                    }
+                }
+            }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
+                self.dismissAnimated()
+            }
+            
+            CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFailPaymentWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference)
         }
     }
 

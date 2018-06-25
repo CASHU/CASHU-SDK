@@ -11,17 +11,9 @@ import Foundation
 
 class CASHUConfigurationsCenter: NSObject {
     
-    var cashuConfigurations : CASHUConfigurations = CASHUConfigurations(){
-        didSet{
-            switch CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.language{
-            case .arabic:
-                LocalizationManager.sharedInstance.changeCurrentLanguageTo(.arabic)
-            case.english:
-                LocalizationManager.sharedInstance.changeCurrentLanguageTo(.english)
-            }
-        }
-    }
+    private(set) var cashuConfigurations : CASHUConfigurations = CASHUConfigurations()
     
+    private(set) var cashuTestingConfigurations : CASHUConfigurations?
     
     private static var privateSharedInstance : CASHUConfigurationsCenter?
     
@@ -37,4 +29,27 @@ class CASHUConfigurationsCenter: NSObject {
     class func destroy() {
         privateSharedInstance = nil
     }
+    
+    func setCASHUConfigurations(configurations : CASHUConfigurations){
+        self.cashuConfigurations = configurations
+        
+        if let cashuTestingConfigurations = cashuTestingConfigurations{
+            self.cashuConfigurations.clientID = cashuTestingConfigurations.clientID
+            self.cashuConfigurations.language = cashuTestingConfigurations.language
+            self.cashuConfigurations.environment = cashuTestingConfigurations.environment
+            self.cashuConfigurations.cashuEnvironment = cashuTestingConfigurations.cashuEnvironment
+        }
+        
+        switch self.cashuConfigurations.language{
+        case .arabic:
+            LocalizationManager.sharedInstance.changeCurrentLanguageTo(.arabic)
+        case.english:
+            LocalizationManager.sharedInstance.changeCurrentLanguageTo(.english)
+        }
+    }
+    
+    func setCASHUTestingConfigurations(testingConfigurations : CASHUConfigurations){
+        self.cashuTestingConfigurations = testingConfigurations
+    }
+    
 }

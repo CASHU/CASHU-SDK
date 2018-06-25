@@ -14,6 +14,10 @@
 		9030E83520D92A7A00C41AC5 /* MerchantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9030E83420D92A7A00C41AC5 /* MerchantDetails.swift */; };
 		9030E83820D92B0000C41AC5 /* PaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9030E83720D92B0000C41AC5 /* PaymentDetails.swift */; };
 		9030E83B20D94EFF00C41AC5 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9030E83A20D94EFF00C41AC5 /* AccountInfo.swift */; };
+		9035905F20E0F90500B08ED2 /* TestingConfigurations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9035905E20E0F90500B08ED2 /* TestingConfigurations.storyboard */; };
+		9035906220E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906120E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift */; };
+		9035906620E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906520E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift */; };
+		9035906920E1069B00B08ED2 /* TestingConfigurationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906820E1069B00B08ED2 /* TestingConfigurationsViewController.swift */; };
 		90590E2D20CE851400ABB445 /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90590E2C20CE851400ABB445 /* Initialization.storyboard */; };
 		90590E3120CE854000ABB445 /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3020CE854000ABB445 /* InitializationViewController.swift */; };
 		90590E3320CE855600ABB445 /* InitializationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3220CE855600ABB445 /* InitializationInterface.swift */; };
@@ -105,6 +109,10 @@
 		9030E83420D92A7A00C41AC5 /* MerchantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantDetails.swift; sourceTree = "<group>"; };
 		9030E83720D92B0000C41AC5 /* PaymentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetails.swift; sourceTree = "<group>"; };
 		9030E83A20D94EFF00C41AC5 /* AccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		9035905E20E0F90500B08ED2 /* TestingConfigurations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestingConfigurations.storyboard; sourceTree = "<group>"; };
+		9035906120E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsSignInViewController.swift; sourceTree = "<group>"; };
+		9035906520E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsInterface.swift; sourceTree = "<group>"; };
+		9035906820E1069B00B08ED2 /* TestingConfigurationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsViewController.swift; sourceTree = "<group>"; };
 		90590E2C20CE851400ABB445 /* Initialization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
 		90590E3020CE854000ABB445 /* InitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
 		90590E3220CE855600ABB445 /* InitializationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationInterface.swift; sourceTree = "<group>"; };
@@ -253,6 +261,57 @@
 				9030E83A20D94EFF00C41AC5 /* AccountInfo.swift */,
 			);
 			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		9035905A20E0F8E100B08ED2 /* TestingConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				9035905D20E0F8FA00B08ED2 /* Interface */,
+				9035905C20E0F8F500B08ED2 /* Controllers */,
+				9035905B20E0F8F000B08ED2 /* UI */,
+			);
+			path = TestingConfigurations;
+			sourceTree = "<group>";
+		};
+		9035905B20E0F8F000B08ED2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9035905E20E0F90500B08ED2 /* TestingConfigurations.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9035905C20E0F8F500B08ED2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9035906020E0F91200B08ED2 /* TestingConfigurationsSignInViewController */,
+				9035906720E1068600B08ED2 /* TestingConfigurationsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9035905D20E0F8FA00B08ED2 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9035906520E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9035906020E0F91200B08ED2 /* TestingConfigurationsSignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9035906120E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift */,
+			);
+			path = TestingConfigurationsSignInViewController;
+			sourceTree = "<group>";
+		};
+		9035906720E1068600B08ED2 /* TestingConfigurationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9035906820E1069B00B08ED2 /* TestingConfigurationsViewController.swift */,
+			);
+			path = TestingConfigurationsViewController;
 			sourceTree = "<group>";
 		};
 		90590E2920CE84D400ABB445 /* Initialization */ = {
@@ -764,6 +823,7 @@
 		90AB970620BD7D5C00320FE2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				9035905A20E0F8E100B08ED2 /* TestingConfigurations */,
 				90897F4B20D9CA040089A7ED /* Messages */,
 				90897F4220D959E10089A7ED /* Payment */,
 				90590E2920CE84D400ABB445 /* Initialization */,
@@ -1254,6 +1314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AB974420BD7D7900320FE2 /* DroidKufi-Regular.ttf in Resources */,
+				9035905F20E0F90500B08ED2 /* TestingConfigurations.storyboard in Resources */,
 				90AB974920BD7D7900320FE2 /* english.plist in Resources */,
 				90FC8FC320C7FFF00072E4C3 /* Identification.storyboard in Resources */,
 				90AB977D20BEE31400320FE2 /* GeneralStoryboard.storyboard in Resources */,
@@ -1349,10 +1410,12 @@
 				90AB971A20BD7D5C00320FE2 /* PopupViewController.swift in Sources */,
 				90AB977120BD7D8000320FE2 /* UITextFieldLight.swift in Sources */,
 				9030E83820D92B0000C41AC5 /* PaymentDetails.swift in Sources */,
+				9035906220E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift in Sources */,
 				90AB96E920BD7D3C00320FE2 /* ColorsUtility.swift in Sources */,
 				90AB976E20BD7D8000320FE2 /* UITextViewLight.swift in Sources */,
 				90FC8FC120C7F8A70072E4C3 /* CASHURouter.swift in Sources */,
 				90590E5620D154D900ABB445 /* CASHUToken.swift in Sources */,
+				9035906620E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift in Sources */,
 				90FC8FBE20C7F7D30072E4C3 /* CASHUServices.swift in Sources */,
 				9030E83B20D94EFF00C41AC5 /* AccountInfo.swift in Sources */,
 				90AB96DB20BD7D3C00320FE2 /* OperationIDs.swift in Sources */,
@@ -1376,6 +1439,7 @@
 				9030E82F20D90AEE00C41AC5 /* ProductDetails.swift in Sources */,
 				90AB96DD20BD7D3C00320FE2 /* ConnectionRequest.swift in Sources */,
 				90AB973120BD7D6800320FE2 /* LoginQuery.swift in Sources */,
+				9035906920E1069B00B08ED2 /* TestingConfigurationsViewController.swift in Sources */,
 				90AB976D20BD7D8000320FE2 /* UITextViewBold.swift in Sources */,
 				90897F5720D9D0D60089A7ED /* PaymentDataCenter.swift in Sources */,
 				90AB976A20BD7D8000320FE2 /* UIButtonBold.swift in Sources */,

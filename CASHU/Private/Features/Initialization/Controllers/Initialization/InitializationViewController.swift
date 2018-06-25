@@ -46,6 +46,8 @@ class InitializationViewController: UIViewController {
         }else if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .present){
             self.dismissAnimated()
         }
+        
+        CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFailPaymentWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference)
     }
 }
 

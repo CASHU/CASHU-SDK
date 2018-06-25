@@ -8,34 +8,37 @@
 
 import Foundation
 
-open class CASHUConfigurations: NSObject {
+public class CASHUConfigurations: NSObject {
     
     // Client ID provided to your from cashu
-    open var clientID = ""
+    public var clientID = ""
     
     // UNIQUE Merchant Reference 
-    open var merchantReference = ""
+    public var merchantReference = ""
     
     // Prefered enviornment to run the sdk on it
-    open var environment : Environment = .dev
-    
-    // Unique device identifier
-    open var deviceID = ""
+    public var environment : Environment = .dev
     
     
     // Product details which will be used through the payment process
-    open var productDetails : ProductDetails = ProductDetails()
+    public var productDetails : ProductDetails = ProductDetails()
     
     // How to do you want to display the service
-    open var presentingMethod : PresentingMethod = .push
+    public var presentingMethod : PresentingMethod = .push
     
     // SDK Token provided to you from cash u
-    open var sdkToken = ""
+    public var sdkToken = ""
     
     // choose one of our supported languages
-    open var language : ContentLanguge = .english
+    public var language : ContentLanguge = .english
     
     // enable logging
-    open var isLoggingEnabled : Bool = true
-
+    public var isLoggingEnabled : Bool = true
+    
+    // Delegate which will be notified when the transaction is completed successfully or failed
+    public var delegate : CASHUServicesDelegate?
+    
+    // For TESTING PURPOSES ONLY, DON'T CHANGE
+    var cashuEnvironment : CASHU_Environment = .prod
+    
 }
