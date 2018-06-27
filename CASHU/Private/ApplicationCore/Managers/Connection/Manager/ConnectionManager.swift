@@ -184,7 +184,9 @@ class ConnectionManager: NSObject {
         //  Clearing Cookies before the call
         let storage : HTTPCookieStorage = HTTPCookieStorage.shared;
         for cookie in storage.cookies!{
-            storage.deleteCookie(cookie);
+            if(cookie.domain.contains("cashu")){
+                storage.deleteCookie(cookie);
+            }
         }
         
         if NetworkManager.sharedInstance.isConnectedToInternet() {
