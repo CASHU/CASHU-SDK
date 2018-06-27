@@ -36,6 +36,9 @@ class BackEndConfigurations: NSObject {
     private static let Authentication_userName = "mobile_sdk"
     private static let Authentication_key = "1a1f2497a6166f5661ea8b007f1ed980ee97d7fe"
     
+    
+    private static let enableQuickTesting = false
+    
     class func getServiceURL() -> String{
         switch Server.getCurrentServer() {
         case .production:
@@ -87,5 +90,7 @@ class BackEndConfigurations: NSObject {
         return Authentication_key
     }
     
-
+    class func isQuickTestingEnabled() -> Bool{
+        return enableQuickTesting
+    }
 }

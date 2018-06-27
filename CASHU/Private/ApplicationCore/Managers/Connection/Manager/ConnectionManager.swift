@@ -180,6 +180,13 @@ class ConnectionManager: NSObject {
      Also if the request varaible isShowLoading is true the method will show the loading view
      */
     fileprivate func startRequests() {
+        
+        //  Clearing Cookies before the call
+        let storage : HTTPCookieStorage = HTTPCookieStorage.shared;
+        for cookie in storage.cookies!{
+            storage.deleteCookie(cookie);
+        }
+        
         if NetworkManager.sharedInstance.isConnectedToInternet() {
             isCurrentlyContainingOnlyCoreRequests = false
             for _ in Int(activeTasks.count)..<noOfAllowedDownloadThreads {

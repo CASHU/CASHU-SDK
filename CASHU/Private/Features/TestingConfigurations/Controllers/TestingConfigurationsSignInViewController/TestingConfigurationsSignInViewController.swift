@@ -30,6 +30,11 @@ class TestingConfigurationsSignInViewController: UIViewController {
         super.viewDidLoad()
         self.setupTextFields()
         self.setupKeypadListeners()
+        
+        if(BackEndConfigurations.isQuickTestingEnabled()){
+            self.emailAddressTextField.text = "asmaa_cu"
+            self.passwordTextField.text = "As21151566@"
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

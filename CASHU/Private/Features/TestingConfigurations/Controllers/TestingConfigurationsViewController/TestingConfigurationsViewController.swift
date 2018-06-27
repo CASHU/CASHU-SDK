@@ -31,6 +31,11 @@ class TestingConfigurationsViewController: UIViewController {
         self.setupKeypadListeners()
         self.setupSwitches()
         self.setupData()
+        
+        if(BackEndConfigurations.isQuickTestingEnabled()){
+            self.clientIDTextField.text = "CLIENT_ID_PROD-23B904EFA9F3F59AA03530B13D667E39"
+            self.envSwtich.isOn = false
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

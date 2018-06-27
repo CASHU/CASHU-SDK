@@ -39,6 +39,7 @@ class PaymentDetailsViewController: UIViewController {
     @IBOutlet weak var totalPaymentContainerView : UIView!
     @IBOutlet weak var totalPaymentLabel : UILabel!
     @IBOutlet weak var totalPaymentCostLabel : UILabel!
+    @IBOutlet weak var totalPaymentCostActivityIndicator : UIActivityIndicatorView!
 
     private var didLayoutSubViews = false
     private var isBalanceSuffiecent = true    
@@ -53,6 +54,8 @@ class PaymentDetailsViewController: UIViewController {
         
         self.setupText()
         self.setupViewOrintationBasedOnLocalization()
+        
+        PaymentDataCenter.sharedInstance().getPaymentDetailsWithDelegate(self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -203,6 +206,14 @@ extension PaymentDetailsViewController : OperationDelegate{
             }
             
             CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFailPaymentWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference)
+        }else if(operationID == .PaymentDetails){
+            if let cashuResponse = object as? CASHUResponse {
+                if(cashuResponse.cashuBodyResponse.resultCode == "200"){
+                    self.totalPaymentCostActivityIndicator.stopAnimating()
+                    self.totalPaymentCostLabel.isHidden = false
+                    self.totalPaymentCostLabel.text = (PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedAmount ?? "") + " " + (PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedCurrency ?? "")
+                }
+            }
         }
     }
     

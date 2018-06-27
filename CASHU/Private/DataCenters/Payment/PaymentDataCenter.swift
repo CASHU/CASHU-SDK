@@ -11,11 +11,13 @@ import Foundation
 class PaymentDataCenter: NSObject {
     
     private var doPaymentURL = "mobileSDK_Services/sdkDoPayment"
+    private var paymentDetailsURL = "mobileSDK_Services/sdkPaymentDetails"
     
     fileprivate weak var delegate: OperationDelegate?
     
     private static var privateSharedInstance : PaymentDataCenter?
     private(set) var paymentResult: PaymentResult?
+    private(set) var finalPaymentDetails: PaymentDetails?
     
     class func sharedInstance() -> PaymentDataCenter {
         guard let sharedInstance = privateSharedInstance else {
@@ -28,6 +30,18 @@ class PaymentDataCenter: NSObject {
     
     class func destroy() {
         privateSharedInstance = nil
+    }
+    
+    func getPaymentDetailsWithDelegate(_ delegate: OperationDelegate?){
+        self.delegate = delegate
+        
+        let parameters : [String:String] = ["LoginSession":UserIdentificationDataCenter.sharedInstance().accountInfo?.loginSession ?? "",
+                                            "Env":CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.environment == .dev ? "SAND" : "PROD",
+                                            "SDK_Token":UserIdentificationDataCenter.sharedInstance().cashuSDKToken?.token ?? ""]
+        
+        let cr : ConnectionRequest = ConnectionRequest(delegate: self, requestURL: paymentDetailsURL, requestMethod: .post, parameters: parameters, isShowLoading: false, aRequestID: .PaymentDetails, isACoreRequest: false)
+        cr.isFollowingCASHUStructure = true
+        cr.initiateRequest()
     }
     
     func doPaymentWithDelegate(_ delegate: OperationDelegate?){
@@ -53,6 +67,11 @@ extension PaymentDataCenter : ConnectionRequestDelegate{
         if(request.requestID == .CompletePayment){
             if(cashuResponse.cashuBodyResponse.resultCode == "200"){
                 self.paymentResult = PaymentResult(data: cashuResponse.cashuBodyResponse.data)
+            }
+            delegate?.didFinishOperation(request.requestID, object: cashuResponse)
+        }else if(request.requestID == .PaymentDetails){
+            if(cashuResponse.cashuBodyResponse.resultCode == "200"){
+                self.finalPaymentDetails = PaymentDetails(data: cashuResponse.cashuBodyResponse.data)
             }
             delegate?.didFinishOperation(request.requestID, object: cashuResponse)
         }

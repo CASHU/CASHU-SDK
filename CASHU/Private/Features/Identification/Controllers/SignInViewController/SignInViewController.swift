@@ -36,6 +36,11 @@ class SignInViewController: UIViewController {
         self.setupText()
         self.setupViewOrintationBasedOnLocalization()
         self.setupKeypadListeners()
+        
+        if(BackEndConfigurations.isQuickTestingEnabled()){
+            self.emailAddressTextField.text = "okq550@gmail.com"
+            self.passwordTextField.text = "Admin_1234567"
+        }
     }
 
     override func viewWillAppear(_ animated: Bool) {

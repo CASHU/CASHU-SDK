@@ -14,6 +14,9 @@ class PaymentDetails : NSObject {
     private(set) var amount = ""
     private(set) var displayText = ""
     
+    private(set) var convertedCurrency = ""
+    private(set) var convertedAmount = ""
+    
     init(data:[String:AnyObject]) {
         super.init()
         
@@ -23,6 +26,13 @@ class PaymentDetails : NSObject {
             currency = ValidationsUtility.forceObjectToBeString(data["currency"])
             amount = ValidationsUtility.forceObjectToBeString(data["amount"])
             displayText = ValidationsUtility.forceObjectToBeString(data["displayText"])
+        }
+        
+        if let convertedAmountData = data["Converted_Obj"] as? String{
+            let convertedAmountD = convertedAmountData.data(using: .utf8)!
+            let data = ParsingUtility.parseDataAsDictionary(convertedAmountD)
+            convertedCurrency = ValidationsUtility.forceObjectToBeString(data["currency"])
+            convertedAmount = ValidationsUtility.forceObjectToBeString(data["amount"])
         }
     }
 }

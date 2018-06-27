@@ -20,4 +20,5 @@ enum OperationID : Int {
     case SignIn
     case CancelInitialize
     case CompletePayment
+    case PaymentDetails
 }

@@ -58,6 +58,8 @@ class PaymentSuccessViewController: UIViewController {
         self.titleLabel.text = (UserIdentificationDataCenter.sharedInstance().accountInfo?.name ?? "") + ", " + LocalizationManager.sharedInstance.getTranslationForKey("PaymentCompleted")!
         self.transactionInfo.text = LocalizationManager.sharedInstance.getTranslationForKey("TransactionInfo")!
         self.afterTransactionInfo.text = LocalizationManager.sharedInstance.getTranslationForKey("AfterTransactionInfo")
+        
+        self.transactionID.text = PaymentDataCenter.sharedInstance().paymentResult?.transactionID
     }
     
     func setupActionButtons(){

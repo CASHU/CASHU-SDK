@@ -58,7 +58,9 @@ class UserIdentificationDataCenter: NSObject {
                                             "Merchant_Ref":CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference,
                                             "Env":CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.environment == .dev ? "SAND" : "PROD",
                                             "Device_Id":UIDevice.current.identifierForVendor?.uuidString ?? "",
-                                            "Lang":LocalizationManager.sharedInstance.getCurrentLanguage() == .arabic ? "AR" : "EN"]
+                                            "Lang":LocalizationManager.sharedInstance.getCurrentLanguage() == .arabic ? "AR" : "EN",
+                                            "OS":"ios",
+                                            "OS_Ver":"\(UIDevice.current.systemVersion)"]
         
         let paymentObject : String = "{\"currency\" : \(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails.currency == .usd ? "\"USD\"" : "\"AED\""),\"amount\":\"\(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails.price)\",\"displayText\":\"\(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails.productName)\",\"language\":\(LocalizationManager.sharedInstance.getCurrentLanguage() == .arabic ? "\"AR\"" : "\"EN\""),\"servicesName\" : \"SDK\",\"sessionID\" : \"\",\"txt1\" : \"\(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails.productName)\",\"txt2\" : \"\",\"txt3\" : \"\",\"txt4\" : \"\",\"txt5\" : \"\"}"
         
@@ -121,6 +123,7 @@ extension UserIdentificationDataCenter : ConnectionRequestDelegate{
             }
             delegate?.didFinishOperation(request.requestID, object: cashuResponse)
         }else if(request.requestID == .CancelInitialize){
+            self.cashuToken = nil
             delegate?.didFinishOperation(request.requestID, object: cashuResponse)
         }
     }

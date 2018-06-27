@@ -18,6 +18,7 @@
 		9035906220E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906120E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift */; };
 		9035906620E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906520E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift */; };
 		9035906920E1069B00B08ED2 /* TestingConfigurationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035906820E1069B00B08ED2 /* TestingConfigurationsViewController.swift */; };
+		9035906C20E1353300B08ED2 /* CASHU.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9035906B20E1353300B08ED2 /* CASHU.podspec */; };
 		90590E2D20CE851400ABB445 /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90590E2C20CE851400ABB445 /* Initialization.storyboard */; };
 		90590E3120CE854000ABB445 /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3020CE854000ABB445 /* InitializationViewController.swift */; };
 		90590E3320CE855600ABB445 /* InitializationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90590E3220CE855600ABB445 /* InitializationInterface.swift */; };
@@ -113,6 +114,7 @@
 		9035906120E0F99500B08ED2 /* TestingConfigurationsSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsSignInViewController.swift; sourceTree = "<group>"; };
 		9035906520E0FD0D00B08ED2 /* TestingConfigurationsInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsInterface.swift; sourceTree = "<group>"; };
 		9035906820E1069B00B08ED2 /* TestingConfigurationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsViewController.swift; sourceTree = "<group>"; };
+		9035906B20E1353300B08ED2 /* CASHU.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CASHU.podspec; sourceTree = "<group>"; };
 		90590E2C20CE851400ABB445 /* Initialization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
 		90590E3020CE854000ABB445 /* InitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
 		90590E3220CE855600ABB445 /* InitializationInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationInterface.swift; sourceTree = "<group>"; };
@@ -565,6 +567,7 @@
 		90AB966B20BD7BC300320FE2 = {
 			isa = PBXGroup;
 			children = (
+				9035906B20E1353300B08ED2 /* CASHU.podspec */,
 				90AB967720BD7BC300320FE2 /* CASHU */,
 				90AB968220BD7BC300320FE2 /* CASHUTests */,
 				90AB967620BD7BC300320FE2 /* Products */,
@@ -1314,6 +1317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AB974420BD7D7900320FE2 /* DroidKufi-Regular.ttf in Resources */,
+				9035906C20E1353300B08ED2 /* CASHU.podspec in Resources */,
 				9035905F20E0F90500B08ED2 /* TestingConfigurations.storyboard in Resources */,
 				90AB974920BD7D7900320FE2 /* english.plist in Resources */,
 				90FC8FC320C7FFF00072E4C3 /* Identification.storyboard in Resources */,
