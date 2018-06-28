@@ -46,14 +46,11 @@ class PaymentDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let balanceAmount = Double(UserIdentificationDataCenter.sharedInstance().accountInfo?.balanceAmount ?? "0") ?? 0.0
-        let productAmount = Double(UserIdentificationDataCenter.sharedInstance().paymentDetails?.amount ?? "0") ?? 0.0
-        if(balanceAmount < productAmount){
-            isBalanceSuffiecent = false
-        }
         
-        self.setupText()
-        self.setupViewOrintationBasedOnLocalization()
+        self.setupView()
+        
+        self.actionButton.alpha = 0.75
+        self.actionButton.isEnabled = false
         
         PaymentDataCenter.sharedInstance().getPaymentDetailsWithDelegate(self)
     }
@@ -79,6 +76,12 @@ class PaymentDetailsViewController: UIViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
+    }
+    
+    func setupView(){
+        self.setupText()
+        self.setupViewOrintationBasedOnLocalization()
+        self.setupActionButtonText()
     }
     
     
@@ -108,7 +111,14 @@ class PaymentDetailsViewController: UIViewController {
         if(isBalanceSuffiecent){
             self.walletBalanceWarningImage.isHidden = true
             self.walletBalanceWarningDetailsContainerView.isHidden = true
+            
+            self.totalPaymentContainerView.isHidden = false
+            self.walletBalanceLabel.textColor = .black
+            self.productInfoContainerView.alpha = 1
         }else{
+            self.walletBalanceWarningImage.isHidden = false
+            self.walletBalanceWarningDetailsContainerView.isHidden = false
+            
             self.totalPaymentContainerView.isHidden = true
             self.walletBalanceLabel.textColor = .red
             self.walletBalanceWarningLabel.textColor = .red
@@ -118,15 +128,20 @@ class PaymentDetailsViewController: UIViewController {
     }
     
     func setupActionButtons(){
+        
+        self.setupActionButtonText()
+        
+        UIUtilities.createCircularViewforView(actionButton, withRadius: 6)
+        UIUtilities.dropShadowForView(actionButton, withShadowColor: .black, andShadowOpacity: 0.3, andMaskToBounds: false)
+    }
+    
+    func setupActionButtonText(){
         if(isBalanceSuffiecent){
             actionButton.setTitle(LocalizationManager.sharedInstance.getTranslationForKey("PayNow"), for: .normal)
         }else{
             actionButton.setTitle(LocalizationManager.sharedInstance.getTranslationForKey("ReturnTo")! + " " + (UserIdentificationDataCenter.sharedInstance().merchantDetails?.merchantName ?? ""), for: .normal)
             self.actionButton.backgroundColor = ColorsUtility.colorWithHexString("#1DAFEC")
         }
-        
-        UIUtilities.createCircularViewforView(actionButton, withRadius: 6)
-        UIUtilities.dropShadowForView(actionButton, withShadowColor: .black, andShadowOpacity: 0.3, andMaskToBounds: false)
     }
     
     func setupViewOrintationBasedOnLocalization(){
@@ -205,10 +220,21 @@ extension PaymentDetailsViewController : OperationDelegate{
                 self.dismissAnimated()
             }
             
-            CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFailPaymentWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference)
+            CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFailPaymentWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference, productDetails: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails)
         }else if(operationID == .PaymentDetails){
             if let cashuResponse = object as? CASHUResponse {
                 if(cashuResponse.cashuBodyResponse.resultCode == "200"){
+                    let balanceAmount = Double(UserIdentificationDataCenter.sharedInstance().accountInfo?.balanceAmount ?? "0") ?? 0.0
+                    let productAmount = Double(PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedAmount ?? "0") ?? 0.0
+                    if(balanceAmount < productAmount){
+                        isBalanceSuffiecent = false
+                    }
+                    
+                    self.setupView()
+                    
+                    self.actionButton.alpha = 1
+                    self.actionButton.isEnabled = true
+                    
                     self.totalPaymentCostActivityIndicator.stopAnimating()
                     self.totalPaymentCostLabel.isHidden = false
                     self.totalPaymentCostLabel.text = (PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedAmount ?? "") + " " + (PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedCurrency ?? "")

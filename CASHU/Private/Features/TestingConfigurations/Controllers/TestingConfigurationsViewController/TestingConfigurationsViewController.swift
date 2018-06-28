@@ -15,7 +15,11 @@ class TestingConfigurationsViewController: UIViewController {
     @IBOutlet weak var scrollViewContentView : UIView!
     
     @IBOutlet weak var clientIDTextField : UITextField!
+    @IBOutlet weak var serviceNameTextField : UITextField!
+    @IBOutlet weak var sessionIDTextField : UITextField!
     @IBOutlet weak var clientIDTextFieldHeightConstraint : NSLayoutConstraint!
+    @IBOutlet weak var serviceNameTextFieldHeightConstraint : NSLayoutConstraint!
+    @IBOutlet weak var sessionIDTextFieldHeightConstraint : NSLayoutConstraint!
     @IBOutlet weak var languageSwitch : UISwitch!
     @IBOutlet weak var cashuEnvSwitch : UISwitch!
     @IBOutlet weak var envSwtich : UISwitch!
@@ -71,6 +75,12 @@ class TestingConfigurationsViewController: UIViewController {
         
         clientIDTextField.setBottomBorderWithColor(borderColor)
         clientIDTextField.heightConstraint = clientIDTextFieldHeightConstraint
+        
+        sessionIDTextField.setBottomBorderWithColor(borderColor)
+        sessionIDTextField.heightConstraint = sessionIDTextFieldHeightConstraint
+        
+        serviceNameTextField.setBottomBorderWithColor(borderColor)
+        serviceNameTextField.heightConstraint = serviceNameTextFieldHeightConstraint
     }
     
     func setupTextFields(){
@@ -99,6 +109,8 @@ class TestingConfigurationsViewController: UIViewController {
     func setupData(){
         if let cashuConfigurations = CASHUConfigurationsCenter.sharedInstance().cashuTestingConfigurations{
             self.clientIDTextField.text = cashuConfigurations.clientID
+            self.sessionIDTextField.text = cashuConfigurations.productDetails.sessionID
+            self.serviceNameTextField.text = cashuConfigurations.productDetails.serviceName
             envSwtich.isOn = cashuConfigurations.environment == .dev ? true : false
             languageSwitch.isOn = cashuConfigurations.language == .english ? true : false
             cashuEnvSwitch.isOn = cashuConfigurations.cashuEnvironment == .uat ? true : false
@@ -151,6 +163,9 @@ class TestingConfigurationsViewController: UIViewController {
             cashuConfigurations.environment = envSwtich.isOn ? .dev : .prod
             cashuConfigurations.language = languageSwitch.isOn ? .english : .arabic
             cashuConfigurations.cashuEnvironment = cashuEnvSwitch.isOn ? .uat : .prod
+            
+            cashuConfigurations.productDetails.sessionID = self.sessionIDTextField.text ?? ""
+            cashuConfigurations.productDetails.serviceName = self.serviceNameTextField.text ?? ""
             
             CASHUConfigurationsCenter.sharedInstance().setCASHUTestingConfigurations(testingConfigurations:  cashuConfigurations)
             

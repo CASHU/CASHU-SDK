@@ -34,8 +34,8 @@ enum CASHU_Environment {
 }
 
 public protocol CASHUServicesDelegate {
-    func didFinishPaymentSuccessfullyWithReferenceID(referenceID : String)
-    func didFailPaymentWithReferenceID(referenceID : String)
+    func didFinishPaymentSuccessfullyWithReferenceID(referenceID : String, productDetails : ProductDetails)
+    func didFailPaymentWithReferenceID(referenceID : String, productDetails : ProductDetails)
 }
 
 

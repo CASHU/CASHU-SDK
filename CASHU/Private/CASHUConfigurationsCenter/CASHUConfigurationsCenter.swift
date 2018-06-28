@@ -38,6 +38,8 @@ class CASHUConfigurationsCenter: NSObject {
             self.cashuConfigurations.language = cashuTestingConfigurations.language
             self.cashuConfigurations.environment = cashuTestingConfigurations.environment
             self.cashuConfigurations.cashuEnvironment = cashuTestingConfigurations.cashuEnvironment
+            self.cashuConfigurations.productDetails.serviceName = cashuTestingConfigurations.productDetails.serviceName
+            self.cashuConfigurations.productDetails.sessionID = cashuTestingConfigurations.productDetails.sessionID
         }
         
         switch self.cashuConfigurations.language{

@@ -95,6 +95,6 @@ class PaymentSuccessViewController: UIViewController {
             self.dismissAnimated()
         }
         
-        CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFinishPaymentSuccessfullyWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference)
+        CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.delegate?.didFinishPaymentSuccessfullyWithReferenceID(referenceID: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.merchantReference, productDetails: CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.productDetails)
     }
 }

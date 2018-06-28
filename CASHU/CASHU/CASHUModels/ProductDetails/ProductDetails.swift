@@ -22,4 +22,23 @@ open class ProductDetails: NSObject {
     // Product Image
     open var productImage : UIImage?
     
+    // Your session ID, this is totaly used by you
+    open var sessionID : String = ""
+    
+    // The name of the service that the SDK is using
+    open var serviceName : String = ""
+    
+    // Additional Object #1, this is totaly used by you
+    // If you want to send any additional parameters and recieve it in the call back
+    open var additionalObj1 : String = ""
+    
+    // Additional Object #2, this is totaly used by you
+    open var additionalObj2 : String = ""
+    
+    // Additional Object #3, this is totaly used by you
+    open var additionalObj3 : String = ""
+    
+    // Additional Object #4, this is totaly used by you
+    open var additionalObj4 : String = ""
+    
 }
