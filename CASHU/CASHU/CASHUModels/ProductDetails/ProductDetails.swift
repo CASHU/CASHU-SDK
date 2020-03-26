@@ -10,7 +10,7 @@ import Foundation
 
 open class ProductDetails: NSObject {
     
-    // Currency for the payment, All transaction will be in USD, if other is selected transfer rates will be applied
+    // Currency for the payment, All transaction will be in USD, if other is selected transfer rates will be applied 
     open var currency : Currency = .usd
     
     // Product Price
