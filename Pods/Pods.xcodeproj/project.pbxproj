@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -89,13 +89,13 @@
 		46B6FCE0DFB1B92E759EEFB88EFDBF25 /* CCMPopupSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCMPopupSegue.m; path = CCMPopup/CCMPopupSegue.m; sourceTree = "<group>"; };
 		48C9F82435546B772028F89BFAD47163 /* Pods-CASHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CASHU.release.xcconfig"; sourceTree = "<group>"; };
 		493C0E6225127C23F103057D8390FCA5 /* CCMPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCMPopup.modulemap; sourceTree = "<group>"; };
-		5038A1974DFC87345784C3C7CC6DC4E5 /* CCMPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCMPopup.framework; path = CCMPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5038A1974DFC87345784C3C7CC6DC4E5 /* CCMPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCMPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E545067ADD0AF25A765658F6128BCCC /* CCMCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCMCustomAnimation.h; path = CCMPopup/CCMCustomAnimation.h; sourceTree = "<group>"; };
 		65860E8BE32FA1D4F971ED8F9A3F3544 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "CCMPopup/UIImage+ImageEffects/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		690DBC5ED1CC0E525A338ED0DE9AEE83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5E32787F9BC143C8AB70587C89D62C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E72F3874FF9E89E0C4E0325733D2F65 /* Pods_CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CASHU.framework; path = "Pods-CASHU.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E72F3874FF9E89E0C4E0325733D2F65 /* Pods_CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76685D27C875AFF9299236CF28861300 /* CCMPopupTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCMPopupTransitioning.h; path = CCMPopup/CCMPopupTransitioning.h; sourceTree = "<group>"; };
 		79BEF31E04B413F6820A9FF5F084304C /* Pods-CASHUTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CASHUTests-umbrella.h"; sourceTree = "<group>"; };
 		7B5342014CFC010394F6C58181720B7E /* CCMPopupTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCMPopupTransitioning.m; path = CCMPopup/CCMPopupTransitioning.m; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		8AD0633A19478E4D9FA9DA8E41C440FA /* UIViewController+CCMPopupAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CCMPopupAnimation.h"; path = "CCMPopup/UIViewController+CCMPopupAnimation.h"; sourceTree = "<group>"; };
 		8B645FF909AD90950C898CCD445D12B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B8FAA8511F446E15A0D6BA486F08DC /* SCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCrypto.h; path = Source/SCrypto.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C23CF819835FCE9797ECB518A20E93 /* Pods-CASHU-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CASHU-resources.sh"; sourceTree = "<group>"; };
 		9712DC5978902F00712B70ACBA28BBE7 /* SCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCrypto-dummy.m"; sourceTree = "<group>"; };
 		98664B4DF817243B4830F30C78E7C103 /* Pods-CASHUTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CASHUTests-dummy.m"; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 		ED285C97A57D0DCE8D327D73DAE7C0F1 /* CCMPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCMPopup-prefix.pch"; sourceTree = "<group>"; };
 		EEF2F393D97479ACCC05440BA0407C10 /* UIImage+screenshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+screenshot.m"; path = "CCMPopup/UIImage+screenshot/UIImage+screenshot.m"; sourceTree = "<group>"; };
 		F3243AFEC9FC2938F3FA342B4CA209B3 /* SCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCrypto-prefix.pch"; sourceTree = "<group>"; };
-		F7104969F70328BAC2217029CE5A96C8 /* SCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCrypto.framework; path = SCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD6BD5BE1A3A2B1D876B000A58068336 /* Pods_CASHUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CASHUTests.framework; path = "Pods-CASHUTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7104969F70328BAC2217029CE5A96C8 /* SCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6BD5BE1A3A2B1D876B000A58068336 /* Pods_CASHUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +218,6 @@
 				C7AD1DA8B7B67B0313E1AE7B49B8341E /* SCrypto.swift */,
 				93590265278AB11849035BF915962E05 /* Support Files */,
 			);
-			name = SCrypto;
 			path = SCrypto;
 			sourceTree = "<group>";
 		};
@@ -243,7 +242,6 @@
 				BAE6BD719FB3ECFB891D59C2C2D42232 /* UIViewController+CCMPopupAnimation.m */,
 				1677361D59F245C736889D29A4DE4D70 /* Support Files */,
 			);
-			name = CCMPopup;
 			path = CCMPopup;
 			sourceTree = "<group>";
 		};
@@ -453,14 +451,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					337B17721E27B9346DA41BB2FAAD8BA0 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = E114649854F671B697FE2CA79FAA0E91 /* Products */;
@@ -613,7 +617,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -625,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -740,7 +745,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -888,6 +893,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -938,6 +944,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
