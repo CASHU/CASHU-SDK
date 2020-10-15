@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     
     # 6 - Replace this URL with your own Git URL
     s.vendored_frameworks = "CASHU.framework"
-    s.source = { :git => "https://github.com/CASHU/CASHU.git"}
+    s.source = { :git => "https://github.com/CASHU/CASHU-SDK.git", :tag => s.version.to_s }
     
     # 7
     s.framework = "UIKit"
