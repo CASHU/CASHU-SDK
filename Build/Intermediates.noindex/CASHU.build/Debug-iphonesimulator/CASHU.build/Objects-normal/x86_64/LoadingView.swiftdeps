@@ -1,0 +1,665 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoadingView"
+provides-nominal:
+- "5CASHU11LoadingViewC"
+provides-member:
+- ["5CASHU11LoadingViewC", ""]
+provides-dynamic-lookup:
+- "backgroundImage"
+- "hide"
+- "instantiateFromXib"
+- "loadingSpinnerBackground"
+- "sharedInstance"
+- "show"
+- "showInParentView"
+- "showWithoutBlockingScreen"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "ConstraintsUtility"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "LoadingView"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "UIImageView"
+- "UIView"
+depends-member:
+- !private ["10Accelerate0A6BufferP", "first"]
+- !private ["10Accelerate0A13MutableBufferP", "first"]
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "loadNibNamed"]
+- ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "Bundle"]
+- !private ["So15CALayerDelegateP", "ConstraintsUtility"]
+- ["So15CALayerDelegateP", "LoadingView"]
+- !private ["So15CALayerDelegateP", "UIApplication"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundImage"]
+- ["So15CALayerDelegateP", "instantiateFromXib"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "loadingSpinnerBackground"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "ConstraintsUtility"]
+- ["s7CVarArgP", "LoadingView"]
+- !private ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "addSurroundingConstraintsTo"]
+- !private ["s7CVarArgP", "backgroundImage"]
+- ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "instantiateFromXib"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "keyWindow"]
+- ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "loadNibNamed"]
+- ["s7CVarArgP", "loadingSpinnerBackground"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sl", "first"]
+- !private ["5CASHU18ConstraintsUtilityC", "addSurroundingConstraintsTo"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "ConstraintsUtility"]
+- ["s28CustomDebugStringConvertibleP", "LoadingView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addSurroundingConstraintsTo"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImage"]
+- ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "instantiateFromXib"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "loadNibNamed"]
+- ["s28CustomDebugStringConvertibleP", "loadingSpinnerBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "ConstraintsUtility"]
+- ["s23CustomStringConvertibleP", "LoadingView"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "addSurroundingConstraintsTo"]
+- !private ["s23CustomStringConvertibleP", "backgroundImage"]
+- ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "instantiateFromXib"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "loadNibNamed"]
+- ["s23CustomStringConvertibleP", "loadingSpinnerBackground"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "first"]
+- !private ["SE", "first"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "ConstraintsUtility"]
+- ["SQ", "LoadingView"]
+- !private ["SQ", "UIApplication"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "addSurroundingConstraintsTo"]
+- !private ["SQ", "backgroundImage"]
+- ["SQ", "cornerRadius"]
+- !private ["SQ", "equal"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- ["SQ", "instantiateFromXib"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "isUserInteractionEnabled"]
+- !private ["SQ", "keyWindow"]
+- ["SQ", "layer"]
+- !private ["SQ", "loadNibNamed"]
+- ["SQ", "loadingSpinnerBackground"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "ConstraintsUtility"]
+- ["SH", "LoadingView"]
+- !private ["SH", "UIApplication"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "addSurroundingConstraintsTo"]
+- !private ["SH", "backgroundImage"]
+- ["SH", "cornerRadius"]
+- !private ["SH", "equal"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- ["SH", "instantiateFromXib"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "isUserInteractionEnabled"]
+- !private ["SH", "keyWindow"]
+- ["SH", "layer"]
+- !private ["SH", "loadNibNamed"]
+- ["SH", "loadingSpinnerBackground"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "shared"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["5CASHU11LoadingViewC", "Bundle"]
+- !private ["5CASHU11LoadingViewC", "ConstraintsUtility"]
+- ["5CASHU11LoadingViewC", "LoadingView"]
+- !private ["5CASHU11LoadingViewC", "UIApplication"]
+- ["5CASHU11LoadingViewC", "UIImageView"]
+- ["5CASHU11LoadingViewC", "UIView"]
+- ["5CASHU11LoadingViewC", "backgroundImage"]
+- ["5CASHU11LoadingViewC", "deinit"]
+- ["5CASHU11LoadingViewC", "hide"]
+- ["5CASHU11LoadingViewC", "init"]
+- ["5CASHU11LoadingViewC", "instantiateFromXib"]
+- !private ["5CASHU11LoadingViewC", "isUserInteractionEnabled"]
+- ["5CASHU11LoadingViewC", "loadingSpinnerBackground"]
+- !private ["5CASHU11LoadingViewC", "removeFromSuperview"]
+- ["5CASHU11LoadingViewC", "sharedInstance"]
+- ["5CASHU11LoadingViewC", "show"]
+- ["5CASHU11LoadingViewC", "showInParentView"]
+- ["5CASHU11LoadingViewC", "showWithoutBlockingScreen"]
+- !private ["5CASHU11LoadingViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "ConstraintsUtility"]
+- ["So8NSCodingP", "LoadingView"]
+- !private ["So8NSCodingP", "UIApplication"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundImage"]
+- ["So8NSCodingP", "cornerRadius"]
+- ["So8NSCodingP", "instantiateFromXib"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "loadingSpinnerBackground"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "ConstraintsUtility"]
+- ["So8NSObjectC", "LoadingView"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "addSurroundingConstraintsTo"]
+- ["So8NSObjectC", "backgroundImage"]
+- ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "hide"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instantiateFromXib"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "keyWindow"]
+- ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "loadNibNamed"]
+- ["So8NSObjectC", "loadingSpinnerBackground"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "show"]
+- ["So8NSObjectC", "showInParentView"]
+- ["So8NSObjectC", "showWithoutBlockingScreen"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "ConstraintsUtility"]
+- ["So8NSObjectP", "LoadingView"]
+- !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "addSurroundingConstraintsTo"]
+- !private ["So8NSObjectP", "backgroundImage"]
+- ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "instantiateFromXib"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "isUserInteractionEnabled"]
+- !private ["So8NSObjectP", "keyWindow"]
+- ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "loadNibNamed"]
+- ["So8NSObjectP", "loadingSpinnerBackground"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["SY", "equal"]
+- !private ["So16NSLayoutRelationV", "equal"]
+- !private ["ST", "first"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "Bundle"]
+- !private ["So29UIAccessibilityIdentificationP", "ConstraintsUtility"]
+- ["So29UIAccessibilityIdentificationP", "LoadingView"]
+- !private ["So29UIAccessibilityIdentificationP", "UIApplication"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundImage"]
+- ["So29UIAccessibilityIdentificationP", "instantiateFromXib"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "loadingSpinnerBackground"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "Bundle"]
+- !private ["So12UIAppearanceP", "ConstraintsUtility"]
+- ["So12UIAppearanceP", "LoadingView"]
+- !private ["So12UIAppearanceP", "UIApplication"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundImage"]
+- ["So12UIAppearanceP", "instantiateFromXib"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "loadingSpinnerBackground"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "ConstraintsUtility"]
+- ["So21UIAppearanceContainerP", "LoadingView"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundImage"]
+- ["So21UIAppearanceContainerP", "instantiateFromXib"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "loadingSpinnerBackground"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So17UICoordinateSpaceP", "Bundle"]
+- !private ["So17UICoordinateSpaceP", "ConstraintsUtility"]
+- ["So17UICoordinateSpaceP", "LoadingView"]
+- !private ["So17UICoordinateSpaceP", "UIApplication"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundImage"]
+- ["So17UICoordinateSpaceP", "instantiateFromXib"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "loadingSpinnerBackground"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "Bundle"]
+- !private ["So13UIDynamicItemP", "ConstraintsUtility"]
+- ["So13UIDynamicItemP", "LoadingView"]
+- !private ["So13UIDynamicItemP", "UIApplication"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundImage"]
+- ["So13UIDynamicItemP", "instantiateFromXib"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "loadingSpinnerBackground"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "ConstraintsUtility"]
+- ["So18UIFocusEnvironmentP", "LoadingView"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundImage"]
+- ["So18UIFocusEnvironmentP", "instantiateFromXib"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "loadingSpinnerBackground"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "Bundle"]
+- !private ["So11UIFocusItemP", "ConstraintsUtility"]
+- ["So11UIFocusItemP", "LoadingView"]
+- !private ["So11UIFocusItemP", "UIApplication"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundImage"]
+- ["So11UIFocusItemP", "instantiateFromXib"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "loadingSpinnerBackground"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So20UIFocusItemContainerP", "Bundle"]
+- !private ["So20UIFocusItemContainerP", "ConstraintsUtility"]
+- ["So20UIFocusItemContainerP", "LoadingView"]
+- !private ["So20UIFocusItemContainerP", "UIApplication"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "backgroundImage"]
+- ["So20UIFocusItemContainerP", "instantiateFromXib"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "isUserInteractionEnabled"]
+- ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "loadingSpinnerBackground"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIImageViewC", "isHidden"]
+- ["So11UIImageViewC", "layer"]
+- !private ["So24UILargeContentViewerItemP", "Bundle"]
+- !private ["So24UILargeContentViewerItemP", "ConstraintsUtility"]
+- ["So24UILargeContentViewerItemP", "LoadingView"]
+- !private ["So24UILargeContentViewerItemP", "UIApplication"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "backgroundImage"]
+- ["So24UILargeContentViewerItemP", "instantiateFromXib"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "isUserInteractionEnabled"]
+- ["So24UILargeContentViewerItemP", "layer"]
+- ["So24UILargeContentViewerItemP", "loadingSpinnerBackground"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConstraintsUtility"]
+- ["So30UIPasteConfigurationSupportingP", "LoadingView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundImage"]
+- ["So30UIPasteConfigurationSupportingP", "instantiateFromXib"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "loadingSpinnerBackground"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "ConstraintsUtility"]
+- ["So11UIResponderC", "LoadingView"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "backgroundImage"]
+- ["So11UIResponderC", "hide"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "instantiateFromXib"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- !private ["So11UIResponderC", "keyWindow"]
+- ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "loadingSpinnerBackground"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "sharedInstance"]
+- ["So11UIResponderC", "show"]
+- ["So11UIResponderC", "showInParentView"]
+- ["So11UIResponderC", "showWithoutBlockingScreen"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "ConstraintsUtility"]
+- ["So30UIResponderStandardEditActionsP", "LoadingView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundImage"]
+- ["So30UIResponderStandardEditActionsP", "instantiateFromXib"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "loadingSpinnerBackground"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "ConstraintsUtility"]
+- ["So18UITraitEnvironmentP", "LoadingView"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundImage"]
+- ["So18UITraitEnvironmentP", "instantiateFromXib"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "loadingSpinnerBackground"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23UIUserActivityRestoringP", "Bundle"]
+- !private ["So23UIUserActivityRestoringP", "ConstraintsUtility"]
+- ["So23UIUserActivityRestoringP", "LoadingView"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "backgroundImage"]
+- ["So23UIUserActivityRestoringP", "instantiateFromXib"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "isUserInteractionEnabled"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "loadingSpinnerBackground"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "Bundle"]
+- !private ["So6UIViewC", "ConstraintsUtility"]
+- ["So6UIViewC", "LoadingView"]
+- !private ["So6UIViewC", "UIApplication"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- ["So6UIViewC", "backgroundImage"]
+- ["So6UIViewC", "hide"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "instantiateFromXib"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- ["So6UIViewC", "layer"]
+- ["So6UIViewC", "loadingSpinnerBackground"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- ["So6UIViewC", "sharedInstance"]
+- ["So6UIViewC", "show"]
+- ["So6UIViewC", "showInParentView"]
+- ["So6UIViewC", "showWithoutBlockingScreen"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8UIWindowC", "addSubview"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConstraintsUtility"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LoadingView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSurroundingConstraintsTo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "instantiateFromXib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadNibNamed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loadingSpinnerBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConstraintsUtility"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoadingView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSurroundingConstraintsTo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateFromXib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isUserInteractionEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadNibNamed"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadingSpinnerBackground"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Bundle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ConstraintsUtility"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "LoadingView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIApplication"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundImage"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "instantiateFromXib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "loadingSpinnerBackground"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- "So7CALayerC"
+- "So15CALayerDelegateP"
+- "So13CAMediaTimingP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "5CASHU18ConstraintsUtilityC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "5CASHU11LoadingViewC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So16NSLayoutRelationV"
+- !private "ST"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So11UIImageViewC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "So8UIWindowC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/CASHU/Private/Resources/CASHU.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Intermediates.noindex/CASHU.build/Debug-iphonesimulator/CASHU.build/unextended-module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "76c7518225baebb58b9c6a9e322f834f"

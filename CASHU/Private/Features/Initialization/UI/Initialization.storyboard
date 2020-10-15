@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qCu-Ga-akD">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qCu-Ga-akD">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,23 +32,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgf-P5-BVv">
-                                <rect key="frame" x="102.5" y="251.5" width="171" height="165.5"/>
+                                <rect key="frame" x="102.5" y="251" width="170" height="165.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gk1-8z-ZZf">
-                                        <rect key="frame" x="-34.5" y="0.0" width="240" height="80"/>
+                                        <rect key="frame" x="-35" y="0.0" width="240" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="Pc8-33-Qbh"/>
                                             <constraint firstAttribute="width" constant="240" id="bWB-36-6Cc"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initializing, Please wait" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUW-k3-5dH">
-                                        <rect key="frame" x="0.0" y="92" width="171" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="92" width="170" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-if-Mbi">
-                                        <rect key="frame" x="67.5" y="128.5" width="37" height="37"/>
+                                        <rect key="frame" x="66.5" y="128.5" width="37" height="37"/>
                                         <color key="color" red="0.11372549019607843" green="0.68627450980392157" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </activityIndicatorView>
                                 </subviews>
@@ -67,7 +65,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CG-U9-hCg">
-                                <rect key="frame" x="16" y="36" width="40" height="40"/>
+                                <rect key="frame" x="16" y="16" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="IFG-3Y-htk"/>
                                     <constraint firstAttribute="height" constant="40" id="erG-Ni-Zju"/>
@@ -78,6 +76,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ce0-7B-3r0"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3CG-U9-hCg" firstAttribute="leading" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="7OP-Am-buD"/>
@@ -87,7 +86,6 @@
                             <constraint firstItem="wgf-P5-BVv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="gmx-Ag-TGR"/>
                             <constraint firstItem="Ce0-7B-3r0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wgf-P5-BVv" secondAttribute="trailing" constant="16" id="udL-KU-bWM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Ce0-7B-3r0"/>
                     </view>
                     <navigationItem key="navigationItem" id="r9H-xU-d4B"/>
                     <connections>

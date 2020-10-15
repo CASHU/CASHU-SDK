@@ -1,0 +1,11 @@
+framework module CASHU {
+  umbrella header "CASHU.h"
+
+  export *
+  module * { export * }
+}
+
+module CASHU.Swift {
+    header "CASHU-Swift.h"
+    requires objc
+}
