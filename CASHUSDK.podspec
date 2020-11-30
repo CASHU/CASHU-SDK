@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     
     
     # 2
-    s.version = "2.0"
+    s.version = "2.1"
     
     # 3
      
@@ -45,12 +45,12 @@ Pod::Spec.new do |s|
     s.dependency 'CCMPopup'
     s.dependency 'SCrypto'
     
-   # s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj,json,plist,strings}"
+   s.resources = "CASHUSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj,json,plist,strings}"
 
     s.static_framework = true
     s.requires_arc = true
     # 8
-    s.source_files = "CASHU/**/*.{swift}"
+    s.source_files = "CASHUSDK/**/*.{swift}"
     
     # 9
     #s.resource_bundle = { "CASHUSDK" => ["CASHUSDK/Strings/*.lproj/*.strings"] }
@@ -63,6 +63,7 @@ Pod::Spec.new do |s|
         'CASHUSDK/Base.lproj/LaunchScreen.storyboard',
         'CASHUSDK/Base.lproj/Main.storyboard',
         'CASHUSDK/ViewController.swift',
+        'CASHUSDK/SceneDelegate.swift',
         'CASHUSDK/AppDelegate.swift',
         'CASHUSDK/Info.plist',
         'CASHUSDK/Assets.xcassets/AppIcon.appiconset/**',
