@@ -1,0 +1,1778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74EEC787348FE23919652622 /* Pods_CASHUSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CC2EA8B11E9524899E6224 /* Pods_CASHUSDK.framework */; };
+		C51269D42574E8670069A5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269D32574E8670069A5CE /* AppDelegate.swift */; };
+		C51269D62574E8670069A5CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269D52574E8670069A5CE /* SceneDelegate.swift */; };
+		C51269D82574E8670069A5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269D72574E8670069A5CE /* ViewController.swift */; };
+		C51269DB2574E8670069A5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51269D92574E8670069A5CE /* Main.storyboard */; };
+		C51269DD2574E8680069A5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51269DC2574E8680069A5CE /* Assets.xcassets */; };
+		C51269E02574E8680069A5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51269DE2574E8680069A5CE /* LaunchScreen.storyboard */; };
+		C5126AC82574E9390069A5CE /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51269F22574E9390069A5CE /* Products.storyboard */; };
+		C5126AC92574E9390069A5CE /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269F52574E9390069A5CE /* ProductsListViewController.swift */; };
+		C5126ACA2574E9390069A5CE /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269F72574E9390069A5CE /* ProductListTableViewCell.swift */; };
+		C5126ACB2574E9390069A5CE /* PaymentTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51269FA2574E9390069A5CE /* PaymentTest.storyboard */; };
+		C5126ACC2574E9390069A5CE /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269FD2574E9390069A5CE /* PaymentMethodsViewController.swift */; };
+		C5126ACD2574E9390069A5CE /* PaymentMethodsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51269FF2574E9390069A5CE /* PaymentMethodsTableViewCell.swift */; };
+		C5126ACE2574E9390069A5CE /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A022574E9390069A5CE /* PaymentMethod.swift */; };
+		C5126ACF2574E9390069A5CE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A042574E9390069A5CE /* Product.swift */; };
+		C5126AD02574E9390069A5CE /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A082574E9390069A5CE /* GeneralStoryboard.storyboard */; };
+		C5126AD12574E9390069A5CE /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A0B2574E9390069A5CE /* PopupViewController.swift */; };
+		C5126AD22574E9390069A5CE /* CASHURouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A0D2574E9390069A5CE /* CASHURouter.swift */; };
+		C5126AD32574E9390069A5CE /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5126A0F2574E9390069A5CE /* Resources.xcassets */; };
+		C5126AD42574E93A0069A5CE /* Rage Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A132574E9390069A5CE /* Rage Italic.ttf */; };
+		C5126AD52574E93A0069A5CE /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A152574E9390069A5CE /* DroidKufi-Regular.ttf */; };
+		C5126AD62574E93A0069A5CE /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A162574E9390069A5CE /* DroidKufi-Bold.ttf */; };
+		C5126AD82574E93A0069A5CE /* arabic.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5126A192574E9390069A5CE /* arabic.plist */; };
+		C5126AD92574E93A0069A5CE /* english.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5126A1A2574E9390069A5CE /* english.plist */; };
+		C5126ADA2574E93A0069A5CE /* TestingConfigurations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A1E2574E9390069A5CE /* TestingConfigurations.storyboard */; };
+		C5126ADB2574E93A0069A5CE /* TestingConfigurationsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A202574E9390069A5CE /* TestingConfigurationsInterface.swift */; };
+		C5126ADC2574E93A0069A5CE /* TestingConfigurationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A232574E9390069A5CE /* TestingConfigurationsViewController.swift */; };
+		C5126ADD2574E93A0069A5CE /* TestingConfigurationsSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A252574E9390069A5CE /* TestingConfigurationsSignInViewController.swift */; };
+		C5126ADE2574E93A0069A5CE /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A282574E9390069A5CE /* Messages.storyboard */; };
+		C5126ADF2574E93A0069A5CE /* PaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A2B2574E9390069A5CE /* PaymentSuccessViewController.swift */; };
+		C5126AE02574E93A0069A5CE /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A2E2574E9390069A5CE /* Payment.storyboard */; };
+		C5126AE12574E93A0069A5CE /* PaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A312574E9390069A5CE /* PaymentDetailsViewController.swift */; };
+		C5126AE22574E93A0069A5CE /* FessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A322574E9390069A5CE /* FessTableViewCell.swift */; };
+		C5126AE32574E93A0069A5CE /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A352574E9390069A5CE /* Initialization.storyboard */; };
+		C5126AE42574E93A0069A5CE /* InitializationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A372574E9390069A5CE /* InitializationInterface.swift */; };
+		C5126AE52574E93A0069A5CE /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A3A2574E9390069A5CE /* InitializationViewController.swift */; };
+		C5126AE62574E93A0069A5CE /* Identification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A3D2574E9390069A5CE /* Identification.storyboard */; };
+		C5126AE72574E93A0069A5CE /* UserIdentificationInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A3F2574E9390069A5CE /* UserIdentificationInterface.swift */; };
+		C5126AE82574E93A0069A5CE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A422574E9390069A5CE /* SignInViewController.swift */; };
+		C5126AE92574E93A0069A5CE /* MerchantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A462574E9390069A5CE /* MerchantDetails.swift */; };
+		C5126AEA2574E93A0069A5CE /* FeesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A482574E9390069A5CE /* FeesModel.swift */; };
+		C5126AEB2574E93A0069A5CE /* PaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A492574E9390069A5CE /* PaymentDetails.swift */; };
+		C5126AEC2574E93A0069A5CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A4B2574E9390069A5CE /* User.swift */; };
+		C5126AED2574E93A0069A5CE /* CASHUSDKToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A4D2574E9390069A5CE /* CASHUSDKToken.swift */; };
+		C5126AEE2574E93A0069A5CE /* CASHUToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A4F2574E9390069A5CE /* CASHUToken.swift */; };
+		C5126AEF2574E93A0069A5CE /* CASHUHeaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A522574E9390069A5CE /* CASHUHeaderResponse.swift */; };
+		C5126AF02574E93A0069A5CE /* CASHUResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A532574E9390069A5CE /* CASHUResponse.swift */; };
+		C5126AF12574E93A0069A5CE /* CASHUBodyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A552574E9390069A5CE /* CASHUBodyResponse.swift */; };
+		C5126AF22574E93A0069A5CE /* CASHUFooterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A572574E9390069A5CE /* CASHUFooterResponse.swift */; };
+		C5126AF32574E93A0069A5CE /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A592574E9390069A5CE /* AccountInfo.swift */; };
+		C5126AF42574E93A0069A5CE /* PaymentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A5B2574E9390069A5CE /* PaymentResult.swift */; };
+		C5126AF52574E93A0069A5CE /* LoginQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A5E2574E9390069A5CE /* LoginQuery.swift */; };
+		C5126AF62574E93A0069A5CE /* GeneralDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A612574E9390069A5CE /* GeneralDelegates.swift */; };
+		C5126AF72574E93A0069A5CE /* OperationIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A652574E9390069A5CE /* OperationIDs.swift */; };
+		C5126AF82574E93A0069A5CE /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A672574E9390069A5CE /* ConnectionManager.swift */; };
+		C5126AF92574E93A0069A5CE /* ConnectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A692574E9390069A5CE /* ConnectionRequest.swift */; };
+		C5126AFA2574E93A0069A5CE /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A6B2574E9390069A5CE /* ImageDataProvider.swift */; };
+		C5126AFB2574E93A0069A5CE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A6E2574E9390069A5CE /* NetworkManager.swift */; };
+		C5126AFC2574E93A0069A5CE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A702574E9390069A5CE /* Reachability.swift */; };
+		C5126AFD2574E93A0069A5CE /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A732574E9390069A5CE /* LocalizationManager.swift */; };
+		C5126AFE2574E93A0069A5CE /* IPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A762574E9390069A5CE /* IPUtility.swift */; };
+		C5126AFF2574E93A0069A5CE /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A782574E9390069A5CE /* UIUtilities.swift */; };
+		C5126B002574E93A0069A5CE /* BlowfishWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A7A2574E9390069A5CE /* BlowfishWrapper.swift */; };
+		C5126B012574E93A0069A5CE /* ConstraintsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A7C2574E9390069A5CE /* ConstraintsUtility.swift */; };
+		C5126B022574E93A0069A5CE /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A7E2574E9390069A5CE /* DateUtility.swift */; };
+		C5126B032574E93A0069A5CE /* AnimationsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A802574E9390069A5CE /* AnimationsUtility.swift */; };
+		C5126B042574E93A0069A5CE /* ValidationsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A822574E9390069A5CE /* ValidationsUtility.swift */; };
+		C5126B052574E93A0069A5CE /* ColorsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A842574E9390069A5CE /* ColorsUtility.swift */; };
+		C5126B062574E93A0069A5CE /* ParsingUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A862574E9390069A5CE /* ParsingUtility.swift */; };
+		C5126B072574E93A0069A5CE /* ThreadsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A882574E9390069A5CE /* ThreadsUtility.swift */; };
+		C5126B082574E93A0069A5CE /* RegexValidatorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A8A2574E9390069A5CE /* RegexValidatorUtility.swift */; };
+		C5126B092574E93A0069A5CE /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5126A8D2574E9390069A5CE /* LoadingView.xib */; };
+		C5126B0A2574E93A0069A5CE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A8E2574E9390069A5CE /* LoadingView.swift */; };
+		C5126B0B2574E93A0069A5CE /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A912574E9390069A5CE /* UITextFieldExtensions.swift */; };
+		C5126B0C2574E93A0069A5CE /* CASHUConfigurationsCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A932574E9390069A5CE /* CASHUConfigurationsCenter.swift */; };
+		C5126B0D2574E93A0069A5CE /* PaymentDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A962574E9390069A5CE /* PaymentDataCenter.swift */; };
+		C5126B0E2574E93A0069A5CE /* BackEndConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A982574E9390069A5CE /* BackEndConfigurations.swift */; };
+		C5126B0F2574E93A0069A5CE /* UserIdentificationDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A9A2574E9390069A5CE /* UserIdentificationDataCenter.swift */; };
+		C5126B102574E93A0069A5CE /* UILabelBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A9E2574E9390069A5CE /* UILabelBold.swift */; };
+		C5126B112574E93A0069A5CE /* UILabelLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AA02574E9390069A5CE /* UILabelLight.swift */; };
+		C5126B122574E93A0069A5CE /* UILabelRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AA22574E9390069A5CE /* UILabelRegular.swift */; };
+		C5126B132574E93A0069A5CE /* UIButtonBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AA52574E9390069A5CE /* UIButtonBold.swift */; };
+		C5126B142574E93A0069A5CE /* UIButtonLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AA72574E9390069A5CE /* UIButtonLight.swift */; };
+		C5126B152574E93A0069A5CE /* UIButtonRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AA92574E9390069A5CE /* UIButtonRegular.swift */; };
+		C5126B162574E93A0069A5CE /* UITextViewBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AAC2574E9390069A5CE /* UITextViewBold.swift */; };
+		C5126B172574E93A0069A5CE /* UITextViewLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AAE2574E9390069A5CE /* UITextViewLight.swift */; };
+		C5126B182574E93A0069A5CE /* UITextViewRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AB02574E9390069A5CE /* UITextViewRegular.swift */; };
+		C5126B192574E93A0069A5CE /* UITextFieldBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AB32574E9390069A5CE /* UITextFieldBold.swift */; };
+		C5126B1A2574E93A0069A5CE /* UITextFieldLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AB52574E9390069A5CE /* UITextFieldLight.swift */; };
+		C5126B1B2574E93A0069A5CE /* UITextFieldRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AB72574E9390069A5CE /* UITextFieldRegular.swift */; };
+		C5126B1C2574E93A0069A5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126ABB2574E9390069A5CE /* LaunchScreen.storyboard */; };
+		C5126B1D2574E93A0069A5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126ABD2574E9390069A5CE /* Main.storyboard */; };
+		C5126B1E2574E93A0069A5CE /* CASHUServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AC12574E9390069A5CE /* CASHUServices.swift */; };
+		C5126B1F2574E93A0069A5CE /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AC42574E9390069A5CE /* ProductDetails.swift */; };
+		C5126B202574E93A0069A5CE /* CASHUConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126AC62574E9390069A5CE /* CASHUConfigurations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BE6638FB981DA157A96F07C /* Pods-CASHUSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHUSDK.debug.xcconfig"; path = "Target Support Files/Pods-CASHUSDK/Pods-CASHUSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		28CC2EA8B11E9524899E6224 /* Pods_CASHUSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CASHUSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC202B4DC1E9E079FAD9D8ED /* Pods-CASHUSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CASHUSDK.release.xcconfig"; path = "Target Support Files/Pods-CASHUSDK/Pods-CASHUSDK.release.xcconfig"; sourceTree = "<group>"; };
+		C51269D02574E8670069A5CE /* CASHUSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CASHUSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51269D32574E8670069A5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C51269D52574E8670069A5CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C51269D72574E8670069A5CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51269DA2574E8670069A5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C51269DC2574E8680069A5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51269DF2574E8680069A5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51269E12574E8680069A5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51269F22574E9390069A5CE /* Products.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Products.storyboard; sourceTree = "<group>"; };
+		C51269F52574E9390069A5CE /* ProductsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
+		C51269F72574E9390069A5CE /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		C51269FA2574E9390069A5CE /* PaymentTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PaymentTest.storyboard; sourceTree = "<group>"; };
+		C51269FD2574E9390069A5CE /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
+		C51269FF2574E9390069A5CE /* PaymentMethodsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsTableViewCell.swift; sourceTree = "<group>"; };
+		C5126A022574E9390069A5CE /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		C5126A042574E9390069A5CE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C5126A082574E9390069A5CE /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
+		C5126A0B2574E9390069A5CE /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		C5126A0D2574E9390069A5CE /* CASHURouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHURouter.swift; sourceTree = "<group>"; };
+		C5126A0F2574E9390069A5CE /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
+		C5126A102574E9390069A5CE /* CASHU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASHU.h; sourceTree = "<group>"; };
+		C5126A132574E9390069A5CE /* Rage Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rage Italic.ttf"; sourceTree = "<group>"; };
+		C5126A152574E9390069A5CE /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
+		C5126A162574E9390069A5CE /* DroidKufi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Bold.ttf"; sourceTree = "<group>"; };
+		C5126A192574E9390069A5CE /* arabic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arabic.plist; sourceTree = "<group>"; };
+		C5126A1A2574E9390069A5CE /* english.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = english.plist; sourceTree = "<group>"; };
+		C5126A1E2574E9390069A5CE /* TestingConfigurations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestingConfigurations.storyboard; sourceTree = "<group>"; };
+		C5126A202574E9390069A5CE /* TestingConfigurationsInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsInterface.swift; sourceTree = "<group>"; };
+		C5126A232574E9390069A5CE /* TestingConfigurationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsViewController.swift; sourceTree = "<group>"; };
+		C5126A252574E9390069A5CE /* TestingConfigurationsSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingConfigurationsSignInViewController.swift; sourceTree = "<group>"; };
+		C5126A282574E9390069A5CE /* Messages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		C5126A2B2574E9390069A5CE /* PaymentSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentSuccessViewController.swift; sourceTree = "<group>"; };
+		C5126A2E2574E9390069A5CE /* Payment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		C5126A312574E9390069A5CE /* PaymentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailsViewController.swift; sourceTree = "<group>"; };
+		C5126A322574E9390069A5CE /* FessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FessTableViewCell.swift; sourceTree = "<group>"; };
+		C5126A352574E9390069A5CE /* Initialization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
+		C5126A372574E9390069A5CE /* InitializationInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationInterface.swift; sourceTree = "<group>"; };
+		C5126A3A2574E9390069A5CE /* InitializationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
+		C5126A3D2574E9390069A5CE /* Identification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Identification.storyboard; sourceTree = "<group>"; };
+		C5126A3F2574E9390069A5CE /* UserIdentificationInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentificationInterface.swift; sourceTree = "<group>"; };
+		C5126A422574E9390069A5CE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C5126A462574E9390069A5CE /* MerchantDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantDetails.swift; sourceTree = "<group>"; };
+		C5126A482574E9390069A5CE /* FeesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeesModel.swift; sourceTree = "<group>"; };
+		C5126A492574E9390069A5CE /* PaymentDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetails.swift; sourceTree = "<group>"; };
+		C5126A4B2574E9390069A5CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5126A4D2574E9390069A5CE /* CASHUSDKToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUSDKToken.swift; sourceTree = "<group>"; };
+		C5126A4F2574E9390069A5CE /* CASHUToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUToken.swift; sourceTree = "<group>"; };
+		C5126A522574E9390069A5CE /* CASHUHeaderResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUHeaderResponse.swift; sourceTree = "<group>"; };
+		C5126A532574E9390069A5CE /* CASHUResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUResponse.swift; sourceTree = "<group>"; };
+		C5126A552574E9390069A5CE /* CASHUBodyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUBodyResponse.swift; sourceTree = "<group>"; };
+		C5126A572574E9390069A5CE /* CASHUFooterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUFooterResponse.swift; sourceTree = "<group>"; };
+		C5126A592574E9390069A5CE /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		C5126A5B2574E9390069A5CE /* PaymentResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentResult.swift; sourceTree = "<group>"; };
+		C5126A5E2574E9390069A5CE /* LoginQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginQuery.swift; sourceTree = "<group>"; };
+		C5126A612574E9390069A5CE /* GeneralDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralDelegates.swift; sourceTree = "<group>"; };
+		C5126A652574E9390069A5CE /* OperationIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationIDs.swift; sourceTree = "<group>"; };
+		C5126A672574E9390069A5CE /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		C5126A692574E9390069A5CE /* ConnectionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionRequest.swift; sourceTree = "<group>"; };
+		C5126A6B2574E9390069A5CE /* ImageDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataProvider.swift; sourceTree = "<group>"; };
+		C5126A6E2574E9390069A5CE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C5126A702574E9390069A5CE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C5126A732574E9390069A5CE /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		C5126A762574E9390069A5CE /* IPUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPUtility.swift; sourceTree = "<group>"; };
+		C5126A782574E9390069A5CE /* UIUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		C5126A7A2574E9390069A5CE /* BlowfishWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlowfishWrapper.swift; sourceTree = "<group>"; };
+		C5126A7C2574E9390069A5CE /* ConstraintsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsUtility.swift; sourceTree = "<group>"; };
+		C5126A7E2574E9390069A5CE /* DateUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		C5126A802574E9390069A5CE /* AnimationsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationsUtility.swift; sourceTree = "<group>"; };
+		C5126A822574E9390069A5CE /* ValidationsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationsUtility.swift; sourceTree = "<group>"; };
+		C5126A842574E9390069A5CE /* ColorsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsUtility.swift; sourceTree = "<group>"; };
+		C5126A862574E9390069A5CE /* ParsingUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingUtility.swift; sourceTree = "<group>"; };
+		C5126A882574E9390069A5CE /* ThreadsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadsUtility.swift; sourceTree = "<group>"; };
+		C5126A8A2574E9390069A5CE /* RegexValidatorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexValidatorUtility.swift; sourceTree = "<group>"; };
+		C5126A8D2574E9390069A5CE /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		C5126A8E2574E9390069A5CE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C5126A912574E9390069A5CE /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		C5126A932574E9390069A5CE /* CASHUConfigurationsCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUConfigurationsCenter.swift; sourceTree = "<group>"; };
+		C5126A962574E9390069A5CE /* PaymentDataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDataCenter.swift; sourceTree = "<group>"; };
+		C5126A982574E9390069A5CE /* BackEndConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndConfigurations.swift; sourceTree = "<group>"; };
+		C5126A9A2574E9390069A5CE /* UserIdentificationDataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentificationDataCenter.swift; sourceTree = "<group>"; };
+		C5126A9E2574E9390069A5CE /* UILabelBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelBold.swift; sourceTree = "<group>"; };
+		C5126AA02574E9390069A5CE /* UILabelLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelLight.swift; sourceTree = "<group>"; };
+		C5126AA22574E9390069A5CE /* UILabelRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelRegular.swift; sourceTree = "<group>"; };
+		C5126AA52574E9390069A5CE /* UIButtonBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonBold.swift; sourceTree = "<group>"; };
+		C5126AA72574E9390069A5CE /* UIButtonLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonLight.swift; sourceTree = "<group>"; };
+		C5126AA92574E9390069A5CE /* UIButtonRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonRegular.swift; sourceTree = "<group>"; };
+		C5126AAC2574E9390069A5CE /* UITextViewBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewBold.swift; sourceTree = "<group>"; };
+		C5126AAE2574E9390069A5CE /* UITextViewLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewLight.swift; sourceTree = "<group>"; };
+		C5126AB02574E9390069A5CE /* UITextViewRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewRegular.swift; sourceTree = "<group>"; };
+		C5126AB32574E9390069A5CE /* UITextFieldBold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldBold.swift; sourceTree = "<group>"; };
+		C5126AB52574E9390069A5CE /* UITextFieldLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldLight.swift; sourceTree = "<group>"; };
+		C5126AB72574E9390069A5CE /* UITextFieldRegular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldRegular.swift; sourceTree = "<group>"; };
+		C5126ABC2574E9390069A5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5126ABE2574E9390069A5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C5126AC12574E9390069A5CE /* CASHUServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUServices.swift; sourceTree = "<group>"; };
+		C5126AC42574E9390069A5CE /* ProductDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		C5126AC62574E9390069A5CE /* CASHUConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHUConfigurations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51269CD2574E8670069A5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EEC787348FE23919652622 /* Pods_CASHUSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A584E60F7A5AD14116EAEB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE6638FB981DA157A96F07C /* Pods-CASHUSDK.debug.xcconfig */,
+				BC202B4DC1E9E079FAD9D8ED /* Pods-CASHUSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FE28DDF6EFA1F9A600415B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28CC2EA8B11E9524899E6224 /* Pods_CASHUSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51269C72574E8670069A5CE = {
+			isa = PBXGroup;
+			children = (
+				C51269D22574E8670069A5CE /* CASHUSDK */,
+				C51269D12574E8670069A5CE /* Products */,
+				4A584E60F7A5AD14116EAEB1 /* Pods */,
+				5FE28DDF6EFA1F9A600415B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C51269D12574E8670069A5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51269D02574E8670069A5CE /* CASHUSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51269D22574E8670069A5CE /* CASHUSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C5126ABA2574E9390069A5CE /* Base.lproj */,
+				C5126ABF2574E9390069A5CE /* CASHU */,
+				C51269ED2574E9390069A5CE /* CASHU-Sample */,
+				C5126A052574E9390069A5CE /* Private */,
+				C51269D32574E8670069A5CE /* AppDelegate.swift */,
+				C51269D52574E8670069A5CE /* SceneDelegate.swift */,
+				C51269D72574E8670069A5CE /* ViewController.swift */,
+				C51269D92574E8670069A5CE /* Main.storyboard */,
+				C51269DC2574E8680069A5CE /* Assets.xcassets */,
+				C51269DE2574E8680069A5CE /* LaunchScreen.storyboard */,
+				C51269E12574E8680069A5CE /* Info.plist */,
+			);
+			path = CASHUSDK;
+			sourceTree = "<group>";
+		};
+		C51269ED2574E9390069A5CE /* CASHU-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C51269EE2574E9390069A5CE /* Resources */,
+				C51269EF2574E9390069A5CE /* Features */,
+				C5126A002574E9390069A5CE /* Models */,
+			);
+			path = "CASHU-Sample";
+			sourceTree = "<group>";
+		};
+		C51269EE2574E9390069A5CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C51269EF2574E9390069A5CE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F02574E9390069A5CE /* Products */,
+				C51269F82574E9390069A5CE /* Payment */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C51269F02574E9390069A5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F12574E9390069A5CE /* UI */,
+				C51269F32574E9390069A5CE /* Controllers */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		C51269F12574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F22574E9390069A5CE /* Products.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C51269F32574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F42574E9390069A5CE /* ProductsList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C51269F42574E9390069A5CE /* ProductsList */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F52574E9390069A5CE /* ProductsListViewController.swift */,
+				C51269F62574E9390069A5CE /* ProductListCell */,
+			);
+			path = ProductsList;
+			sourceTree = "<group>";
+		};
+		C51269F62574E9390069A5CE /* ProductListCell */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F72574E9390069A5CE /* ProductListTableViewCell.swift */,
+			);
+			path = ProductListCell;
+			sourceTree = "<group>";
+		};
+		C51269F82574E9390069A5CE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				C51269F92574E9390069A5CE /* UI */,
+				C51269FB2574E9390069A5CE /* Controllers */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		C51269F92574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C51269FA2574E9390069A5CE /* PaymentTest.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C51269FB2574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51269FC2574E9390069A5CE /* PaymentMethods */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C51269FC2574E9390069A5CE /* PaymentMethods */ = {
+			isa = PBXGroup;
+			children = (
+				C51269FD2574E9390069A5CE /* PaymentMethodsViewController.swift */,
+				C51269FE2574E9390069A5CE /* PaymentMethodsTableViewCell */,
+			);
+			path = PaymentMethods;
+			sourceTree = "<group>";
+		};
+		C51269FE2574E9390069A5CE /* PaymentMethodsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C51269FF2574E9390069A5CE /* PaymentMethodsTableViewCell.swift */,
+			);
+			path = PaymentMethodsTableViewCell;
+			sourceTree = "<group>";
+		};
+		C5126A002574E9390069A5CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A012574E9390069A5CE /* PaymentMethod */,
+				C5126A032574E9390069A5CE /* Product */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5126A012574E9390069A5CE /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A022574E9390069A5CE /* PaymentMethod.swift */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
+		C5126A032574E9390069A5CE /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A042574E9390069A5CE /* Product.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		C5126A052574E9390069A5CE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A062574E9390069A5CE /* GeneralViews */,
+				C5126A0C2574E9390069A5CE /* CASHURouter */,
+				C5126A0E2574E9390069A5CE /* Resources */,
+				C5126A1B2574E9390069A5CE /* Features */,
+				C5126A432574E9390069A5CE /* Models */,
+				C5126A5F2574E9390069A5CE /* ApplicationCore */,
+				C5126A8F2574E9390069A5CE /* CustomExtensions */,
+				C5126A922574E9390069A5CE /* CASHUConfigurationsCenter */,
+				C5126A942574E9390069A5CE /* DataCenters */,
+				C5126A9B2574E9390069A5CE /* UIElementsWithFontApplied */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		C5126A062574E9390069A5CE /* GeneralViews */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A072574E9390069A5CE /* UI */,
+				C5126A092574E9390069A5CE /* Controllers */,
+			);
+			path = GeneralViews;
+			sourceTree = "<group>";
+		};
+		C5126A072574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A082574E9390069A5CE /* GeneralStoryboard.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A092574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A0A2574E9390069A5CE /* PopupViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A0A2574E9390069A5CE /* PopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A0B2574E9390069A5CE /* PopupViewController.swift */,
+			);
+			path = PopupViewController;
+			sourceTree = "<group>";
+		};
+		C5126A0C2574E9390069A5CE /* CASHURouter */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A0D2574E9390069A5CE /* CASHURouter.swift */,
+			);
+			path = CASHURouter;
+			sourceTree = "<group>";
+		};
+		C5126A0E2574E9390069A5CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A0F2574E9390069A5CE /* Resources.xcassets */,
+				C5126A102574E9390069A5CE /* CASHU.h */,
+				C5126A112574E9390069A5CE /* Fonts */,
+				C5126A182574E9390069A5CE /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5126A112574E9390069A5CE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A122574E9390069A5CE /* English */,
+				C5126A142574E9390069A5CE /* Arabic */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C5126A122574E9390069A5CE /* English */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A132574E9390069A5CE /* Rage Italic.ttf */,
+			);
+			path = English;
+			sourceTree = "<group>";
+		};
+		C5126A142574E9390069A5CE /* Arabic */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A152574E9390069A5CE /* DroidKufi-Regular.ttf */,
+				C5126A162574E9390069A5CE /* DroidKufi-Bold.ttf */,
+			);
+			path = Arabic;
+			sourceTree = "<group>";
+		};
+		C5126A182574E9390069A5CE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A192574E9390069A5CE /* arabic.plist */,
+				C5126A1A2574E9390069A5CE /* english.plist */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		C5126A1B2574E9390069A5CE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A1C2574E9390069A5CE /* TestingConfigurations */,
+				C5126A262574E9390069A5CE /* Messages */,
+				C5126A2C2574E9390069A5CE /* Payment */,
+				C5126A332574E9390069A5CE /* Initialization */,
+				C5126A3B2574E9390069A5CE /* Identification */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C5126A1C2574E9390069A5CE /* TestingConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A1D2574E9390069A5CE /* UI */,
+				C5126A1F2574E9390069A5CE /* Interface */,
+				C5126A212574E9390069A5CE /* Controllers */,
+			);
+			path = TestingConfigurations;
+			sourceTree = "<group>";
+		};
+		C5126A1D2574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A1E2574E9390069A5CE /* TestingConfigurations.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A1F2574E9390069A5CE /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A202574E9390069A5CE /* TestingConfigurationsInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		C5126A212574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A222574E9390069A5CE /* TestingConfigurationsViewController */,
+				C5126A242574E9390069A5CE /* TestingConfigurationsSignInViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A222574E9390069A5CE /* TestingConfigurationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A232574E9390069A5CE /* TestingConfigurationsViewController.swift */,
+			);
+			path = TestingConfigurationsViewController;
+			sourceTree = "<group>";
+		};
+		C5126A242574E9390069A5CE /* TestingConfigurationsSignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A252574E9390069A5CE /* TestingConfigurationsSignInViewController.swift */,
+			);
+			path = TestingConfigurationsSignInViewController;
+			sourceTree = "<group>";
+		};
+		C5126A262574E9390069A5CE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A272574E9390069A5CE /* UI */,
+				C5126A292574E9390069A5CE /* Controllers */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		C5126A272574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A282574E9390069A5CE /* Messages.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A292574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A2A2574E9390069A5CE /* PaymentSuccessViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A2A2574E9390069A5CE /* PaymentSuccessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A2B2574E9390069A5CE /* PaymentSuccessViewController.swift */,
+			);
+			path = PaymentSuccessViewController;
+			sourceTree = "<group>";
+		};
+		C5126A2C2574E9390069A5CE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A2D2574E9390069A5CE /* UI */,
+				C5126A2F2574E9390069A5CE /* Controllers */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		C5126A2D2574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A2E2574E9390069A5CE /* Payment.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A2F2574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A302574E9390069A5CE /* PaymentDetailsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A302574E9390069A5CE /* PaymentDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A312574E9390069A5CE /* PaymentDetailsViewController.swift */,
+				C5126A322574E9390069A5CE /* FessTableViewCell.swift */,
+			);
+			path = PaymentDetailsViewController;
+			sourceTree = "<group>";
+		};
+		C5126A332574E9390069A5CE /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A342574E9390069A5CE /* UI */,
+				C5126A362574E9390069A5CE /* Interface */,
+				C5126A382574E9390069A5CE /* Controllers */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		C5126A342574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A352574E9390069A5CE /* Initialization.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A362574E9390069A5CE /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A372574E9390069A5CE /* InitializationInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		C5126A382574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A392574E9390069A5CE /* Initialization */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A392574E9390069A5CE /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A3A2574E9390069A5CE /* InitializationViewController.swift */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		C5126A3B2574E9390069A5CE /* Identification */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A3C2574E9390069A5CE /* UI */,
+				C5126A3E2574E9390069A5CE /* Interface */,
+				C5126A402574E9390069A5CE /* Controllers */,
+			);
+			path = Identification;
+			sourceTree = "<group>";
+		};
+		C5126A3C2574E9390069A5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A3D2574E9390069A5CE /* Identification.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C5126A3E2574E9390069A5CE /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A3F2574E9390069A5CE /* UserIdentificationInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		C5126A402574E9390069A5CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A412574E9390069A5CE /* SignInViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5126A412574E9390069A5CE /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A422574E9390069A5CE /* SignInViewController.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		C5126A432574E9390069A5CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A442574E9390069A5CE /* DataModels */,
+				C5126A5C2574E9390069A5CE /* Queries */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5126A442574E9390069A5CE /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A452574E9390069A5CE /* MerchantDetails */,
+				C5126A472574E9390069A5CE /* PaymentDetails */,
+				C5126A4A2574E9390069A5CE /* User */,
+				C5126A4C2574E9390069A5CE /* CASHUSDKToken */,
+				C5126A4E2574E9390069A5CE /* CASHUToken */,
+				C5126A502574E9390069A5CE /* CASHUResponse */,
+				C5126A582574E9390069A5CE /* AccountInfo */,
+				C5126A5A2574E9390069A5CE /* PaymentResult */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		C5126A452574E9390069A5CE /* MerchantDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A462574E9390069A5CE /* MerchantDetails.swift */,
+			);
+			path = MerchantDetails;
+			sourceTree = "<group>";
+		};
+		C5126A472574E9390069A5CE /* PaymentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A482574E9390069A5CE /* FeesModel.swift */,
+				C5126A492574E9390069A5CE /* PaymentDetails.swift */,
+			);
+			path = PaymentDetails;
+			sourceTree = "<group>";
+		};
+		C5126A4A2574E9390069A5CE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A4B2574E9390069A5CE /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C5126A4C2574E9390069A5CE /* CASHUSDKToken */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A4D2574E9390069A5CE /* CASHUSDKToken.swift */,
+			);
+			path = CASHUSDKToken;
+			sourceTree = "<group>";
+		};
+		C5126A4E2574E9390069A5CE /* CASHUToken */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A4F2574E9390069A5CE /* CASHUToken.swift */,
+			);
+			path = CASHUToken;
+			sourceTree = "<group>";
+		};
+		C5126A502574E9390069A5CE /* CASHUResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A512574E9390069A5CE /* CASHUHeaderResponse */,
+				C5126A532574E9390069A5CE /* CASHUResponse.swift */,
+				C5126A542574E9390069A5CE /* CASHUBodyResponse */,
+				C5126A562574E9390069A5CE /* CASHUFooterResponse */,
+			);
+			path = CASHUResponse;
+			sourceTree = "<group>";
+		};
+		C5126A512574E9390069A5CE /* CASHUHeaderResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A522574E9390069A5CE /* CASHUHeaderResponse.swift */,
+			);
+			path = CASHUHeaderResponse;
+			sourceTree = "<group>";
+		};
+		C5126A542574E9390069A5CE /* CASHUBodyResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A552574E9390069A5CE /* CASHUBodyResponse.swift */,
+			);
+			path = CASHUBodyResponse;
+			sourceTree = "<group>";
+		};
+		C5126A562574E9390069A5CE /* CASHUFooterResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A572574E9390069A5CE /* CASHUFooterResponse.swift */,
+			);
+			path = CASHUFooterResponse;
+			sourceTree = "<group>";
+		};
+		C5126A582574E9390069A5CE /* AccountInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A592574E9390069A5CE /* AccountInfo.swift */,
+			);
+			path = AccountInfo;
+			sourceTree = "<group>";
+		};
+		C5126A5A2574E9390069A5CE /* PaymentResult */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A5B2574E9390069A5CE /* PaymentResult.swift */,
+			);
+			path = PaymentResult;
+			sourceTree = "<group>";
+		};
+		C5126A5C2574E9390069A5CE /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A5D2574E9390069A5CE /* LgoinQuery */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		C5126A5D2574E9390069A5CE /* LgoinQuery */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A5E2574E9390069A5CE /* LoginQuery.swift */,
+			);
+			path = LgoinQuery;
+			sourceTree = "<group>";
+		};
+		C5126A5F2574E9390069A5CE /* ApplicationCore */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A602574E9390069A5CE /* GeneralDelegates */,
+				C5126A622574E9390069A5CE /* Managers */,
+				C5126A742574E9390069A5CE /* Utilities */,
+				C5126A8B2574E9390069A5CE /* Views */,
+			);
+			path = ApplicationCore;
+			sourceTree = "<group>";
+		};
+		C5126A602574E9390069A5CE /* GeneralDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A612574E9390069A5CE /* GeneralDelegates.swift */,
+			);
+			path = GeneralDelegates;
+			sourceTree = "<group>";
+		};
+		C5126A622574E9390069A5CE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A632574E9390069A5CE /* Connection */,
+				C5126A6C2574E9390069A5CE /* Newtork */,
+				C5126A712574E9390069A5CE /* Localization */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C5126A632574E9390069A5CE /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A642574E9390069A5CE /* OperationsIDs */,
+				C5126A662574E9390069A5CE /* Manager */,
+				C5126A682574E9390069A5CE /* ConnectionRequest */,
+				C5126A6A2574E9390069A5CE /* ImageDataProvider */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		C5126A642574E9390069A5CE /* OperationsIDs */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A652574E9390069A5CE /* OperationIDs.swift */,
+			);
+			path = OperationsIDs;
+			sourceTree = "<group>";
+		};
+		C5126A662574E9390069A5CE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A672574E9390069A5CE /* ConnectionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C5126A682574E9390069A5CE /* ConnectionRequest */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A692574E9390069A5CE /* ConnectionRequest.swift */,
+			);
+			path = ConnectionRequest;
+			sourceTree = "<group>";
+		};
+		C5126A6A2574E9390069A5CE /* ImageDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A6B2574E9390069A5CE /* ImageDataProvider.swift */,
+			);
+			path = ImageDataProvider;
+			sourceTree = "<group>";
+		};
+		C5126A6C2574E9390069A5CE /* Newtork */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A6D2574E9390069A5CE /* Manager */,
+				C5126A6F2574E9390069A5CE /* Reachability */,
+			);
+			path = Newtork;
+			sourceTree = "<group>";
+		};
+		C5126A6D2574E9390069A5CE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A6E2574E9390069A5CE /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C5126A6F2574E9390069A5CE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A702574E9390069A5CE /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C5126A712574E9390069A5CE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A722574E9390069A5CE /* Manager */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		C5126A722574E9390069A5CE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A732574E9390069A5CE /* LocalizationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C5126A742574E9390069A5CE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A752574E9390069A5CE /* IPUtility */,
+				C5126A772574E9390069A5CE /* UIUtilities */,
+				C5126A792574E9390069A5CE /* MD5 */,
+				C5126A7B2574E9390069A5CE /* Constraints */,
+				C5126A7D2574E9390069A5CE /* Date */,
+				C5126A7F2574E9390069A5CE /* Animation */,
+				C5126A812574E9390069A5CE /* Validations */,
+				C5126A832574E9390069A5CE /* Colors */,
+				C5126A852574E9390069A5CE /* Parsing */,
+				C5126A872574E9390069A5CE /* Threading */,
+				C5126A892574E9390069A5CE /* RegexValidatorUtility */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C5126A752574E9390069A5CE /* IPUtility */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A762574E9390069A5CE /* IPUtility.swift */,
+			);
+			path = IPUtility;
+			sourceTree = "<group>";
+		};
+		C5126A772574E9390069A5CE /* UIUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A782574E9390069A5CE /* UIUtilities.swift */,
+			);
+			path = UIUtilities;
+			sourceTree = "<group>";
+		};
+		C5126A792574E9390069A5CE /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A7A2574E9390069A5CE /* BlowfishWrapper.swift */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		C5126A7B2574E9390069A5CE /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A7C2574E9390069A5CE /* ConstraintsUtility.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		C5126A7D2574E9390069A5CE /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A7E2574E9390069A5CE /* DateUtility.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		C5126A7F2574E9390069A5CE /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A802574E9390069A5CE /* AnimationsUtility.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C5126A812574E9390069A5CE /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A822574E9390069A5CE /* ValidationsUtility.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		C5126A832574E9390069A5CE /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A842574E9390069A5CE /* ColorsUtility.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		C5126A852574E9390069A5CE /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A862574E9390069A5CE /* ParsingUtility.swift */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		C5126A872574E9390069A5CE /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A882574E9390069A5CE /* ThreadsUtility.swift */,
+			);
+			path = Threading;
+			sourceTree = "<group>";
+		};
+		C5126A892574E9390069A5CE /* RegexValidatorUtility */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A8A2574E9390069A5CE /* RegexValidatorUtility.swift */,
+			);
+			path = RegexValidatorUtility;
+			sourceTree = "<group>";
+		};
+		C5126A8B2574E9390069A5CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A8C2574E9390069A5CE /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5126A8C2574E9390069A5CE /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A8D2574E9390069A5CE /* LoadingView.xib */,
+				C5126A8E2574E9390069A5CE /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		C5126A8F2574E9390069A5CE /* CustomExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A902574E9390069A5CE /* UITextField */,
+			);
+			path = CustomExtensions;
+			sourceTree = "<group>";
+		};
+		C5126A902574E9390069A5CE /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A912574E9390069A5CE /* UITextFieldExtensions.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C5126A922574E9390069A5CE /* CASHUConfigurationsCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A932574E9390069A5CE /* CASHUConfigurationsCenter.swift */,
+			);
+			path = CASHUConfigurationsCenter;
+			sourceTree = "<group>";
+		};
+		C5126A942574E9390069A5CE /* DataCenters */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A952574E9390069A5CE /* Payment */,
+				C5126A972574E9390069A5CE /* BackEndConfigurations */,
+				C5126A992574E9390069A5CE /* UserIdentification */,
+			);
+			path = DataCenters;
+			sourceTree = "<group>";
+		};
+		C5126A952574E9390069A5CE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A962574E9390069A5CE /* PaymentDataCenter.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		C5126A972574E9390069A5CE /* BackEndConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A982574E9390069A5CE /* BackEndConfigurations.swift */,
+			);
+			path = BackEndConfigurations;
+			sourceTree = "<group>";
+		};
+		C5126A992574E9390069A5CE /* UserIdentification */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A9A2574E9390069A5CE /* UserIdentificationDataCenter.swift */,
+			);
+			path = UserIdentification;
+			sourceTree = "<group>";
+		};
+		C5126A9B2574E9390069A5CE /* UIElementsWithFontApplied */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A9C2574E9390069A5CE /* UILabel */,
+				C5126AA32574E9390069A5CE /* UIButton */,
+				C5126AAA2574E9390069A5CE /* UITextView */,
+				C5126AB12574E9390069A5CE /* UITextField */,
+			);
+			path = UIElementsWithFontApplied;
+			sourceTree = "<group>";
+		};
+		C5126A9C2574E9390069A5CE /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A9D2574E9390069A5CE /* Bold */,
+				C5126A9F2574E9390069A5CE /* Light */,
+				C5126AA12574E9390069A5CE /* Regular */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		C5126A9D2574E9390069A5CE /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				C5126A9E2574E9390069A5CE /* UILabelBold.swift */,
+			);
+			path = Bold;
+			sourceTree = "<group>";
+		};
+		C5126A9F2574E9390069A5CE /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA02574E9390069A5CE /* UILabelLight.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		C5126AA12574E9390069A5CE /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA22574E9390069A5CE /* UILabelRegular.swift */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		C5126AA32574E9390069A5CE /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA42574E9390069A5CE /* Bold */,
+				C5126AA62574E9390069A5CE /* Light */,
+				C5126AA82574E9390069A5CE /* Regular */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C5126AA42574E9390069A5CE /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA52574E9390069A5CE /* UIButtonBold.swift */,
+			);
+			path = Bold;
+			sourceTree = "<group>";
+		};
+		C5126AA62574E9390069A5CE /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA72574E9390069A5CE /* UIButtonLight.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		C5126AA82574E9390069A5CE /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AA92574E9390069A5CE /* UIButtonRegular.swift */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		C5126AAA2574E9390069A5CE /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AAB2574E9390069A5CE /* Bold */,
+				C5126AAD2574E9390069A5CE /* Light */,
+				C5126AAF2574E9390069A5CE /* Regular */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		C5126AAB2574E9390069A5CE /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AAC2574E9390069A5CE /* UITextViewBold.swift */,
+			);
+			path = Bold;
+			sourceTree = "<group>";
+		};
+		C5126AAD2574E9390069A5CE /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AAE2574E9390069A5CE /* UITextViewLight.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		C5126AAF2574E9390069A5CE /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AB02574E9390069A5CE /* UITextViewRegular.swift */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		C5126AB12574E9390069A5CE /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AB22574E9390069A5CE /* Bold */,
+				C5126AB42574E9390069A5CE /* Light */,
+				C5126AB62574E9390069A5CE /* Regular */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C5126AB22574E9390069A5CE /* Bold */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AB32574E9390069A5CE /* UITextFieldBold.swift */,
+			);
+			path = Bold;
+			sourceTree = "<group>";
+		};
+		C5126AB42574E9390069A5CE /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AB52574E9390069A5CE /* UITextFieldLight.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		C5126AB62574E9390069A5CE /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AB72574E9390069A5CE /* UITextFieldRegular.swift */,
+			);
+			path = Regular;
+			sourceTree = "<group>";
+		};
+		C5126ABA2574E9390069A5CE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C5126ABB2574E9390069A5CE /* LaunchScreen.storyboard */,
+				C5126ABD2574E9390069A5CE /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C5126ABF2574E9390069A5CE /* CASHU */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AC02574E9390069A5CE /* CASHUServices */,
+				C5126AC22574E9390069A5CE /* CASHUModels */,
+			);
+			path = CASHU;
+			sourceTree = "<group>";
+		};
+		C5126AC02574E9390069A5CE /* CASHUServices */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AC12574E9390069A5CE /* CASHUServices.swift */,
+			);
+			path = CASHUServices;
+			sourceTree = "<group>";
+		};
+		C5126AC22574E9390069A5CE /* CASHUModels */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AC32574E9390069A5CE /* ProductDetails */,
+				C5126AC52574E9390069A5CE /* CASHUConfigurations */,
+			);
+			path = CASHUModels;
+			sourceTree = "<group>";
+		};
+		C5126AC32574E9390069A5CE /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AC42574E9390069A5CE /* ProductDetails.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		C5126AC52574E9390069A5CE /* CASHUConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				C5126AC62574E9390069A5CE /* CASHUConfigurations.swift */,
+			);
+			path = CASHUConfigurations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51269CF2574E8670069A5CE /* CASHUSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51269E42574E8680069A5CE /* Build configuration list for PBXNativeTarget "CASHUSDK" */;
+			buildPhases = (
+				10617E607F914A983EBC24D2 /* [CP] Check Pods Manifest.lock */,
+				C51269CC2574E8670069A5CE /* Sources */,
+				C51269CD2574E8670069A5CE /* Frameworks */,
+				C51269CE2574E8670069A5CE /* Resources */,
+				9BE8E20488E2FDB39E5C1D3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CASHUSDK;
+			productName = CASHUSDK;
+			productReference = C51269D02574E8670069A5CE /* CASHUSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51269C82574E8670069A5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C51269CF2574E8670069A5CE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C51269CB2574E8670069A5CE /* Build configuration list for PBXProject "CASHUSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51269C72574E8670069A5CE;
+			productRefGroup = C51269D12574E8670069A5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51269CF2574E8670069A5CE /* CASHUSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51269CE2574E8670069A5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51269E02574E8680069A5CE /* LaunchScreen.storyboard in Resources */,
+				C5126AE62574E93A0069A5CE /* Identification.storyboard in Resources */,
+				C5126AE02574E93A0069A5CE /* Payment.storyboard in Resources */,
+				C5126AD32574E9390069A5CE /* Resources.xcassets in Resources */,
+				C5126ADE2574E93A0069A5CE /* Messages.storyboard in Resources */,
+				C5126B1D2574E93A0069A5CE /* Main.storyboard in Resources */,
+				C5126ADA2574E93A0069A5CE /* TestingConfigurations.storyboard in Resources */,
+				C5126AD62574E93A0069A5CE /* DroidKufi-Bold.ttf in Resources */,
+				C5126AE32574E93A0069A5CE /* Initialization.storyboard in Resources */,
+				C5126AD02574E9390069A5CE /* GeneralStoryboard.storyboard in Resources */,
+				C5126B092574E93A0069A5CE /* LoadingView.xib in Resources */,
+				C51269DD2574E8680069A5CE /* Assets.xcassets in Resources */,
+				C5126AD42574E93A0069A5CE /* Rage Italic.ttf in Resources */,
+				C5126AC82574E9390069A5CE /* Products.storyboard in Resources */,
+				C5126AD82574E93A0069A5CE /* arabic.plist in Resources */,
+				C51269DB2574E8670069A5CE /* Main.storyboard in Resources */,
+				C5126ACB2574E9390069A5CE /* PaymentTest.storyboard in Resources */,
+				C5126B1C2574E93A0069A5CE /* LaunchScreen.storyboard in Resources */,
+				C5126AD52574E93A0069A5CE /* DroidKufi-Regular.ttf in Resources */,
+				C5126AD92574E93A0069A5CE /* english.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10617E607F914A983EBC24D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CASHUSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE8E20488E2FDB39E5C1D3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CASHUSDK/Pods-CASHUSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CASHUSDK/Pods-CASHUSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CASHUSDK/Pods-CASHUSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51269CC2574E8670069A5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5126B142574E93A0069A5CE /* UIButtonLight.swift in Sources */,
+				C5126AE12574E93A0069A5CE /* PaymentDetailsViewController.swift in Sources */,
+				C5126B042574E93A0069A5CE /* ValidationsUtility.swift in Sources */,
+				C5126AF12574E93A0069A5CE /* CASHUBodyResponse.swift in Sources */,
+				C5126B102574E93A0069A5CE /* UILabelBold.swift in Sources */,
+				C5126B0E2574E93A0069A5CE /* BackEndConfigurations.swift in Sources */,
+				C5126B0D2574E93A0069A5CE /* PaymentDataCenter.swift in Sources */,
+				C5126ADD2574E93A0069A5CE /* TestingConfigurationsSignInViewController.swift in Sources */,
+				C5126AE22574E93A0069A5CE /* FessTableViewCell.swift in Sources */,
+				C5126AEC2574E93A0069A5CE /* User.swift in Sources */,
+				C5126B072574E93A0069A5CE /* ThreadsUtility.swift in Sources */,
+				C5126B112574E93A0069A5CE /* UILabelLight.swift in Sources */,
+				C5126AFE2574E93A0069A5CE /* IPUtility.swift in Sources */,
+				C5126AF32574E93A0069A5CE /* AccountInfo.swift in Sources */,
+				C5126B002574E93A0069A5CE /* BlowfishWrapper.swift in Sources */,
+				C5126AF72574E93A0069A5CE /* OperationIDs.swift in Sources */,
+				C5126B122574E93A0069A5CE /* UILabelRegular.swift in Sources */,
+				C5126B032574E93A0069A5CE /* AnimationsUtility.swift in Sources */,
+				C5126AEF2574E93A0069A5CE /* CASHUHeaderResponse.swift in Sources */,
+				C5126AEB2574E93A0069A5CE /* PaymentDetails.swift in Sources */,
+				C5126AC92574E9390069A5CE /* ProductsListViewController.swift in Sources */,
+				C51269D82574E8670069A5CE /* ViewController.swift in Sources */,
+				C5126B132574E93A0069A5CE /* UIButtonBold.swift in Sources */,
+				C5126B1B2574E93A0069A5CE /* UITextFieldRegular.swift in Sources */,
+				C5126AFA2574E93A0069A5CE /* ImageDataProvider.swift in Sources */,
+				C5126AFB2574E93A0069A5CE /* NetworkManager.swift in Sources */,
+				C5126AF42574E93A0069A5CE /* PaymentResult.swift in Sources */,
+				C5126AF82574E93A0069A5CE /* ConnectionManager.swift in Sources */,
+				C5126ACF2574E9390069A5CE /* Product.swift in Sources */,
+				C5126AFD2574E93A0069A5CE /* LocalizationManager.swift in Sources */,
+				C5126ACA2574E9390069A5CE /* ProductListTableViewCell.swift in Sources */,
+				C5126AF22574E93A0069A5CE /* CASHUFooterResponse.swift in Sources */,
+				C5126B012574E93A0069A5CE /* ConstraintsUtility.swift in Sources */,
+				C5126AF02574E93A0069A5CE /* CASHUResponse.swift in Sources */,
+				C5126B152574E93A0069A5CE /* UIButtonRegular.swift in Sources */,
+				C5126AD22574E9390069A5CE /* CASHURouter.swift in Sources */,
+				C5126B052574E93A0069A5CE /* ColorsUtility.swift in Sources */,
+				C5126B1A2574E93A0069A5CE /* UITextFieldLight.swift in Sources */,
+				C5126B1E2574E93A0069A5CE /* CASHUServices.swift in Sources */,
+				C5126AF52574E93A0069A5CE /* LoginQuery.swift in Sources */,
+				C5126AF62574E93A0069A5CE /* GeneralDelegates.swift in Sources */,
+				C51269D42574E8670069A5CE /* AppDelegate.swift in Sources */,
+				C5126AED2574E93A0069A5CE /* CASHUSDKToken.swift in Sources */,
+				C5126B082574E93A0069A5CE /* RegexValidatorUtility.swift in Sources */,
+				C5126AD12574E9390069A5CE /* PopupViewController.swift in Sources */,
+				C5126AF92574E93A0069A5CE /* ConnectionRequest.swift in Sources */,
+				C5126B0A2574E93A0069A5CE /* LoadingView.swift in Sources */,
+				C5126AE72574E93A0069A5CE /* UserIdentificationInterface.swift in Sources */,
+				C5126ACC2574E9390069A5CE /* PaymentMethodsViewController.swift in Sources */,
+				C5126B182574E93A0069A5CE /* UITextViewRegular.swift in Sources */,
+				C5126B162574E93A0069A5CE /* UITextViewBold.swift in Sources */,
+				C5126B172574E93A0069A5CE /* UITextViewLight.swift in Sources */,
+				C5126AFF2574E93A0069A5CE /* UIUtilities.swift in Sources */,
+				C5126B022574E93A0069A5CE /* DateUtility.swift in Sources */,
+				C5126AE92574E93A0069A5CE /* MerchantDetails.swift in Sources */,
+				C5126ACE2574E9390069A5CE /* PaymentMethod.swift in Sources */,
+				C5126B0C2574E93A0069A5CE /* CASHUConfigurationsCenter.swift in Sources */,
+				C5126ADB2574E93A0069A5CE /* TestingConfigurationsInterface.swift in Sources */,
+				C5126B1F2574E93A0069A5CE /* ProductDetails.swift in Sources */,
+				C5126AE82574E93A0069A5CE /* SignInViewController.swift in Sources */,
+				C5126AFC2574E93A0069A5CE /* Reachability.swift in Sources */,
+				C5126AEA2574E93A0069A5CE /* FeesModel.swift in Sources */,
+				C5126AE52574E93A0069A5CE /* InitializationViewController.swift in Sources */,
+				C5126B0B2574E93A0069A5CE /* UITextFieldExtensions.swift in Sources */,
+				C5126B0F2574E93A0069A5CE /* UserIdentificationDataCenter.swift in Sources */,
+				C5126ADF2574E93A0069A5CE /* PaymentSuccessViewController.swift in Sources */,
+				C5126B192574E93A0069A5CE /* UITextFieldBold.swift in Sources */,
+				C5126ACD2574E9390069A5CE /* PaymentMethodsTableViewCell.swift in Sources */,
+				C5126B062574E93A0069A5CE /* ParsingUtility.swift in Sources */,
+				C5126ADC2574E93A0069A5CE /* TestingConfigurationsViewController.swift in Sources */,
+				C5126AEE2574E93A0069A5CE /* CASHUToken.swift in Sources */,
+				C51269D62574E8670069A5CE /* SceneDelegate.swift in Sources */,
+				C5126AE42574E93A0069A5CE /* InitializationInterface.swift in Sources */,
+				C5126B202574E93A0069A5CE /* CASHUConfigurations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C51269D92574E8670069A5CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51269DA2574E8670069A5CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51269DE2574E8680069A5CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51269DF2574E8680069A5CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C5126ABB2574E9390069A5CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5126ABC2574E9390069A5CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C5126ABD2574E9390069A5CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5126ABE2574E9390069A5CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51269E22574E8680069A5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C51269E32574E8680069A5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51269E52574E8680069A5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE6638FB981DA157A96F07C /* Pods-CASHUSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXD8MG5868;
+				INFOPLIST_FILE = CASHUSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cashu.CASHUSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51269E62574E8680069A5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC202B4DC1E9E079FAD9D8ED /* Pods-CASHUSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXD8MG5868;
+				INFOPLIST_FILE = CASHUSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cashu.CASHUSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51269CB2574E8670069A5CE /* Build configuration list for PBXProject "CASHUSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51269E22574E8680069A5CE /* Debug */,
+				C51269E32574E8680069A5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51269E42574E8680069A5CE /* Build configuration list for PBXNativeTarget "CASHUSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51269E52574E8680069A5CE /* Debug */,
+				C51269E62574E8680069A5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51269C82574E8670069A5CE /* Project object */;
+}

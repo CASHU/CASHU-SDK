@@ -1,0 +1,652 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReachabilityError"
+- "ReachabilityChangedNotification"
+- "callback"
+- "Reachability"
+provides-nominal:
+- "8CASHUSDK17ReachabilityErrorO"
+- "8CASHUSDK12ReachabilityC"
+- "8CASHUSDK12ReachabilityC13NetworkStatusO"
+provides-member:
+- ["8CASHUSDK17ReachabilityErrorO", ""]
+- ["8CASHUSDK12ReachabilityC", ""]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", ""]
+- ["8CASHUSDK12ReachabilityC", "startNotifier"]
+- ["8CASHUSDK12ReachabilityC", "stopNotifier"]
+- ["8CASHUSDK12ReachabilityC", "isReachable"]
+- ["8CASHUSDK12ReachabilityC", "isReachableViaWWAN"]
+- ["8CASHUSDK12ReachabilityC", "isReachableViaWiFi"]
+- ["8CASHUSDK12ReachabilityC", "description"]
+provides-dynamic-lookup:
+- "currentReachabilityStatus"
+- "currentReachabilityString"
+- "description"
+- "isConnectionOnDemandFlagSet"
+- "isConnectionOnTrafficFlagSet"
+- "isConnectionOnTrafficOrDemandFlagSet"
+- "isConnectionRequiredAndTransientFlagSet"
+- "isConnectionRequiredFlagSet"
+- "isDirectFlagSet"
+- "isInterventionRequiredFlagSet"
+- "isLocalAddressFlagSet"
+- "isOnWWANFlagSet"
+- "isReachable"
+- "isReachableFlagSet"
+- "isReachableViaWWAN"
+- "isReachableViaWiFi"
+- "isRunningOnDevice"
+- "isTransientConnectionFlagSet"
+- "notifierRunning"
+- "previousFlags"
+- "reachabilityChanged"
+- "reachabilityFlags"
+- "reachabilityRef"
+- "reachabilitySerialQueue"
+- "reachableOnWWAN"
+- "startNotifier"
+- "stopNotifier"
+- "whenReachable"
+- "whenUnreachable"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- !private "AF_INET"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "NSNotification"
+- "NetworkReachable"
+- "NetworkStatus"
+- "NetworkUnreachable"
+- !private "NotificationCenter"
+- "Reachability"
+- "ReachabilityChangedNotification"
+- "ReachabilityError"
+- "SCNetworkReachability"
+- !private "SCNetworkReachabilityContext"
+- "SCNetworkReachabilityCreateWithAddress"
+- !private "SCNetworkReachabilityCreateWithName"
+- "SCNetworkReachabilityFlags"
+- "SCNetworkReachabilityGetFlags"
+- !private "SCNetworkReachabilitySetCallback"
+- !private "SCNetworkReachabilitySetDispatchQueue"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "callback"
+- !private "currentReachabilityStatus"
+- !private "isConnectionOnDemandFlagSet"
+- !private "isConnectionOnTrafficFlagSet"
+- !private "isConnectionRequiredAndTransientFlagSet"
+- !private "isConnectionRequiredFlagSet"
+- !private "isDirectFlagSet"
+- !private "isInterventionRequiredFlagSet"
+- !private "isLocalAddressFlagSet"
+- !private "isOnWWANFlagSet"
+- !private "isReachable"
+- !private "isReachableFlagSet"
+- !private "isReachableViaWiFi"
+- !private "isRunningOnDevice"
+- !private "isTransientConnectionFlagSet"
+- !private "notifierRunning"
+- !private "previousFlags"
+- !private "reachabilityFlags"
+- !private "reachabilityRef"
+- !private "reachabilitySerialQueue"
+- !private "reachableOnWWAN"
+- !private "sa_family_t"
+- "sockaddr"
+- "sockaddr_in"
+- !private "stopNotifier"
+- !private "whenReachable"
+- !private "whenUnreachable"
+- !private "withUnsafeMutablePointer"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["10Accelerate10BNNSScalarP", "init"]
+- ["SK", ""]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "post"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Name"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "notReachable"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- ["s23CustomStringConvertibleP", "reachableViaWWAN"]
+- ["s23CustomStringConvertibleP", "reachableViaWiFi"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Element"]
+- ["SQ", "Name"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "async"]
+- !private ["SQ", "connectionOnDemand"]
+- !private ["SQ", "connectionOnTraffic"]
+- !private ["SQ", "connectionRequired"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "default"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "intersection"]
+- !private ["SQ", "interventionRequired"]
+- !private ["SQ", "isDirect"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isLocalAddress"]
+- !private ["SQ", "isWWAN"]
+- !private ["SQ", "main"]
+- ["SQ", "notReachable"]
+- !private ["SQ", "post"]
+- !private ["SQ", "reachable"]
+- ["SQ", "reachableViaWWAN"]
+- ["SQ", "reachableViaWiFi"]
+- !private ["SQ", "transientConnection"]
+- !private ["s5ErrorP", "UnableToSetCallback"]
+- !private ["s5ErrorP", "UnableToSetDispatchQueue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "=="]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "connectionOnDemand"]
+- !private ["s25ExpressibleByArrayLiteralP", "connectionOnTraffic"]
+- !private ["s25ExpressibleByArrayLiteralP", "connectionRequired"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "intersection"]
+- !private ["s25ExpressibleByArrayLiteralP", "interventionRequired"]
+- !private ["s25ExpressibleByArrayLiteralP", "isDirect"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "isLocalAddress"]
+- !private ["s25ExpressibleByArrayLiteralP", "isWWAN"]
+- !private ["s25ExpressibleByArrayLiteralP", "reachable"]
+- !private ["s25ExpressibleByArrayLiteralP", "transientConnection"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "Name"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "async"]
+- !private ["SH", "default"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- ["SH", "notReachable"]
+- !private ["SH", "post"]
+- ["SH", "reachableViaWWAN"]
+- ["SH", "reachableViaWiFi"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["So8NSCodingP", "Name"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "Name"]
+- ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "Name"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "postNotification"]
+- !private ["So8NSObjectC", "postNotificationName"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", "Name"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "postNotification"]
+- !private ["So8NSObjectP", "postNotificationName"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- ["So18NSNotificationNamea", "RawValue"]
+- ["So18NSNotificationNamea", "init"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "=="]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "String"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", ""]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "__derived_enum_equals"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "_rawHashValue"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "description"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "hash"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "hashValue"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "notReachable"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "reachableViaWWAN"]
+- ["8CASHUSDK12ReachabilityC13NetworkStatusO", "reachableViaWiFi"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "=="]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "connectionOnDemand"]
+- !private ["s9OptionSetP", "connectionOnTraffic"]
+- !private ["s9OptionSetP", "connectionRequired"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "intersection"]
+- !private ["s9OptionSetP", "interventionRequired"]
+- !private ["s9OptionSetP", "isDirect"]
+- !private ["s9OptionSetP", "isEmpty"]
+- !private ["s9OptionSetP", "isLocalAddress"]
+- !private ["s9OptionSetP", "isWWAN"]
+- !private ["s9OptionSetP", "reachable"]
+- !private ["s9OptionSetP", "transientConnection"]
+- !private ["SY", "=="]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- !private ["SY", "connectionOnDemand"]
+- !private ["SY", "connectionOnTraffic"]
+- !private ["SY", "connectionRequired"]
+- !private ["SY", "contains"]
+- ["SY", "init"]
+- !private ["SY", "intersection"]
+- !private ["SY", "interventionRequired"]
+- !private ["SY", "isDirect"]
+- !private ["SY", "isEmpty"]
+- !private ["SY", "isLocalAddress"]
+- !private ["SY", "isWWAN"]
+- !private ["SY", "reachable"]
+- !private ["SY", "transientConnection"]
+- !private ["8CASHUSDK12ReachabilityC", "AF_INET"]
+- ["8CASHUSDK12ReachabilityC", "Bool"]
+- ["8CASHUSDK12ReachabilityC", "CustomStringConvertible"]
+- ["8CASHUSDK12ReachabilityC", "DispatchQueue"]
+- !private ["8CASHUSDK12ReachabilityC", "MemoryLayout"]
+- ["8CASHUSDK12ReachabilityC", "NetworkReachable"]
+- ["8CASHUSDK12ReachabilityC", "NetworkStatus"]
+- ["8CASHUSDK12ReachabilityC", "NetworkUnreachable"]
+- !private ["8CASHUSDK12ReachabilityC", "NotificationCenter"]
+- ["8CASHUSDK12ReachabilityC", "Reachability"]
+- !private ["8CASHUSDK12ReachabilityC", "ReachabilityChangedNotification"]
+- !private ["8CASHUSDK12ReachabilityC", "ReachabilityError"]
+- ["8CASHUSDK12ReachabilityC", "SCNetworkReachability"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilityContext"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilityCreateWithAddress"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilityCreateWithName"]
+- ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilityFlags"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilityGetFlags"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilitySetCallback"]
+- !private ["8CASHUSDK12ReachabilityC", "SCNetworkReachabilitySetDispatchQueue"]
+- ["8CASHUSDK12ReachabilityC", "String"]
+- !private ["8CASHUSDK12ReachabilityC", "UInt8"]
+- !private ["8CASHUSDK12ReachabilityC", "Unmanaged"]
+- !private ["8CASHUSDK12ReachabilityC", "UnsafeMutablePointer"]
+- !private ["8CASHUSDK12ReachabilityC", "UnsafeMutableRawPointer"]
+- !private ["8CASHUSDK12ReachabilityC", "UnsafePointer"]
+- ["8CASHUSDK12ReachabilityC", ""]
+- !private ["8CASHUSDK12ReachabilityC", "callback"]
+- ["8CASHUSDK12ReachabilityC", "currentReachabilityStatus"]
+- ["8CASHUSDK12ReachabilityC", "currentReachabilityString"]
+- ["8CASHUSDK12ReachabilityC", "deinit"]
+- ["8CASHUSDK12ReachabilityC", "description"]
+- ["8CASHUSDK12ReachabilityC", "init"]
+- !private ["8CASHUSDK12ReachabilityC", "isConnectionOnDemandFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isConnectionOnTrafficFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isConnectionOnTrafficOrDemandFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isConnectionRequiredAndTransientFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isConnectionRequiredFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isDirectFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isInterventionRequiredFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isLocalAddressFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "isOnWWANFlagSet"]
+- ["8CASHUSDK12ReachabilityC", "isReachable"]
+- !private ["8CASHUSDK12ReachabilityC", "isReachableFlagSet"]
+- ["8CASHUSDK12ReachabilityC", "isReachableViaWWAN"]
+- ["8CASHUSDK12ReachabilityC", "isReachableViaWiFi"]
+- !private ["8CASHUSDK12ReachabilityC", "isRunningOnDevice"]
+- !private ["8CASHUSDK12ReachabilityC", "isTransientConnectionFlagSet"]
+- !private ["8CASHUSDK12ReachabilityC", "notifierRunning"]
+- !private ["8CASHUSDK12ReachabilityC", "previousFlags"]
+- !private ["8CASHUSDK12ReachabilityC", "reachabilityChanged"]
+- !private ["8CASHUSDK12ReachabilityC", "reachabilityFlags"]
+- !private ["8CASHUSDK12ReachabilityC", "reachabilityRef"]
+- !private ["8CASHUSDK12ReachabilityC", "reachabilitySerialQueue"]
+- ["8CASHUSDK12ReachabilityC", "reachableOnWWAN"]
+- !private ["8CASHUSDK12ReachabilityC", "sa_family_t"]
+- !private ["8CASHUSDK12ReachabilityC", "sockaddr"]
+- ["8CASHUSDK12ReachabilityC", "startNotifier"]
+- ["8CASHUSDK12ReachabilityC", "stopNotifier"]
+- ["8CASHUSDK12ReachabilityC", "whenReachable"]
+- ["8CASHUSDK12ReachabilityC", "whenUnreachable"]
+- !private ["8CASHUSDK12ReachabilityC", "withUnsafeMutablePointer"]
+- !private ["8CASHUSDK12ReachabilityC", "withUnsafePointer"]
+- ["8CASHUSDK17ReachabilityErrorO", "FailedToCreateWithAddress"]
+- ["8CASHUSDK17ReachabilityErrorO", "FailedToCreateWithHostname"]
+- ["8CASHUSDK17ReachabilityErrorO", "String"]
+- ["8CASHUSDK17ReachabilityErrorO", "UnableToSetCallback"]
+- ["8CASHUSDK17ReachabilityErrorO", "UnableToSetDispatchQueue"]
+- ["8CASHUSDK17ReachabilityErrorO", ""]
+- ["8CASHUSDK17ReachabilityErrorO", "_code"]
+- ["8CASHUSDK17ReachabilityErrorO", "_domain"]
+- ["8CASHUSDK17ReachabilityErrorO", "_getEmbeddedNSError"]
+- ["8CASHUSDK17ReachabilityErrorO", "_userInfo"]
+- ["8CASHUSDK17ReachabilityErrorO", "code"]
+- ["8CASHUSDK17ReachabilityErrorO", "domain"]
+- ["8CASHUSDK17ReachabilityErrorO", "sockaddr_in"]
+- ["8CASHUSDK17ReachabilityErrorO", "userInfo"]
+- !private ["So28SCNetworkReachabilityContexta", "info"]
+- !private ["So28SCNetworkReachabilityContexta", "init"]
+- !private ["So26SCNetworkReachabilityFlagsV", "=="]
+- !private ["So26SCNetworkReachabilityFlagsV", "ArrayLiteralElement"]
+- !private ["So26SCNetworkReachabilityFlagsV", "Element"]
+- !private ["So26SCNetworkReachabilityFlagsV", "RawValue"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionOnDemand"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionOnTraffic"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionRequired"]
+- !private ["So26SCNetworkReachabilityFlagsV", "contains"]
+- !private ["So26SCNetworkReachabilityFlagsV", "init"]
+- !private ["So26SCNetworkReachabilityFlagsV", "intersection"]
+- !private ["So26SCNetworkReachabilityFlagsV", "interventionRequired"]
+- !private ["So26SCNetworkReachabilityFlagsV", "isDirect"]
+- !private ["So26SCNetworkReachabilityFlagsV", "isEmpty"]
+- !private ["So26SCNetworkReachabilityFlagsV", "isLocalAddress"]
+- !private ["So26SCNetworkReachabilityFlagsV", "isWWAN"]
+- !private ["So26SCNetworkReachabilityFlagsV", "reachable"]
+- !private ["So26SCNetworkReachabilityFlagsV", "transientConnection"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- !private ["s10SetAlgebraP", "=="]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "connectionOnDemand"]
+- !private ["s10SetAlgebraP", "connectionOnTraffic"]
+- !private ["s10SetAlgebraP", "connectionRequired"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "intersection"]
+- !private ["s10SetAlgebraP", "interventionRequired"]
+- !private ["s10SetAlgebraP", "isDirect"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "isLocalAddress"]
+- !private ["s10SetAlgebraP", "isWWAN"]
+- !private ["s10SetAlgebraP", "reachable"]
+- !private ["s10SetAlgebraP", "transientConnection"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
+- ["So10UIKeyInputP", ""]
+- ["So17UITextInputTraitsP", ""]
+- !private ["s5UInt8V", "init"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["Sp", "init"]
+- !private ["Sv", "init"]
+- !private ["SP", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- ["s21_ObjectiveCBridgeableP", "RawValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "init"]
+- !private ["s14_StringElementP", "init"]
+- ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["So8sockaddrV", "init"]
+- !private ["So8sockaddrV", "sa_family"]
+- !private ["So8sockaddrV", "sa_len"]
+- !private ["10Accelerate23vDSP_IntegerConvertableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "10Accelerate10BNNSScalarP"
+- "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So14NSNotificationC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So18NSNotificationNamea"
+- "8CASHUSDK12ReachabilityC13NetworkStatusO"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- "SY"
+- "8CASHUSDK12ReachabilityC"
+- "8CASHUSDK17ReachabilityErrorO"
+- !private "So28SCNetworkReachabilityContexta"
+- !private "So26SCNetworkReachabilityFlagsV"
+- !private "s10SIMDScalarP"
+- "7Combine9SchedulerP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So10UIKeyInputP"
+- "So17UITextInputTraitsP"
+- !private "s5UInt8V"
+- !private "s9UnmanagedV"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- "s20_SwiftNewtypeWrapperP"
+- !private "So8sockaddrV"
+- !private "10Accelerate23vDSP_IntegerConvertableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f2ad2a1c69108305ce3c398687e42831"

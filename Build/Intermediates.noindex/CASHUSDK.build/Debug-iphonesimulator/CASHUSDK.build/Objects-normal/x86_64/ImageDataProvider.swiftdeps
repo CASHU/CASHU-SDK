@@ -1,0 +1,310 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageDataProviderDelegate"
+- "ImageDataProvider"
+provides-nominal:
+- "8CASHUSDK25ImageDataProviderDelegateP"
+- "8CASHUSDK17ImageDataProviderC"
+provides-member:
+- ["8CASHUSDK25ImageDataProviderDelegateP", ""]
+- ["8CASHUSDK17ImageDataProviderC", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "isDownloading"
+- "loadImageWithURL"
+- "requestDidCompleteLoading"
+- "requestDidRecieveError"
+- "requestDidUploadWithProgress"
+- "specialKey"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "ConnectionRequest"
+- "ConnectionRequestDelegate"
+- !private "ConnectionRequestHTTPMethod"
+- "Data"
+- "Error"
+- "Float"
+- "ImageDataProvider"
+- "ImageDataProviderDelegate"
+- "NSObject"
+- "NSObjectProtocol"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- !private "delegate"
+- !private "isDownloading"
+- !private "specialKey"
+depends-member:
+- !private ["s7CVarArgP", "ConnectionRequest"]
+- !private ["s7CVarArgP", "ConnectionRequestHTTPMethod"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initiateRequest"]
+- !private ["s7CVarArgP", "isCompleteURL"]
+- !private ["s7CVarArgP", "isDownloading"]
+- !private ["s7CVarArgP", "loadImageWithURL"]
+- ["s7CVarArgP", "requestDidCompleteLoading"]
+- ["s7CVarArgP", "requestDidRecieveError"]
+- ["s7CVarArgP", "requestDidUploadWithProgress"]
+- !private ["s7CVarArgP", "specialKey"]
+- !private ["8CASHUSDK17ConnectionRequestC", "init"]
+- !private ["8CASHUSDK17ConnectionRequestC", "initiateRequest"]
+- !private ["8CASHUSDK17ConnectionRequestC", "isCompleteURL"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "ConnectionRequest"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "ConnectionRequestHTTPMethod"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "UIImage"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", ""]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "delegate"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "isDownloading"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidCompleteLoading"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidRecieveError"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidUploadWithProgress"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "specialKey"]
+- !private ["8CASHUSDK27ConnectionRequestHTTPMethodO", "get"]
+- !private ["s28CustomDebugStringConvertibleP", "ConnectionRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "ConnectionRequestHTTPMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initiateRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "isCompleteURL"]
+- !private ["s28CustomDebugStringConvertibleP", "isDownloading"]
+- !private ["s28CustomDebugStringConvertibleP", "loadImageWithURL"]
+- ["s28CustomDebugStringConvertibleP", "requestDidCompleteLoading"]
+- ["s28CustomDebugStringConvertibleP", "requestDidRecieveError"]
+- ["s28CustomDebugStringConvertibleP", "requestDidUploadWithProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "specialKey"]
+- !private ["s23CustomStringConvertibleP", "ConnectionRequest"]
+- !private ["s23CustomStringConvertibleP", "ConnectionRequestHTTPMethod"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initiateRequest"]
+- !private ["s23CustomStringConvertibleP", "isCompleteURL"]
+- !private ["s23CustomStringConvertibleP", "isDownloading"]
+- !private ["s23CustomStringConvertibleP", "loadImageWithURL"]
+- ["s23CustomStringConvertibleP", "requestDidCompleteLoading"]
+- ["s23CustomStringConvertibleP", "requestDidRecieveError"]
+- ["s23CustomStringConvertibleP", "requestDidUploadWithProgress"]
+- !private ["s23CustomStringConvertibleP", "specialKey"]
+- !private ["SQ", "ConnectionRequest"]
+- !private ["SQ", "ConnectionRequestHTTPMethod"]
+- !private ["SQ", "LoadImageGeneralOperationID"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initiateRequest"]
+- !private ["SQ", "isCompleteURL"]
+- !private ["SQ", "isDownloading"]
+- !private ["SQ", "loadImageWithURL"]
+- ["SQ", "requestDidCompleteLoading"]
+- ["SQ", "requestDidRecieveError"]
+- ["SQ", "requestDidUploadWithProgress"]
+- !private ["SQ", "specialKey"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "ConnectionRequest"]
+- !private ["SH", "ConnectionRequestHTTPMethod"]
+- !private ["SH", "LoadImageGeneralOperationID"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "initiateRequest"]
+- !private ["SH", "isCompleteURL"]
+- !private ["SH", "isDownloading"]
+- !private ["SH", "loadImageWithURL"]
+- ["SH", "requestDidCompleteLoading"]
+- ["SH", "requestDidRecieveError"]
+- ["SH", "requestDidUploadWithProgress"]
+- !private ["SH", "specialKey"]
+- ["8CASHUSDK17ImageDataProviderC", "ConnectionRequest"]
+- !private ["8CASHUSDK17ImageDataProviderC", "ConnectionRequestHTTPMethod"]
+- ["8CASHUSDK17ImageDataProviderC", "Data"]
+- ["8CASHUSDK17ImageDataProviderC", "Error"]
+- ["8CASHUSDK17ImageDataProviderC", "Float"]
+- ["8CASHUSDK17ImageDataProviderC", "ImageDataProviderDelegate"]
+- ["8CASHUSDK17ImageDataProviderC", "String"]
+- !private ["8CASHUSDK17ImageDataProviderC", "UIImage"]
+- ["8CASHUSDK17ImageDataProviderC", ""]
+- ["8CASHUSDK17ImageDataProviderC", "deinit"]
+- !private ["8CASHUSDK17ImageDataProviderC", "delegate"]
+- ["8CASHUSDK17ImageDataProviderC", "init"]
+- ["8CASHUSDK17ImageDataProviderC", "isDownloading"]
+- ["8CASHUSDK17ImageDataProviderC", "loadImageWithURL"]
+- ["8CASHUSDK17ImageDataProviderC", "requestDidCompleteLoading"]
+- ["8CASHUSDK17ImageDataProviderC", "requestDidRecieveError"]
+- ["8CASHUSDK17ImageDataProviderC", "requestDidUploadWithProgress"]
+- ["8CASHUSDK17ImageDataProviderC", "specialKey"]
+- ["8CASHUSDK25ImageDataProviderDelegateP", "String"]
+- ["8CASHUSDK25ImageDataProviderDelegateP", "UIImage"]
+- ["8CASHUSDK25ImageDataProviderDelegateP", "didFailLoadingImage"]
+- ["8CASHUSDK25ImageDataProviderDelegateP", "didLoadImage"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "ConnectionRequest"]
+- !private ["So8NSObjectC", "ConnectionRequestHTTPMethod"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "ImageDataProviderDelegate"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initiateRequest"]
+- !private ["So8NSObjectC", "isCompleteURL"]
+- ["So8NSObjectC", "isDownloading"]
+- ["So8NSObjectC", "loadImageWithURL"]
+- ["So8NSObjectC", "requestDidCompleteLoading"]
+- ["So8NSObjectC", "requestDidRecieveError"]
+- ["So8NSObjectC", "requestDidUploadWithProgress"]
+- ["So8NSObjectC", "specialKey"]
+- ["So8NSObjectP", "ConnectionRequest"]
+- !private ["So8NSObjectP", "ConnectionRequestHTTPMethod"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "ImageDataProviderDelegate"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "didFailLoadingImage"]
+- ["So8NSObjectP", "didLoadImage"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initiateRequest"]
+- !private ["So8NSObjectP", "isCompleteURL"]
+- ["So8NSObjectP", "isDownloading"]
+- ["So8NSObjectP", "loadImageWithURL"]
+- ["So8NSObjectP", "requestDidCompleteLoading"]
+- ["So8NSObjectP", "requestDidRecieveError"]
+- ["So8NSObjectP", "requestDidUploadWithProgress"]
+- ["So8NSObjectP", "specialKey"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["8CASHUSDK11OperationIDO", "LoadImageGeneralOperationID"]
+- !private ["SY", "LoadImageGeneralOperationID"]
+- !private ["SY", "get"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionRequestHTTPMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initiateRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCompleteURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDownloading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadImageWithURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidCompleteLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidRecieveError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidUploadWithProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "specialKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionRequestHTTPMethod"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initiateRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isCompleteURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isDownloading"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadImageWithURL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidCompleteLoading"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidRecieveError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidUploadWithProgress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "specialKey"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "8CASHUSDK17ConnectionRequestC"
+- "8CASHUSDK25ConnectionRequestDelegateP"
+- !private "8CASHUSDK27ConnectionRequestHTTPMethodO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "8CASHUSDK17ImageDataProviderC"
+- "8CASHUSDK25ImageDataProviderDelegateP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "8CASHUSDK11OperationIDO"
+- !private "SY"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ce72f12ea80a2aae084557aad3f70e8"

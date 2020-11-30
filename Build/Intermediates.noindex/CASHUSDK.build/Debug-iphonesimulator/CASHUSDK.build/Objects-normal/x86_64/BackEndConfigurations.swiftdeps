@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Server"
+- "BackEndConfigurations"
+provides-nominal:
+- "8CASHUSDK6ServerO"
+- "8CASHUSDK21BackEndConfigurationsC"
+provides-member:
+- ["8CASHUSDK6ServerO", ""]
+- ["8CASHUSDK21BackEndConfigurationsC", ""]
+provides-dynamic-lookup:
+- "Authentication_key"
+- "Authentication_userName"
+- "ENCRYPTION_IV"
+- "ENCRYPTION_KEY"
+- "STORE_ENCRYPTION_IV"
+- "STORE_ENCRYPTION_KEY"
+- "enableQuickTesting"
+- "getImagesURL"
+- "getServiceURL"
+- "isQuickTestingEnabled"
+- "key"
+- "productionCASHU_SECRET_KEY"
+- "productionEncIV"
+- "productionEncKey"
+- "productionImagesURL"
+- "productionServiceURL"
+- "secretKey"
+- "testingEncIV"
+- "testingEncKey"
+- "uatCASHU_SECRET_KEY"
+- "uatImagesURL"
+- "uatServiceURL"
+- "userName"
+depends-top-level:
+- "+"
+- "=="
+- !private "Authentication_key"
+- !private "Authentication_userName"
+- "BackEndConfigurations"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CASHUConfigurationsCenter"
+- !private "ENCRYPTION_IV"
+- !private "ENCRYPTION_KEY"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- !private "STORE_ENCRYPTION_IV"
+- !private "STORE_ENCRYPTION_KEY"
+- "Server"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- !private "enableQuickTesting"
+- !private "productionCASHU_SECRET_KEY"
+- !private "productionImagesURL"
+- !private "productionServiceURL"
+- !private "uatCASHU_SECRET_KEY"
+- !private "uatImagesURL"
+- !private "uatServiceURL"
+depends-member:
+- !private ["8CASHUSDK21BackEndConfigurationsC", "Authentication_key"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "Authentication_userName"]
+- ["8CASHUSDK21BackEndConfigurationsC", "Bool"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "ENCRYPTION_IV"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "ENCRYPTION_KEY"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "STORE_ENCRYPTION_IV"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "STORE_ENCRYPTION_KEY"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "Server"]
+- ["8CASHUSDK21BackEndConfigurationsC", "String"]
+- ["8CASHUSDK21BackEndConfigurationsC", ""]
+- ["8CASHUSDK21BackEndConfigurationsC", "deinit"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "enableQuickTesting"]
+- ["8CASHUSDK21BackEndConfigurationsC", "getImagesURL"]
+- ["8CASHUSDK21BackEndConfigurationsC", "getServiceURL"]
+- ["8CASHUSDK21BackEndConfigurationsC", "init"]
+- ["8CASHUSDK21BackEndConfigurationsC", "isQuickTestingEnabled"]
+- ["8CASHUSDK21BackEndConfigurationsC", "key"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "productionCASHU_SECRET_KEY"]
+- ["8CASHUSDK21BackEndConfigurationsC", "productionEncIV"]
+- ["8CASHUSDK21BackEndConfigurationsC", "productionEncKey"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "productionImagesURL"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "productionServiceURL"]
+- ["8CASHUSDK21BackEndConfigurationsC", "secretKey"]
+- ["8CASHUSDK21BackEndConfigurationsC", "testingEncIV"]
+- ["8CASHUSDK21BackEndConfigurationsC", "testingEncKey"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "uatCASHU_SECRET_KEY"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "uatImagesURL"]
+- !private ["8CASHUSDK21BackEndConfigurationsC", "uatServiceURL"]
+- ["8CASHUSDK21BackEndConfigurationsC", "userName"]
+- !private ["8CASHUSDK19CASHUConfigurationsC", "cashuEnvironment"]
+- !private ["8CASHUSDK25CASHUConfigurationsCenterC", "cashuConfigurations"]
+- !private ["8CASHUSDK25CASHUConfigurationsCenterC", "sharedInstance"]
+- !private ["8CASHUSDK17CASHU_EnvironmentO", ""]
+- !private ["8CASHUSDK17CASHU_EnvironmentO", "uat"]
+- !private ["s7CVarArgP", "Authentication_key"]
+- !private ["s7CVarArgP", "Authentication_userName"]
+- !private ["s7CVarArgP", "ENCRYPTION_IV"]
+- !private ["s7CVarArgP", "ENCRYPTION_KEY"]
+- !private ["s7CVarArgP", "STORE_ENCRYPTION_IV"]
+- !private ["s7CVarArgP", "STORE_ENCRYPTION_KEY"]
+- !private ["s7CVarArgP", "Server"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cashuConfigurations"]
+- !private ["s7CVarArgP", "cashuEnvironment"]
+- !private ["s7CVarArgP", "enableQuickTesting"]
+- !private ["s7CVarArgP", "productionCASHU_SECRET_KEY"]
+- !private ["s7CVarArgP", "productionImagesURL"]
+- !private ["s7CVarArgP", "productionServiceURL"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "uatCASHU_SECRET_KEY"]
+- !private ["s7CVarArgP", "uatImagesURL"]
+- !private ["s7CVarArgP", "uatServiceURL"]
+- !private ["s28CustomDebugStringConvertibleP", "Authentication_key"]
+- !private ["s28CustomDebugStringConvertibleP", "Authentication_userName"]
+- !private ["s28CustomDebugStringConvertibleP", "ENCRYPTION_IV"]
+- !private ["s28CustomDebugStringConvertibleP", "ENCRYPTION_KEY"]
+- !private ["s28CustomDebugStringConvertibleP", "STORE_ENCRYPTION_IV"]
+- !private ["s28CustomDebugStringConvertibleP", "STORE_ENCRYPTION_KEY"]
+- !private ["s28CustomDebugStringConvertibleP", "Server"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cashuConfigurations"]
+- !private ["s28CustomDebugStringConvertibleP", "cashuEnvironment"]
+- !private ["s28CustomDebugStringConvertibleP", "enableQuickTesting"]
+- !private ["s28CustomDebugStringConvertibleP", "productionCASHU_SECRET_KEY"]
+- !private ["s28CustomDebugStringConvertibleP", "productionImagesURL"]
+- !private ["s28CustomDebugStringConvertibleP", "productionServiceURL"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "uatCASHU_SECRET_KEY"]
+- !private ["s28CustomDebugStringConvertibleP", "uatImagesURL"]
+- !private ["s28CustomDebugStringConvertibleP", "uatServiceURL"]
+- !private ["s23CustomStringConvertibleP", "Authentication_key"]
+- !private ["s23CustomStringConvertibleP", "Authentication_userName"]
+- !private ["s23CustomStringConvertibleP", "ENCRYPTION_IV"]
+- !private ["s23CustomStringConvertibleP", "ENCRYPTION_KEY"]
+- !private ["s23CustomStringConvertibleP", "STORE_ENCRYPTION_IV"]
+- !private ["s23CustomStringConvertibleP", "STORE_ENCRYPTION_KEY"]
+- !private ["s23CustomStringConvertibleP", "Server"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cashuConfigurations"]
+- !private ["s23CustomStringConvertibleP", "cashuEnvironment"]
+- !private ["s23CustomStringConvertibleP", "enableQuickTesting"]
+- !private ["s23CustomStringConvertibleP", "productionCASHU_SECRET_KEY"]
+- !private ["s23CustomStringConvertibleP", "productionImagesURL"]
+- !private ["s23CustomStringConvertibleP", "productionServiceURL"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "uatCASHU_SECRET_KEY"]
+- !private ["s23CustomStringConvertibleP", "uatImagesURL"]
+- !private ["s23CustomStringConvertibleP", "uatServiceURL"]
+- ["SQ", "=="]
+- !private ["SQ", "Authentication_key"]
+- !private ["SQ", "Authentication_userName"]
+- !private ["SQ", "CASHUConfigurationsCenter"]
+- !private ["SQ", "ENCRYPTION_IV"]
+- !private ["SQ", "ENCRYPTION_KEY"]
+- !private ["SQ", "STORE_ENCRYPTION_IV"]
+- !private ["SQ", "STORE_ENCRYPTION_KEY"]
+- !private ["SQ", "Server"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "cashuConfigurations"]
+- !private ["SQ", "cashuEnvironment"]
+- !private ["SQ", "enableQuickTesting"]
+- !private ["SQ", "getCurrentServer"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "production"]
+- !private ["SQ", "productionCASHU_SECRET_KEY"]
+- !private ["SQ", "productionImagesURL"]
+- !private ["SQ", "productionServiceURL"]
+- !private ["SQ", "sharedInstance"]
+- ["SQ", "uat"]
+- !private ["SQ", "uatCASHU_SECRET_KEY"]
+- !private ["SQ", "uatImagesURL"]
+- !private ["SQ", "uatServiceURL"]
+- ["SH", "=="]
+- !private ["SH", "Authentication_key"]
+- !private ["SH", "Authentication_userName"]
+- !private ["SH", "CASHUConfigurationsCenter"]
+- !private ["SH", "ENCRYPTION_IV"]
+- !private ["SH", "ENCRYPTION_KEY"]
+- !private ["SH", "STORE_ENCRYPTION_IV"]
+- !private ["SH", "STORE_ENCRYPTION_KEY"]
+- !private ["SH", "Server"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "cashuConfigurations"]
+- !private ["SH", "cashuEnvironment"]
+- !private ["SH", "enableQuickTesting"]
+- !private ["SH", "getCurrentServer"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "production"]
+- !private ["SH", "productionCASHU_SECRET_KEY"]
+- !private ["SH", "productionImagesURL"]
+- !private ["SH", "productionServiceURL"]
+- !private ["SH", "sharedInstance"]
+- ["SH", "uat"]
+- !private ["SH", "uatCASHU_SECRET_KEY"]
+- !private ["SH", "uatImagesURL"]
+- !private ["SH", "uatServiceURL"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSObjectC", "Authentication_key"]
+- ["So8NSObjectC", "Authentication_userName"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ENCRYPTION_IV"]
+- ["So8NSObjectC", "ENCRYPTION_KEY"]
+- ["So8NSObjectC", "STORE_ENCRYPTION_IV"]
+- ["So8NSObjectC", "STORE_ENCRYPTION_KEY"]
+- !private ["So8NSObjectC", "Server"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "cashuConfigurations"]
+- !private ["So8NSObjectC", "cashuEnvironment"]
+- ["So8NSObjectC", "enableQuickTesting"]
+- ["So8NSObjectC", "getImagesURL"]
+- ["So8NSObjectC", "getServiceURL"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isQuickTestingEnabled"]
+- ["So8NSObjectC", "key"]
+- ["So8NSObjectC", "productionCASHU_SECRET_KEY"]
+- ["So8NSObjectC", "productionEncIV"]
+- ["So8NSObjectC", "productionEncKey"]
+- ["So8NSObjectC", "productionImagesURL"]
+- ["So8NSObjectC", "productionServiceURL"]
+- ["So8NSObjectC", "secretKey"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "testingEncIV"]
+- ["So8NSObjectC", "testingEncKey"]
+- ["So8NSObjectC", "uatCASHU_SECRET_KEY"]
+- ["So8NSObjectC", "uatImagesURL"]
+- ["So8NSObjectC", "uatServiceURL"]
+- ["So8NSObjectC", "userName"]
+- ["So8NSObjectP", "Authentication_key"]
+- ["So8NSObjectP", "Authentication_userName"]
+- ["So8NSObjectP", "ENCRYPTION_IV"]
+- ["So8NSObjectP", "ENCRYPTION_KEY"]
+- ["So8NSObjectP", "STORE_ENCRYPTION_IV"]
+- ["So8NSObjectP", "STORE_ENCRYPTION_KEY"]
+- !private ["So8NSObjectP", "Server"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cashuConfigurations"]
+- !private ["So8NSObjectP", "cashuEnvironment"]
+- ["So8NSObjectP", "enableQuickTesting"]
+- ["So8NSObjectP", "getImagesURL"]
+- ["So8NSObjectP", "getServiceURL"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isQuickTestingEnabled"]
+- ["So8NSObjectP", "key"]
+- ["So8NSObjectP", "productionCASHU_SECRET_KEY"]
+- ["So8NSObjectP", "productionEncIV"]
+- ["So8NSObjectP", "productionEncKey"]
+- ["So8NSObjectP", "productionImagesURL"]
+- ["So8NSObjectP", "productionServiceURL"]
+- ["So8NSObjectP", "secretKey"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- ["So8NSObjectP", "testingEncIV"]
+- ["So8NSObjectP", "testingEncKey"]
+- ["So8NSObjectP", "uatCASHU_SECRET_KEY"]
+- ["So8NSObjectP", "uatImagesURL"]
+- ["So8NSObjectP", "uatServiceURL"]
+- ["So8NSObjectP", "userName"]
+- ["8CASHUSDK6ServerO", "=="]
+- !private ["8CASHUSDK6ServerO", "CASHUConfigurationsCenter"]
+- ["8CASHUSDK6ServerO", "Server"]
+- ["8CASHUSDK6ServerO", ""]
+- ["8CASHUSDK6ServerO", "__derived_enum_equals"]
+- ["8CASHUSDK6ServerO", "_rawHashValue"]
+- ["8CASHUSDK6ServerO", "getCurrentServer"]
+- ["8CASHUSDK6ServerO", "hash"]
+- ["8CASHUSDK6ServerO", "hashValue"]
+- ["8CASHUSDK6ServerO", "production"]
+- ["8CASHUSDK6ServerO", "uat"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Authentication_key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Authentication_userName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ENCRYPTION_IV"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ENCRYPTION_KEY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "STORE_ENCRYPTION_IV"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "STORE_ENCRYPTION_KEY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Server"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashuConfigurations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashuEnvironment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableQuickTesting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productionCASHU_SECRET_KEY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productionImagesURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productionServiceURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uatCASHU_SECRET_KEY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uatImagesURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uatServiceURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Authentication_key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Authentication_userName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ENCRYPTION_IV"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ENCRYPTION_KEY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "STORE_ENCRYPTION_IV"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "STORE_ENCRYPTION_KEY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Server"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cashuConfigurations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cashuEnvironment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enableQuickTesting"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productionCASHU_SECRET_KEY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productionImagesURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productionServiceURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uatCASHU_SECRET_KEY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uatImagesURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uatServiceURL"]
+depends-nominal:
+- "8CASHUSDK21BackEndConfigurationsC"
+- !private "8CASHUSDK19CASHUConfigurationsC"
+- !private "8CASHUSDK25CASHUConfigurationsCenterC"
+- !private "8CASHUSDK17CASHU_EnvironmentO"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "8CASHUSDK6ServerO"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ec87e010e962aa57fe5a5856e0f5de71"

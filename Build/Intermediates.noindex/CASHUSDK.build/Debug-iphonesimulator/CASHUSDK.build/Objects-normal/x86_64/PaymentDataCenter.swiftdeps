@@ -1,0 +1,555 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentDataCenter"
+provides-nominal:
+- "8CASHUSDK17PaymentDataCenterC"
+provides-member:
+- ["8CASHUSDK17PaymentDataCenterC", ""]
+provides-dynamic-lookup:
+- "delegate"
+- "destroy"
+- "doPaymentURL"
+- "doPaymentWithDelegate"
+- "finalPaymentDetails"
+- "getPaymentDetailsWithDelegate"
+- "paymentDetailsURL"
+- "paymentResult"
+- "privateSharedInstance"
+- "requestDidCompleteLoading"
+- "requestDidRecieveError"
+- "requestDidUploadWithProgress"
+- "sharedInstance"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CASHUConfigurationsCenter"
+- "CASHUResponse"
+- "ConnectionRequest"
+- "ConnectionRequestDelegate"
+- "Data"
+- "Error"
+- "Float"
+- "NSObject"
+- "OperationDelegate"
+- !private "ParsingUtility"
+- "PaymentDataCenter"
+- "PaymentDetails"
+- "PaymentResult"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UserIdentificationDataCenter"
+- !private "delegate"
+- !private "doPaymentURL"
+- !private "paymentDetailsURL"
+- !private "privateSharedInstance"
+depends-member:
+- !private ["8CASHUSDK11AccountInfoC", "loginSession"]
+- !private ["8CASHUSDK17CASHUBodyResponseC", "data"]
+- !private ["8CASHUSDK17CASHUBodyResponseC", "resultCode"]
+- !private ["8CASHUSDK19CASHUConfigurationsC", "environment"]
+- !private ["8CASHUSDK25CASHUConfigurationsCenterC", "cashuConfigurations"]
+- !private ["8CASHUSDK25CASHUConfigurationsCenterC", "sharedInstance"]
+- !private ["8CASHUSDK13CASHUResponseC", "cashuBodyResponse"]
+- !private ["8CASHUSDK13CASHUResponseC", "init"]
+- !private ["8CASHUSDK13CASHUSDKTokenC", "token"]
+- !private ["s7CVarArgP", "CASHUConfigurationsCenter"]
+- !private ["s7CVarArgP", "CASHUResponse"]
+- !private ["s7CVarArgP", "ConnectionRequest"]
+- !private ["s7CVarArgP", "ParsingUtility"]
+- !private ["s7CVarArgP", "PaymentDataCenter"]
+- !private ["s7CVarArgP", "PaymentDetails"]
+- !private ["s7CVarArgP", "PaymentResult"]
+- !private ["s7CVarArgP", "UserIdentificationDataCenter"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accountInfo"]
+- !private ["s7CVarArgP", "cashuBodyResponse"]
+- !private ["s7CVarArgP", "cashuConfigurations"]
+- !private ["s7CVarArgP", "cashuSDKToken"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "destroy"]
+- !private ["s7CVarArgP", "doPaymentURL"]
+- !private ["s7CVarArgP", "doPaymentWithDelegate"]
+- !private ["s7CVarArgP", "environment"]
+- !private ["s7CVarArgP", "finalPaymentDetails"]
+- !private ["s7CVarArgP", "getPaymentDetailsWithDelegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initiateRequest"]
+- !private ["s7CVarArgP", "isFollowingCASHUStructure"]
+- !private ["s7CVarArgP", "loginSession"]
+- !private ["s7CVarArgP", "parseDataAsDictionary"]
+- !private ["s7CVarArgP", "paymentDetailsURL"]
+- !private ["s7CVarArgP", "paymentResult"]
+- !private ["s7CVarArgP", "privateSharedInstance"]
+- ["s7CVarArgP", "requestDidCompleteLoading"]
+- ["s7CVarArgP", "requestDidRecieveError"]
+- ["s7CVarArgP", "requestDidUploadWithProgress"]
+- !private ["s7CVarArgP", "requestID"]
+- !private ["s7CVarArgP", "resultCode"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "token"]
+- !private ["8CASHUSDK17ConnectionRequestC", "init"]
+- !private ["8CASHUSDK17ConnectionRequestC", "initiateRequest"]
+- !private ["8CASHUSDK17ConnectionRequestC", "isFollowingCASHUStructure"]
+- !private ["8CASHUSDK17ConnectionRequestC", "requestID"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "CASHUConfigurationsCenter"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "CASHUResponse"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "ConnectionRequest"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "ParsingUtility"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "PaymentDataCenter"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "PaymentDetails"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "PaymentResult"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "UserIdentificationDataCenter"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", ""]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "accountInfo"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "cashuSDKToken"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "delegate"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "doPaymentURL"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "finalPaymentDetails"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "init"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "paymentDetailsURL"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "paymentResult"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "privateSharedInstance"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidCompleteLoading"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidRecieveError"]
+- ["8CASHUSDK25ConnectionRequestDelegateP", "requestDidUploadWithProgress"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "sharedInstance"]
+- !private ["8CASHUSDK27ConnectionRequestHTTPMethodO", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "CASHUConfigurationsCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "CASHUResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "ConnectionRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "ParsingUtility"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentDataCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentResult"]
+- !private ["s28CustomDebugStringConvertibleP", "UserIdentificationDataCenter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accountInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "cashuBodyResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "cashuConfigurations"]
+- !private ["s28CustomDebugStringConvertibleP", "cashuSDKToken"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "destroy"]
+- !private ["s28CustomDebugStringConvertibleP", "doPaymentURL"]
+- !private ["s28CustomDebugStringConvertibleP", "doPaymentWithDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "environment"]
+- !private ["s28CustomDebugStringConvertibleP", "finalPaymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "getPaymentDetailsWithDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initiateRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "isFollowingCASHUStructure"]
+- !private ["s28CustomDebugStringConvertibleP", "loginSession"]
+- !private ["s28CustomDebugStringConvertibleP", "parseDataAsDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "paymentDetailsURL"]
+- !private ["s28CustomDebugStringConvertibleP", "paymentResult"]
+- !private ["s28CustomDebugStringConvertibleP", "privateSharedInstance"]
+- ["s28CustomDebugStringConvertibleP", "requestDidCompleteLoading"]
+- ["s28CustomDebugStringConvertibleP", "requestDidRecieveError"]
+- ["s28CustomDebugStringConvertibleP", "requestDidUploadWithProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "requestID"]
+- !private ["s28CustomDebugStringConvertibleP", "resultCode"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- !private ["s23CustomStringConvertibleP", "CASHUConfigurationsCenter"]
+- !private ["s23CustomStringConvertibleP", "CASHUResponse"]
+- !private ["s23CustomStringConvertibleP", "ConnectionRequest"]
+- !private ["s23CustomStringConvertibleP", "ParsingUtility"]
+- !private ["s23CustomStringConvertibleP", "PaymentDataCenter"]
+- !private ["s23CustomStringConvertibleP", "PaymentDetails"]
+- !private ["s23CustomStringConvertibleP", "PaymentResult"]
+- !private ["s23CustomStringConvertibleP", "UserIdentificationDataCenter"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accountInfo"]
+- !private ["s23CustomStringConvertibleP", "cashuBodyResponse"]
+- !private ["s23CustomStringConvertibleP", "cashuConfigurations"]
+- !private ["s23CustomStringConvertibleP", "cashuSDKToken"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "destroy"]
+- !private ["s23CustomStringConvertibleP", "doPaymentURL"]
+- !private ["s23CustomStringConvertibleP", "doPaymentWithDelegate"]
+- !private ["s23CustomStringConvertibleP", "environment"]
+- !private ["s23CustomStringConvertibleP", "finalPaymentDetails"]
+- !private ["s23CustomStringConvertibleP", "getPaymentDetailsWithDelegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initiateRequest"]
+- !private ["s23CustomStringConvertibleP", "isFollowingCASHUStructure"]
+- !private ["s23CustomStringConvertibleP", "loginSession"]
+- !private ["s23CustomStringConvertibleP", "parseDataAsDictionary"]
+- !private ["s23CustomStringConvertibleP", "paymentDetailsURL"]
+- !private ["s23CustomStringConvertibleP", "paymentResult"]
+- !private ["s23CustomStringConvertibleP", "privateSharedInstance"]
+- ["s23CustomStringConvertibleP", "requestDidCompleteLoading"]
+- ["s23CustomStringConvertibleP", "requestDidRecieveError"]
+- ["s23CustomStringConvertibleP", "requestDidUploadWithProgress"]
+- !private ["s23CustomStringConvertibleP", "requestID"]
+- !private ["s23CustomStringConvertibleP", "resultCode"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- !private ["8CASHUSDK11EnvironmentO", ""]
+- !private ["8CASHUSDK11EnvironmentO", "dev"]
+- !private ["SQ", "=="]
+- !private ["SQ", "CASHUConfigurationsCenter"]
+- !private ["SQ", "CASHUResponse"]
+- !private ["SQ", "CompletePayment"]
+- !private ["SQ", "ConnectionRequest"]
+- !private ["SQ", "ParsingUtility"]
+- !private ["SQ", "PaymentDataCenter"]
+- !private ["SQ", "PaymentDetails"]
+- !private ["SQ", "PaymentResult"]
+- !private ["SQ", "UserIdentificationDataCenter"]
+- ["SQ", ""]
+- !private ["SQ", "accountInfo"]
+- !private ["SQ", "cashuBodyResponse"]
+- !private ["SQ", "cashuConfigurations"]
+- !private ["SQ", "cashuSDKToken"]
+- !private ["SQ", "data"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "destroy"]
+- !private ["SQ", "dev"]
+- !private ["SQ", "doPaymentURL"]
+- !private ["SQ", "doPaymentWithDelegate"]
+- !private ["SQ", "environment"]
+- !private ["SQ", "finalPaymentDetails"]
+- !private ["SQ", "getPaymentDetailsWithDelegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initiateRequest"]
+- !private ["SQ", "isFollowingCASHUStructure"]
+- !private ["SQ", "loginSession"]
+- !private ["SQ", "parseDataAsDictionary"]
+- !private ["SQ", "paymentDetailsURL"]
+- !private ["SQ", "paymentResult"]
+- !private ["SQ", "post"]
+- !private ["SQ", "privateSharedInstance"]
+- ["SQ", "requestDidCompleteLoading"]
+- ["SQ", "requestDidRecieveError"]
+- ["SQ", "requestDidUploadWithProgress"]
+- !private ["SQ", "requestID"]
+- !private ["SQ", "resultCode"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "token"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["SH", "CASHUConfigurationsCenter"]
+- !private ["SH", "CASHUResponse"]
+- !private ["SH", "CompletePayment"]
+- !private ["SH", "ConnectionRequest"]
+- !private ["SH", "ParsingUtility"]
+- !private ["SH", "PaymentDataCenter"]
+- !private ["SH", "PaymentDetails"]
+- !private ["SH", "PaymentResult"]
+- !private ["SH", "UserIdentificationDataCenter"]
+- ["SH", ""]
+- !private ["SH", "accountInfo"]
+- !private ["SH", "cashuBodyResponse"]
+- !private ["SH", "cashuConfigurations"]
+- !private ["SH", "cashuSDKToken"]
+- !private ["SH", "data"]
+- !private ["SH", "delegate"]
+- !private ["SH", "destroy"]
+- !private ["SH", "dev"]
+- !private ["SH", "doPaymentURL"]
+- !private ["SH", "doPaymentWithDelegate"]
+- !private ["SH", "environment"]
+- !private ["SH", "finalPaymentDetails"]
+- !private ["SH", "getPaymentDetailsWithDelegate"]
+- !private ["SH", "init"]
+- !private ["SH", "initiateRequest"]
+- !private ["SH", "isFollowingCASHUStructure"]
+- !private ["SH", "loginSession"]
+- !private ["SH", "parseDataAsDictionary"]
+- !private ["SH", "paymentDetailsURL"]
+- !private ["SH", "paymentResult"]
+- !private ["SH", "post"]
+- !private ["SH", "privateSharedInstance"]
+- ["SH", "requestDidCompleteLoading"]
+- ["SH", "requestDidRecieveError"]
+- ["SH", "requestDidUploadWithProgress"]
+- !private ["SH", "requestID"]
+- !private ["SH", "resultCode"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "token"]
+- !private ["So8NSObjectC", "CASHUConfigurationsCenter"]
+- !private ["So8NSObjectC", "CASHUResponse"]
+- ["So8NSObjectC", "ConnectionRequest"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "OperationDelegate"]
+- !private ["So8NSObjectC", "ParsingUtility"]
+- ["So8NSObjectC", "PaymentDataCenter"]
+- ["So8NSObjectC", "PaymentDetails"]
+- ["So8NSObjectC", "PaymentResult"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UserIdentificationDataCenter"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "accountInfo"]
+- !private ["So8NSObjectC", "cashuBodyResponse"]
+- !private ["So8NSObjectC", "cashuConfigurations"]
+- !private ["So8NSObjectC", "cashuSDKToken"]
+- !private ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "destroy"]
+- ["So8NSObjectC", "doPaymentURL"]
+- ["So8NSObjectC", "doPaymentWithDelegate"]
+- !private ["So8NSObjectC", "environment"]
+- ["So8NSObjectC", "finalPaymentDetails"]
+- ["So8NSObjectC", "getPaymentDetailsWithDelegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initiateRequest"]
+- !private ["So8NSObjectC", "isFollowingCASHUStructure"]
+- !private ["So8NSObjectC", "loginSession"]
+- !private ["So8NSObjectC", "parseDataAsDictionary"]
+- ["So8NSObjectC", "paymentDetailsURL"]
+- ["So8NSObjectC", "paymentResult"]
+- ["So8NSObjectC", "privateSharedInstance"]
+- ["So8NSObjectC", "requestDidCompleteLoading"]
+- ["So8NSObjectC", "requestDidRecieveError"]
+- ["So8NSObjectC", "requestDidUploadWithProgress"]
+- !private ["So8NSObjectC", "requestID"]
+- !private ["So8NSObjectC", "resultCode"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "token"]
+- !private ["So8NSObjectP", "CASHUConfigurationsCenter"]
+- !private ["So8NSObjectP", "CASHUResponse"]
+- ["So8NSObjectP", "ConnectionRequest"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "OperationDelegate"]
+- !private ["So8NSObjectP", "ParsingUtility"]
+- !private ["So8NSObjectP", "PaymentDataCenter"]
+- !private ["So8NSObjectP", "PaymentDetails"]
+- ["So8NSObjectP", "PaymentResult"]
+- !private ["So8NSObjectP", "UserIdentificationDataCenter"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accountInfo"]
+- !private ["So8NSObjectP", "cashuBodyResponse"]
+- !private ["So8NSObjectP", "cashuConfigurations"]
+- !private ["So8NSObjectP", "cashuSDKToken"]
+- !private ["So8NSObjectP", "data"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "destroy"]
+- !private ["So8NSObjectP", "didFinishOperation"]
+- !private ["So8NSObjectP", "didRecieveErrorForOperation"]
+- ["So8NSObjectP", "doPaymentURL"]
+- !private ["So8NSObjectP", "doPaymentWithDelegate"]
+- !private ["So8NSObjectP", "environment"]
+- ["So8NSObjectP", "finalPaymentDetails"]
+- !private ["So8NSObjectP", "getPaymentDetailsWithDelegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initiateRequest"]
+- !private ["So8NSObjectP", "isFollowingCASHUStructure"]
+- !private ["So8NSObjectP", "loginSession"]
+- !private ["So8NSObjectP", "parseDataAsDictionary"]
+- ["So8NSObjectP", "paymentDetailsURL"]
+- ["So8NSObjectP", "paymentResult"]
+- ["So8NSObjectP", "privateSharedInstance"]
+- ["So8NSObjectP", "requestDidCompleteLoading"]
+- ["So8NSObjectP", "requestDidRecieveError"]
+- ["So8NSObjectP", "requestDidUploadWithProgress"]
+- !private ["So8NSObjectP", "requestID"]
+- !private ["So8NSObjectP", "resultCode"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "token"]
+- !private ["8CASHUSDK17OperationDelegateP", "didFinishOperation"]
+- !private ["8CASHUSDK17OperationDelegateP", "didRecieveErrorForOperation"]
+- !private ["8CASHUSDK11OperationIDO", "CompletePayment"]
+- !private ["8CASHUSDK11OperationIDO", "PaymentDetails"]
+- !private ["8CASHUSDK11OperationIDO", ""]
+- !private ["8CASHUSDK14ParsingUtilityC", "parseDataAsDictionary"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "CASHUConfigurationsCenter"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "CASHUResponse"]
+- ["8CASHUSDK17PaymentDataCenterC", "ConnectionRequest"]
+- ["8CASHUSDK17PaymentDataCenterC", "Data"]
+- ["8CASHUSDK17PaymentDataCenterC", "Error"]
+- ["8CASHUSDK17PaymentDataCenterC", "Float"]
+- ["8CASHUSDK17PaymentDataCenterC", "OperationDelegate"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "ParsingUtility"]
+- ["8CASHUSDK17PaymentDataCenterC", "PaymentDataCenter"]
+- ["8CASHUSDK17PaymentDataCenterC", "PaymentDetails"]
+- ["8CASHUSDK17PaymentDataCenterC", "PaymentResult"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "String"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "UserIdentificationDataCenter"]
+- ["8CASHUSDK17PaymentDataCenterC", ""]
+- ["8CASHUSDK17PaymentDataCenterC", "deinit"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "delegate"]
+- ["8CASHUSDK17PaymentDataCenterC", "destroy"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "doPaymentURL"]
+- ["8CASHUSDK17PaymentDataCenterC", "doPaymentWithDelegate"]
+- ["8CASHUSDK17PaymentDataCenterC", "finalPaymentDetails"]
+- ["8CASHUSDK17PaymentDataCenterC", "getPaymentDetailsWithDelegate"]
+- ["8CASHUSDK17PaymentDataCenterC", "init"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "paymentDetailsURL"]
+- ["8CASHUSDK17PaymentDataCenterC", "paymentResult"]
+- !private ["8CASHUSDK17PaymentDataCenterC", "privateSharedInstance"]
+- ["8CASHUSDK17PaymentDataCenterC", "requestDidCompleteLoading"]
+- ["8CASHUSDK17PaymentDataCenterC", "requestDidRecieveError"]
+- ["8CASHUSDK17PaymentDataCenterC", "requestDidUploadWithProgress"]
+- ["8CASHUSDK17PaymentDataCenterC", "sharedInstance"]
+- !private ["8CASHUSDK14PaymentDetailsC", "init"]
+- !private ["8CASHUSDK13PaymentResultC", "init"]
+- !private ["SY", "CompletePayment"]
+- !private ["SY", "PaymentDetails"]
+- !private ["SY", "post"]
+- !private ["8CASHUSDK28UserIdentificationDataCenterC", "accountInfo"]
+- !private ["8CASHUSDK28UserIdentificationDataCenterC", "cashuSDKToken"]
+- !private ["8CASHUSDK28UserIdentificationDataCenterC", "sharedInstance"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CASHUConfigurationsCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CASHUResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ParsingUtility"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentDataCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentResult"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserIdentificationDataCenter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accountInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashuBodyResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashuConfigurations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cashuSDKToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destroy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doPaymentURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doPaymentWithDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalPaymentDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getPaymentDetailsWithDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initiateRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFollowingCASHUStructure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseDataAsDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paymentDetailsURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paymentResult"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "privateSharedInstance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidCompleteLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidRecieveError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "requestDidUploadWithProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CASHUConfigurationsCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CASHUResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ParsingUtility"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PaymentDataCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PaymentDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PaymentResult"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserIdentificationDataCenter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accountInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cashuBodyResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cashuConfigurations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cashuSDKToken"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "destroy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doPaymentURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doPaymentWithDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "environment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finalPaymentDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getPaymentDetailsWithDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initiateRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFollowingCASHUStructure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loginSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parseDataAsDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentDetailsURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentResult"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "privateSharedInstance"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidCompleteLoading"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidRecieveError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDidUploadWithProgress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resultCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "token"]
+depends-nominal:
+- !private "8CASHUSDK11AccountInfoC"
+- !private "8CASHUSDK17CASHUBodyResponseC"
+- !private "8CASHUSDK19CASHUConfigurationsC"
+- !private "8CASHUSDK25CASHUConfigurationsCenterC"
+- !private "8CASHUSDK13CASHUResponseC"
+- !private "8CASHUSDK13CASHUSDKTokenC"
+- "s7CVarArgP"
+- !private "8CASHUSDK17ConnectionRequestC"
+- "8CASHUSDK25ConnectionRequestDelegateP"
+- !private "8CASHUSDK27ConnectionRequestHTTPMethodO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "8CASHUSDK11EnvironmentO"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "8CASHUSDK17OperationDelegateP"
+- !private "8CASHUSDK11OperationIDO"
+- !private "8CASHUSDK14ParsingUtilityC"
+- "8CASHUSDK17PaymentDataCenterC"
+- !private "8CASHUSDK14PaymentDetailsC"
+- !private "8CASHUSDK13PaymentResultC"
+- !private "SY"
+- !private "8CASHUSDK28UserIdentificationDataCenterC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9b826b0bedf8a7fd9afd4872c777fe5"

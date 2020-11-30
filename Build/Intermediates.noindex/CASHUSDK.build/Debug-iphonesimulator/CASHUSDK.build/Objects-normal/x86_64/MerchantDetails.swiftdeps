@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MerchantDetails"
+provides-nominal:
+- "8CASHUSDK15MerchantDetailsC"
+provides-member:
+- ["8CASHUSDK15MerchantDetailsC", ""]
+provides-dynamic-lookup:
+- "clientID"
+- "deviceID"
+- "ip"
+- "merchantLogo"
+- "merchantName"
+- "merchantReference"
+- "paymentDetails"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Dictionary"
+- "MerchantDetails"
+- "NSObject"
+- "PaymentDetails"
+- "String"
+- "StringLiteralType"
+- !private "ValidationsUtility"
+- !private "clientID"
+- !private "deviceID"
+- !private "ip"
+- !private "merchantLogo"
+- !private "merchantName"
+- !private "merchantReference"
+- !private "paymentDetails"
+depends-member:
+- ["s7CVarArgP", "PaymentDetails"]
+- !private ["s7CVarArgP", "ValidationsUtility"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "clientID"]
+- !private ["s7CVarArgP", "deviceID"]
+- !private ["s7CVarArgP", "forceObjectToBeString"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "ip"]
+- !private ["s7CVarArgP", "merchantLogo"]
+- !private ["s7CVarArgP", "merchantName"]
+- !private ["s7CVarArgP", "merchantReference"]
+- !private ["s7CVarArgP", "paymentDetails"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "PaymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "ValidationsUtility"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "clientID"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceID"]
+- !private ["s28CustomDebugStringConvertibleP", "forceObjectToBeString"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ip"]
+- !private ["s28CustomDebugStringConvertibleP", "merchantLogo"]
+- !private ["s28CustomDebugStringConvertibleP", "merchantName"]
+- !private ["s28CustomDebugStringConvertibleP", "merchantReference"]
+- !private ["s28CustomDebugStringConvertibleP", "paymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "PaymentDetails"]
+- !private ["s23CustomStringConvertibleP", "ValidationsUtility"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "clientID"]
+- !private ["s23CustomStringConvertibleP", "deviceID"]
+- !private ["s23CustomStringConvertibleP", "forceObjectToBeString"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "ip"]
+- !private ["s23CustomStringConvertibleP", "merchantLogo"]
+- !private ["s23CustomStringConvertibleP", "merchantName"]
+- !private ["s23CustomStringConvertibleP", "merchantReference"]
+- !private ["s23CustomStringConvertibleP", "paymentDetails"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- ["SQ", "PaymentDetails"]
+- !private ["SQ", "ValidationsUtility"]
+- ["SQ", ""]
+- !private ["SQ", "clientID"]
+- !private ["SQ", "deviceID"]
+- !private ["SQ", "forceObjectToBeString"]
+- ["SQ", "init"]
+- !private ["SQ", "ip"]
+- !private ["SQ", "merchantLogo"]
+- !private ["SQ", "merchantName"]
+- !private ["SQ", "merchantReference"]
+- !private ["SQ", "paymentDetails"]
+- !private ["SQ", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "PaymentDetails"]
+- !private ["SH", "ValidationsUtility"]
+- ["SH", ""]
+- !private ["SH", "clientID"]
+- !private ["SH", "deviceID"]
+- !private ["SH", "forceObjectToBeString"]
+- ["SH", "init"]
+- !private ["SH", "ip"]
+- !private ["SH", "merchantLogo"]
+- !private ["SH", "merchantName"]
+- !private ["SH", "merchantReference"]
+- !private ["SH", "paymentDetails"]
+- !private ["SH", "subscript"]
+- ["8CASHUSDK15MerchantDetailsC", "AnyObject"]
+- ["8CASHUSDK15MerchantDetailsC", "PaymentDetails"]
+- ["8CASHUSDK15MerchantDetailsC", "String"]
+- !private ["8CASHUSDK15MerchantDetailsC", "ValidationsUtility"]
+- ["8CASHUSDK15MerchantDetailsC", ""]
+- ["8CASHUSDK15MerchantDetailsC", "clientID"]
+- ["8CASHUSDK15MerchantDetailsC", "deinit"]
+- ["8CASHUSDK15MerchantDetailsC", "deviceID"]
+- ["8CASHUSDK15MerchantDetailsC", "init"]
+- ["8CASHUSDK15MerchantDetailsC", "ip"]
+- ["8CASHUSDK15MerchantDetailsC", "merchantLogo"]
+- ["8CASHUSDK15MerchantDetailsC", "merchantName"]
+- ["8CASHUSDK15MerchantDetailsC", "merchantReference"]
+- ["8CASHUSDK15MerchantDetailsC", "paymentDetails"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "PaymentDetails"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "ValidationsUtility"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "clientID"]
+- ["So8NSObjectC", "deviceID"]
+- !private ["So8NSObjectC", "forceObjectToBeString"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ip"]
+- ["So8NSObjectC", "merchantLogo"]
+- ["So8NSObjectC", "merchantName"]
+- ["So8NSObjectC", "merchantReference"]
+- ["So8NSObjectC", "paymentDetails"]
+- ["So8NSObjectP", "AnyObject"]
+- ["So8NSObjectP", "PaymentDetails"]
+- !private ["So8NSObjectP", "ValidationsUtility"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "clientID"]
+- ["So8NSObjectP", "deviceID"]
+- !private ["So8NSObjectP", "forceObjectToBeString"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "ip"]
+- ["So8NSObjectP", "merchantLogo"]
+- ["So8NSObjectP", "merchantName"]
+- ["So8NSObjectP", "merchantReference"]
+- ["So8NSObjectP", "paymentDetails"]
+- ["8CASHUSDK14PaymentDetailsC", "init"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["8CASHUSDK18ValidationsUtilityC", "forceObjectToBeString"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PaymentDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ValidationsUtility"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forceObjectToBeString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ip"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "merchantLogo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "merchantName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "merchantReference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paymentDetails"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PaymentDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ValidationsUtility"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clientID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deviceID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forceObjectToBeString"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ip"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "merchantLogo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "merchantName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "merchantReference"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentDetails"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "8CASHUSDK15MerchantDetailsC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "8CASHUSDK14PaymentDetailsC"
+- !private "ST"
+- !private "8CASHUSDK18ValidationsUtilityC"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "56ce3db47ae180842ea2a4620bbcd2b2"

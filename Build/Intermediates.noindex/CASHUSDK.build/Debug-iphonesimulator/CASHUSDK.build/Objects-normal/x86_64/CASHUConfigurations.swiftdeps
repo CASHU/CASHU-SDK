@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CASHUConfigurations"
+provides-nominal:
+- "8CASHUSDK19CASHUConfigurationsC"
+provides-member:
+- ["8CASHUSDK19CASHUConfigurationsC", ""]
+provides-dynamic-lookup:
+- "cashuEnvironment"
+- "clientID"
+- "delegate"
+- "environment"
+- "isLoggingEnabled"
+- "language"
+- "merchantReference"
+- "presentingMethod"
+- "productDetails"
+- "sdkToken"
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "CASHUConfigurations"
+- "CASHUServicesDelegate"
+- "CASHU_Environment"
+- "ContentLanguge"
+- "Environment"
+- "NSObject"
+- "PresentingMethod"
+- "ProductDetails"
+- "StringLiteralType"
+depends-member:
+- ["8CASHUSDK19CASHUConfigurationsC", "Bool"]
+- ["8CASHUSDK19CASHUConfigurationsC", "CASHUServicesDelegate"]
+- ["8CASHUSDK19CASHUConfigurationsC", "CASHU_Environment"]
+- ["8CASHUSDK19CASHUConfigurationsC", "ContentLanguge"]
+- ["8CASHUSDK19CASHUConfigurationsC", "Environment"]
+- ["8CASHUSDK19CASHUConfigurationsC", "PresentingMethod"]
+- ["8CASHUSDK19CASHUConfigurationsC", "ProductDetails"]
+- ["8CASHUSDK19CASHUConfigurationsC", ""]
+- ["8CASHUSDK19CASHUConfigurationsC", "cashuEnvironment"]
+- ["8CASHUSDK19CASHUConfigurationsC", "clientID"]
+- ["8CASHUSDK19CASHUConfigurationsC", "deinit"]
+- ["8CASHUSDK19CASHUConfigurationsC", "delegate"]
+- ["8CASHUSDK19CASHUConfigurationsC", "environment"]
+- ["8CASHUSDK19CASHUConfigurationsC", "init"]
+- ["8CASHUSDK19CASHUConfigurationsC", "isLoggingEnabled"]
+- ["8CASHUSDK19CASHUConfigurationsC", "language"]
+- ["8CASHUSDK19CASHUConfigurationsC", "merchantReference"]
+- ["8CASHUSDK19CASHUConfigurationsC", "presentingMethod"]
+- ["8CASHUSDK19CASHUConfigurationsC", "productDetails"]
+- ["8CASHUSDK19CASHUConfigurationsC", "sdkToken"]
+- ["8CASHUSDK17CASHU_EnvironmentO", "prod"]
+- ["s7CVarArgP", "ProductDetails"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["8CASHUSDK14ContentLangugeO", "english"]
+- ["s28CustomDebugStringConvertibleP", "ProductDetails"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "ProductDetails"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["8CASHUSDK11EnvironmentO", "dev"]
+- ["SQ", "ProductDetails"]
+- ["SQ", ""]
+- ["SQ", "dev"]
+- ["SQ", "english"]
+- ["SQ", "init"]
+- ["SQ", "prod"]
+- ["SQ", "push"]
+- ["SH", "ProductDetails"]
+- ["SH", ""]
+- ["SH", "dev"]
+- ["SH", "english"]
+- ["SH", "init"]
+- ["SH", "prod"]
+- ["SH", "push"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CASHUServicesDelegate"]
+- ["So8NSObjectC", "CASHU_Environment"]
+- ["So8NSObjectC", "ContentLanguge"]
+- ["So8NSObjectC", "Environment"]
+- ["So8NSObjectC", "PresentingMethod"]
+- ["So8NSObjectC", "ProductDetails"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "cashuEnvironment"]
+- ["So8NSObjectC", "clientID"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "environment"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isLoggingEnabled"]
+- ["So8NSObjectC", "language"]
+- ["So8NSObjectC", "merchantReference"]
+- ["So8NSObjectC", "presentingMethod"]
+- ["So8NSObjectC", "productDetails"]
+- ["So8NSObjectC", "sdkToken"]
+- ["So8NSObjectP", "CASHUServicesDelegate"]
+- ["So8NSObjectP", "CASHU_Environment"]
+- ["So8NSObjectP", "ContentLanguge"]
+- ["So8NSObjectP", "Environment"]
+- ["So8NSObjectP", "PresentingMethod"]
+- ["So8NSObjectP", "ProductDetails"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "cashuEnvironment"]
+- ["So8NSObjectP", "clientID"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "environment"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isLoggingEnabled"]
+- ["So8NSObjectP", "language"]
+- ["So8NSObjectP", "merchantReference"]
+- ["So8NSObjectP", "presentingMethod"]
+- ["So8NSObjectP", "productDetails"]
+- ["So8NSObjectP", "sdkToken"]
+- ["8CASHUSDK16PresentingMethodO", "push"]
+- ["8CASHUSDK14ProductDetailsC", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ProductDetails"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ProductDetails"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "8CASHUSDK19CASHUConfigurationsC"
+- "8CASHUSDK17CASHU_EnvironmentO"
+- "s7CVarArgP"
+- "8CASHUSDK14ContentLangugeO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "8CASHUSDK11EnvironmentO"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "8CASHUSDK16PresentingMethodO"
+- "8CASHUSDK14ProductDetailsC"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5f15541ef54e3e85d35daf798acd62c0"

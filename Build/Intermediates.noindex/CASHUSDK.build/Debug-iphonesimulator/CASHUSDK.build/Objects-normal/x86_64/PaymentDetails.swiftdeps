@@ -1,0 +1,548 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentDetails"
+- "parseStringToObject"
+- "parseObject"
+- "getObject"
+provides-nominal:
+- "8CASHUSDK14PaymentDetailsC"
+provides-member:
+- ["8CASHUSDK14PaymentDetailsC", ""]
+provides-dynamic-lookup:
+- "amount"
+- "convertedAmount"
+- "convertedCurrency"
+- "currency"
+- "displayText"
+- "feesModelList"
+- "totalAmount"
+depends-top-level:
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Codable"
+- "Data"
+- "DecodingError"
+- "FeesModel"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONSerialization"
+- "NSDictionary"
+- "NSObject"
+- !private "ParsingUtility"
+- "PaymentDetails"
+- "String"
+- "StringLiteralType"
+- !private "UserIdentificationDataCenter"
+- "ValidationsUtility"
+- !private "amount"
+- !private "convertedAmount"
+- !private "convertedCurrency"
+- !private "currency"
+- !private "displayText"
+- "getObject"
+- "parseObject"
+- "parseStringToObject"
+- !private "print"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "forEach"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "forEach"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "data"]
+- !private ["SK", "forEach"]
+- !private ["s7CVarArgP", "FeesModel"]
+- !private ["s7CVarArgP", "ParsingUtility"]
+- !private ["s7CVarArgP", "PaymentDetails"]
+- !private ["s7CVarArgP", "UserIdentificationDataCenter"]
+- !private ["s7CVarArgP", "ValidationsUtility"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "amount"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "convertedAmount"]
+- !private ["s7CVarArgP", "convertedCurrency"]
+- !private ["s7CVarArgP", "currency"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "displayText"]
+- !private ["s7CVarArgP", "feesModelList"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "forceObjectToBeString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "parseDataAsDictionary"]
+- !private ["s7CVarArgP", "paymentDetails"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "totalAmount"]
+- !private ["8CASHUSDK9FeesModelC10CodingKeysO", ""]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "data"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "paymentDetails"]
+- !private ["8CASHUSDK25ConnectionRequestDelegateP", "sharedInstance"]
+- !private ["s13DecodingErrorO7ContextV", "codingPath"]
+- !private ["s13DecodingErrorO7ContextV", "debugDescription"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "FeesModel"]
+- !private ["s28CustomDebugStringConvertibleP", "ParsingUtility"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "UserIdentificationDataCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "ValidationsUtility"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "amount"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "convertedAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "convertedCurrency"]
+- !private ["s28CustomDebugStringConvertibleP", "currency"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "displayText"]
+- !private ["s28CustomDebugStringConvertibleP", "feesModelList"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "forceObjectToBeString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "parseDataAsDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "paymentDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "totalAmount"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "FeesModel"]
+- !private ["s23CustomStringConvertibleP", "ParsingUtility"]
+- !private ["s23CustomStringConvertibleP", "PaymentDetails"]
+- !private ["s23CustomStringConvertibleP", "UserIdentificationDataCenter"]
+- !private ["s23CustomStringConvertibleP", "ValidationsUtility"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "amount"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "convertedAmount"]
+- !private ["s23CustomStringConvertibleP", "convertedCurrency"]
+- !private ["s23CustomStringConvertibleP", "currency"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "displayText"]
+- !private ["s23CustomStringConvertibleP", "feesModelList"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "forceObjectToBeString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "parseDataAsDictionary"]
+- !private ["s23CustomStringConvertibleP", "paymentDetails"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "totalAmount"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "append"]
+- !private ["Se", "data"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["s13DecodingErrorO", "dataCorrupted"]
+- ["s13DecodingErrorO", "keyNotFound"]
+- ["s13DecodingErrorO", "typeMismatch"]
+- ["s13DecodingErrorO", "valueNotFound"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "data"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "FeesModel"]
+- !private ["SQ", "ParsingUtility"]
+- !private ["SQ", "PaymentDetails"]
+- !private ["SQ", "UserIdentificationDataCenter"]
+- !private ["SQ", "ValidationsUtility"]
+- ["SQ", ""]
+- !private ["SQ", "amount"]
+- !private ["SQ", "append"]
+- !private ["SQ", "convertedAmount"]
+- !private ["SQ", "convertedCurrency"]
+- !private ["SQ", "currency"]
+- !private ["SQ", "data"]
+- !private ["SQ", "displayText"]
+- !private ["SQ", "feesModelList"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "forceObjectToBeString"]
+- !private ["SQ", "init"]
+- !private ["SQ", "parseDataAsDictionary"]
+- !private ["SQ", "paymentDetails"]
+- !private ["SQ", "prettyPrinted"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "totalAmount"]
+- !private ["SQ", "utf8"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "dataCorrupted"]
+- ["s5ErrorP", "keyNotFound"]
+- ["s5ErrorP", "typeMismatch"]
+- ["s5ErrorP", "valueNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["8CASHUSDK9FeesModelC", "CodingKeys"]
+- !private ["8CASHUSDK9FeesModelC", ""]
+- !private ["8CASHUSDK9FeesModelC", "init"]
+- !private ["SH", "FeesModel"]
+- !private ["SH", "ParsingUtility"]
+- !private ["SH", "PaymentDetails"]
+- !private ["SH", "UserIdentificationDataCenter"]
+- !private ["SH", "ValidationsUtility"]
+- ["SH", ""]
+- !private ["SH", "amount"]
+- !private ["SH", "append"]
+- !private ["SH", "convertedAmount"]
+- !private ["SH", "convertedCurrency"]
+- !private ["SH", "currency"]
+- !private ["SH", "data"]
+- !private ["SH", "displayText"]
+- !private ["SH", "feesModelList"]
+- !private ["SH", "forEach"]
+- !private ["SH", "forceObjectToBeString"]
+- !private ["SH", "init"]
+- !private ["SH", "parseDataAsDictionary"]
+- !private ["SH", "paymentDetails"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "subscript"]
+- !private ["SH", "totalAmount"]
+- !private ["SH", "utf8"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So19NSJSONSerializationC", "data"]
+- ["10Foundation14LocalizedErrorP", "dataCorrupted"]
+- ["10Foundation14LocalizedErrorP", "keyNotFound"]
+- ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["7SCrypto23MessageDigestProducibleP", "data"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "FeesModel"]
+- !private ["So8NSObjectC", "ParsingUtility"]
+- !private ["So8NSObjectC", "PaymentDetails"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UserIdentificationDataCenter"]
+- !private ["So8NSObjectC", "ValidationsUtility"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "amount"]
+- ["So8NSObjectC", "convertedAmount"]
+- ["So8NSObjectC", "convertedCurrency"]
+- ["So8NSObjectC", "currency"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataWithJSONObject"]
+- ["So8NSObjectC", "displayText"]
+- ["So8NSObjectC", "feesModelList"]
+- !private ["So8NSObjectC", "forceObjectToBeString"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "parseDataAsDictionary"]
+- !private ["So8NSObjectC", "paymentDetails"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "totalAmount"]
+- ["So8NSObjectP", "FeesModel"]
+- !private ["So8NSObjectP", "ParsingUtility"]
+- !private ["So8NSObjectP", "PaymentDetails"]
+- !private ["So8NSObjectP", "UserIdentificationDataCenter"]
+- !private ["So8NSObjectP", "ValidationsUtility"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "amount"]
+- ["So8NSObjectP", "convertedAmount"]
+- ["So8NSObjectP", "convertedCurrency"]
+- ["So8NSObjectP", "currency"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataWithJSONObject"]
+- ["So8NSObjectP", "displayText"]
+- ["So8NSObjectP", "feesModelList"]
+- !private ["So8NSObjectP", "forceObjectToBeString"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "parseDataAsDictionary"]
+- !private ["So8NSObjectP", "paymentDetails"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- ["So8NSObjectP", "totalAmount"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "data"]
+- !private ["s9OptionSetP", "prettyPrinted"]
+- !private ["8CASHUSDK14ParsingUtilityC", "parseDataAsDictionary"]
+- ["8CASHUSDK14PaymentDetailsC", "AnyObject"]
+- ["8CASHUSDK14PaymentDetailsC", "FeesModel"]
+- !private ["8CASHUSDK14PaymentDetailsC", "ParsingUtility"]
+- !private ["8CASHUSDK14PaymentDetailsC", "PaymentDetails"]
+- ["8CASHUSDK14PaymentDetailsC", "String"]
+- !private ["8CASHUSDK14PaymentDetailsC", "UserIdentificationDataCenter"]
+- !private ["8CASHUSDK14PaymentDetailsC", "ValidationsUtility"]
+- ["8CASHUSDK14PaymentDetailsC", ""]
+- ["8CASHUSDK14PaymentDetailsC", "amount"]
+- ["8CASHUSDK14PaymentDetailsC", "convertedAmount"]
+- ["8CASHUSDK14PaymentDetailsC", "convertedCurrency"]
+- ["8CASHUSDK14PaymentDetailsC", "currency"]
+- ["8CASHUSDK14PaymentDetailsC", "deinit"]
+- ["8CASHUSDK14PaymentDetailsC", "displayText"]
+- ["8CASHUSDK14PaymentDetailsC", "feesModelList"]
+- ["8CASHUSDK14PaymentDetailsC", "init"]
+- ["8CASHUSDK14PaymentDetailsC", "totalAmount"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "data"]
+- !private ["Sm", "forEach"]
+- !private ["SY", ""]
+- !private ["SY", "prettyPrinted"]
+- !private ["SY", "utf8"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "data"]
+- !private ["ST", "forEach"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "prettyPrinted"]
+- !private ["SS", "data"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "data"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["8CASHUSDK28UserIdentificationDataCenterC", "paymentDetails"]
+- !private ["8CASHUSDK28UserIdentificationDataCenterC", "sharedInstance"]
+- !private ["8CASHUSDK18ValidationsUtilityC", "forceObjectToBeString"]
+- !private ["So20NSJSONWritingOptionsV", "prettyPrinted"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FeesModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ParsingUtility"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserIdentificationDataCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ValidationsUtility"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "amount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convertedAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convertedCurrency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "feesModelList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forceObjectToBeString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseDataAsDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paymentDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalAmount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FeesModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ParsingUtility"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PaymentDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserIdentificationDataCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ValidationsUtility"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "amount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "convertedAmount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "convertedCurrency"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currency"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayText"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "feesModelList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forceObjectToBeString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parseDataAsDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalAmount"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "8CASHUSDK9FeesModelC10CodingKeysO"
+- !private "Sl"
+- !private "SL"
+- !private "8CASHUSDK25ConnectionRequestDelegateP"
+- !private "s13DecodingErrorO7ContextV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "s13DecodingErrorO"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "8CASHUSDK9FeesModelC"
+- "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "So19NSJSONSerializationC"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7SCrypto23MessageDigestProducibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "8CASHUSDK14ParsingUtilityC"
+- "8CASHUSDK14PaymentDetailsC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "8CASHUSDK28UserIdentificationDataCenterC"
+- !private "8CASHUSDK18ValidationsUtilityC"
+- !private "So20NSJSONWritingOptionsV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/SCrypto.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopup-umbrella.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupSegue.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupTransitioning.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMCustomAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIViewController+CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/CCMPopupAnimation.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+ImageEffects.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Headers/SCrypto-Swift.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/UIImage+screenshot.h"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Headers/FXBlurView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/SCrypto/SCrypto.framework/Modules/module.modulemap"
+- "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Build/Products/Debug-iphonesimulator/CCMPopup/CCMPopup.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "78c9060dfc969f5c3085a75b69bc3e92"

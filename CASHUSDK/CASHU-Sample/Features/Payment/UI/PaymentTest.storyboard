@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment Methods View Controller-->
+        <scene sceneID="bst-3P-TC9">
+            <objects>
+                <viewController storyboardIdentifier="PaymentMethodsViewController" id="HSf-d1-LeP" customClass="PaymentMethodsViewController" customModule="CASHU_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVB-3e-V0s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UYV-qq-IG7">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="A9e-vb-kkY">
+                                    <rect key="frame" x="0.0" y="120" width="375" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentMethodsTableViewCell" rowHeight="92" id="iks-gD-JpT" customClass="PaymentMethodsTableViewCell" customModule="CASHU_Sample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="92"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iks-gD-JpT" id="Qug-wm-Bk2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="91.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dIL-mF-0PD">
+                                                    <rect key="frame" x="16" y="8" width="75" height="75"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="75" id="TpD-21-fAt"/>
+                                                        <constraint firstAttribute="width" constant="75" id="hOI-EN-dIc"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbg-ox-UpQ">
+                                                    <rect key="frame" x="107" y="25" width="252" height="41.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZvK-hI-TpG">
+                                                            <rect key="frame" x="0.0" y="0.0" width="252" height="41.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="ZvK-hI-TpG" firstAttribute="leading" secondItem="xbg-ox-UpQ" secondAttribute="leading" id="CKT-t2-MM8"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ZvK-hI-TpG" secondAttribute="bottom" id="UCc-8M-fvd"/>
+                                                        <constraint firstItem="ZvK-hI-TpG" firstAttribute="top" secondItem="xbg-ox-UpQ" secondAttribute="top" id="jqJ-Mk-sIF"/>
+                                                        <constraint firstAttribute="trailing" secondItem="ZvK-hI-TpG" secondAttribute="trailing" id="sub-Mp-bVZ"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xbg-ox-UpQ" firstAttribute="top" secondItem="Qug-wm-Bk2" secondAttribute="top" constant="25" id="2gN-iK-h3R"/>
+                                                <constraint firstItem="dIL-mF-0PD" firstAttribute="centerY" secondItem="Qug-wm-Bk2" secondAttribute="centerY" id="3eG-Ns-PZ2"/>
+                                                <constraint firstAttribute="bottom" secondItem="xbg-ox-UpQ" secondAttribute="bottom" constant="25" id="Ovl-Nl-0Jb"/>
+                                                <constraint firstItem="dIL-mF-0PD" firstAttribute="leading" secondItem="Qug-wm-Bk2" secondAttribute="leading" constant="16" id="S9q-Xf-3kN"/>
+                                                <constraint firstItem="xbg-ox-UpQ" firstAttribute="centerY" secondItem="dIL-mF-0PD" secondAttribute="centerY" id="TK7-g4-Px1"/>
+                                                <constraint firstAttribute="trailing" secondItem="xbg-ox-UpQ" secondAttribute="trailing" constant="16" id="qiA-hu-8k7"/>
+                                                <constraint firstItem="xbg-ox-UpQ" firstAttribute="leading" secondItem="dIL-mF-0PD" secondAttribute="trailing" constant="16" id="snx-r5-j6r"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="paymentMethodImageView" destination="dIL-mF-0PD" id="Sum-j0-pWA"/>
+                                            <outlet property="paymentMethodLabel" destination="ZvK-hI-TpG" id="Pdk-a7-XQg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="HSf-d1-LeP" id="nlf-YG-iK4"/>
+                                    <outlet property="delegate" destination="HSf-d1-LeP" id="7Yc-7R-gFa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UYV-qq-IG7" firstAttribute="leading" secondItem="8Ps-zV-dzS" secondAttribute="leading" id="Fid-5Z-2Ro"/>
+                            <constraint firstItem="8Ps-zV-dzS" firstAttribute="trailing" secondItem="UYV-qq-IG7" secondAttribute="trailing" id="H9j-wE-MEv"/>
+                            <constraint firstItem="UYV-qq-IG7" firstAttribute="top" secondItem="8Ps-zV-dzS" secondAttribute="top" id="emC-Nj-elT"/>
+                            <constraint firstItem="8Ps-zV-dzS" firstAttribute="bottom" secondItem="UYV-qq-IG7" secondAttribute="bottom" id="nCj-nk-LKk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Ps-zV-dzS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e4J-kr-PTm"/>
+                    <connections>
+                        <outlet property="paymentMethodsTableView" destination="UYV-qq-IG7" id="LqP-KV-zRC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wi6-9q-Ifc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6" y="19"/>
+        </scene>
+    </scenes>
+</document>
