@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     
     
     # 2
-    s.version = "2.5"
+    s.version = "2.6"
     
     # 3
 
