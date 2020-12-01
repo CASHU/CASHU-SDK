@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     
     
     # 2
-    s.version = "2.6"
+    s.version = "2.7"
     
     # 3
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     # 6 - Replace this URL with your own Git URL
     # s.vendored_frameworks = "CASHU.framework"
     s.source = { :git => "https://github.com/CASHU/CASHU-SDK.git", :tag => s.version.to_s }
- s.xcconfig = { "APPLY_RULES_IN_COPY_FILES" => "YES", "STRINGS_FILE_OUTPUT_ENCODING" => "binary" ,"OTHER_LDFLAGS" => "-lz" }
+ #  s.xcconfig = { "APPLY_RULES_IN_COPY_FILES" => "YES", "STRINGS_FILE_OUTPUT_ENCODING" => "binary" ,"OTHER_LDFLAGS" => "-lz" }
      s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
     # 7
     s.framework = "UIKit"
