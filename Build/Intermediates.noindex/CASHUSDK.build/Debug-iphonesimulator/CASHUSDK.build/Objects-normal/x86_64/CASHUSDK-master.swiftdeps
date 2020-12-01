@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
 options: "5040a3e8b380a5a2c238a0a8f5da787e"
-build_time: [1606732272, 319256000]
+build_time: [1606810261, 937076000]
 inputs:
   "/Users/amrsaied/Documents/GitHub/CASHU-SDK/CASHUSDK/Private/UIElementsWithFontApplied/UIButton/Light/UIButtonLight.swift": [1585219668, 275468469]
   "/Users/amrsaied/Documents/GitHub/CASHU-SDK/CASHUSDK/Private/Features/Payment/Controllers/PaymentDetailsViewController/PaymentDetailsViewController.swift": [1602059231, 467468143]

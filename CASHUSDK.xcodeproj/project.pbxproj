@@ -25,7 +25,6 @@
 		C5126AD02574E9390069A5CE /* GeneralStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5126A082574E9390069A5CE /* GeneralStoryboard.storyboard */; };
 		C5126AD12574E9390069A5CE /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A0B2574E9390069A5CE /* PopupViewController.swift */; };
 		C5126AD22574E9390069A5CE /* CASHURouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5126A0D2574E9390069A5CE /* CASHURouter.swift */; };
-		C5126AD32574E9390069A5CE /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5126A0F2574E9390069A5CE /* Resources.xcassets */; };
 		C5126AD42574E93A0069A5CE /* Rage Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A132574E9390069A5CE /* Rage Italic.ttf */; };
 		C5126AD52574E93A0069A5CE /* DroidKufi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A152574E9390069A5CE /* DroidKufi-Regular.ttf */; };
 		C5126AD62574E93A0069A5CE /* DroidKufi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5126A162574E9390069A5CE /* DroidKufi-Bold.ttf */; };
@@ -127,7 +126,6 @@
 		C5126A082574E9390069A5CE /* GeneralStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralStoryboard.storyboard; sourceTree = "<group>"; };
 		C5126A0B2574E9390069A5CE /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		C5126A0D2574E9390069A5CE /* CASHURouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASHURouter.swift; sourceTree = "<group>"; };
-		C5126A0F2574E9390069A5CE /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
 		C5126A102574E9390069A5CE /* CASHU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASHU.h; sourceTree = "<group>"; };
 		C5126A132574E9390069A5CE /* Rage Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rage Italic.ttf"; sourceTree = "<group>"; };
 		C5126A152574E9390069A5CE /* DroidKufi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidKufi-Regular.ttf"; sourceTree = "<group>"; };
@@ -275,18 +273,10 @@
 		C51269ED2574E9390069A5CE /* CASHU-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				C51269EE2574E9390069A5CE /* Resources */,
 				C51269EF2574E9390069A5CE /* Features */,
 				C5126A002574E9390069A5CE /* Models */,
 			);
 			path = "CASHU-Sample";
-			sourceTree = "<group>";
-		};
-		C51269EE2574E9390069A5CE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		C51269EF2574E9390069A5CE /* Features */ = {
@@ -468,7 +458,6 @@
 		C5126A0E2574E9390069A5CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C5126A0F2574E9390069A5CE /* Resources.xcassets */,
 				C5126A102574E9390069A5CE /* CASHU.h */,
 				C5126A112574E9390069A5CE /* Fonts */,
 				C5126A182574E9390069A5CE /* Localization */,
@@ -1411,7 +1400,6 @@
 				C51269E02574E8680069A5CE /* LaunchScreen.storyboard in Resources */,
 				C5126AE62574E93A0069A5CE /* Identification.storyboard in Resources */,
 				C5126AE02574E93A0069A5CE /* Payment.storyboard in Resources */,
-				C5126AD32574E9390069A5CE /* Resources.xcassets in Resources */,
 				C5126ADE2574E93A0069A5CE /* Messages.storyboard in Resources */,
 				C5126B1D2574E93A0069A5CE /* Main.storyboard in Resources */,
 				C5126ADA2574E93A0069A5CE /* TestingConfigurations.storyboard in Resources */,

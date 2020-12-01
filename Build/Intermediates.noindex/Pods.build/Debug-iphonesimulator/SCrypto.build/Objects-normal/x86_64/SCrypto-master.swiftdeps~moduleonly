@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
 options: "f15314a79c57f24d8c1775a256a85336"
-build_time: [1606732265, 290084000]
+build_time: [1606810260, 454831000]
 inputs:
-  "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Pods/SCrypto/Source/SCrypto.swift": [1606726050, 124523042]
+  "/Users/amrsaied/Documents/GitHub/CASHU-SDK/Pods/SCrypto/Source/SCrypto.swift": [1606810219, 248577452]
