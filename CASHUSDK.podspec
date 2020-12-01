@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
     # 1
     s.platform = :ios
-    #  s.ios.deployment_target = '11.0'
+ s.ios.deployment_target = '11.0'
     s.name = "CASHUSDK"
     s.summary = "CASHU SDK allows you to integrate your project with CASHU internal services"
     
     
     # 2
-    s.version = "2.7"
+    s.version = "2.8"
     
     # 3
 
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
     s.source_files = "CASHUSDK/**/*.{swift}"
     
     # 9
-    s.resource_bundle = { "CASHUSDK" => ["CASHUSDK/Strings/*.lproj/*.strings"] }
+    #s.resource_bundle = { "CASHUSDK" => ["CASHUSDK/Strings/*.lproj/*.strings"] }
     #10
     s.swift_version = "5"
 
