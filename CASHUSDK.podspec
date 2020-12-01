@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     
     
     # 2
-    s.version = "2.3"
+    s.version = "2.4"
     
     # 3
      
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
     s.source_files = "CASHUSDK/**/*.{swift}"
     
     # 9
-    #s.resource_bundle = { "CASHUSDK" => ["CASHUSDK/Strings/*.lproj/*.strings"] }
+    s.resource_bundle = { "CASHUSDK" => ["CASHUSDK/Strings/*.lproj/*.strings"] }
     #10
     s.swift_version = "5"
 
