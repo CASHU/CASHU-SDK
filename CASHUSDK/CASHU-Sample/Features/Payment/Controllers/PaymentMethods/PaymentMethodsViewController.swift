@@ -83,7 +83,7 @@ extension PaymentMethodsViewController: UITableViewDataSource, UITableViewDelega
             productDetails.productName = product?.name ?? ""
             productDetails.price = product?.decimalPrice ?? 0.0
             productDetails.productImage = UIImage(named: product?.name ?? "")
-            productDetails.serviceName = "service_1"
+            productDetails.serviceName = ""
             cashuConfigurations.productDetails = productDetails
  
             cashuConfigurations.presentingMethod = .push

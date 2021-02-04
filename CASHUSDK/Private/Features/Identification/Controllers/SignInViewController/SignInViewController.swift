@@ -38,8 +38,8 @@ class SignInViewController: UIViewController {
         self.setupKeypadListeners()
         
         if(BackEndConfigurations.isQuickTestingEnabled()){
-            self.emailAddressTextField.text = "okq550@gmail.com"
-            self.passwordTextField.text = "Admin_1234"
+            self.emailAddressTextField.text = "zakawa@arabpayment.com"
+            self.passwordTextField.text = "12345678M"
         }
     }
 

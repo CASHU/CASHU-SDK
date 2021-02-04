@@ -274,6 +274,20 @@ extension PaymentDetailsViewController : OperationDelegate{
                     
                     self.feesTV.reloadData()
                     self.totalPaymentCostLabel.text = PaymentDetails.totalAmount + " " + (PaymentDataCenter.sharedInstance().finalPaymentDetails?.convertedCurrency ?? "")
+                }else {
+                    var message = ""
+                    switch CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.language{
+                    case .arabic:
+                        message = cashuResponse.cashuBodyResponse.resultMessageAr
+                    case.english:
+                        message = cashuResponse.cashuBodyResponse.resultMessageEn
+                    }
+                    
+                    PopupViewController.showPopupInController(self, title: LocalizationManager.sharedInstance.getTranslationForKey("Error")!, message: message, leftButtonTitle: LocalizationManager.sharedInstance.getTranslationForKey("Ok")!, rightButtonTitle: nil)
+                    
+                    if CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.isLoggingEnabled {
+                        NSLog("***!!!*** CASHU Error : ***!!!*** \n\(cashuResponse.cashuBodyResponse.resultMessageError)")
+                    }
                 }
             }
         }
